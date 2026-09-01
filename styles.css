@@ -3,7 +3,7 @@
    An independent student magazine, AUBG.
    ========================================================= */
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap');
 
 :root{
   --bg:        #fdfdfc;
@@ -101,13 +101,20 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .logo .logo-text{
   display: flex;
   flex-direction: column;
-  line-height: 0.86;
-  font-family: 'Fascinate', var(--font-display);
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
+  line-height: 0.92;
+  font-family: var(--font-display);
+  font-size: 22px;
   letter-spacing: 0.01em;
   color: var(--ink);
+}
+
+.logo .logo-text span:first-child{
+  font-weight: 500;
+  font-style: italic;
+}
+.logo .logo-text span:last-child{
+  font-weight: 300;
+  font-style: normal;
 }
 
 .main-nav{
@@ -574,12 +581,21 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
   gap: 32px 20px;
+  justify-content: center;
+}
+
+.issue-tile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .issue-tile .ph.cover{
   position: relative;
-  margin-bottom: 12px;
+  margin: 0 0 12px;
   max-width: 210px;
+  width: 100%;
 }
 /* torn-corner signature detail on covers */
 .issue-tile .ph.cover::after{
@@ -620,8 +636,11 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .issue-tile .tile-links{
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
+  margin-top: auto;
+  padding-top: 4px;
 }
 
 .download-link{
