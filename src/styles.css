@@ -391,7 +391,9 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 
 @media (max-width: 600px){
-  .print-preview-grid{ grid-template-columns: 120px 1fr; }
+  .print-preview-grid{ grid-template-columns: 1fr; }
+  .print-preview .ph.cover,
+  .print-preview .ph-image.cover{ width: 140px; }
 }
 
 /* =========================================================
