@@ -2,6 +2,8 @@ backend:
   name: github
   repo: cwqtzelen4/lava-lamp
   branch: main
+  base_url: https://lava-lamp-cms-auth.mariasm1913.workers.dev
+  auth_endpoint: auth
 
 media_folder: "src/assets/uploads"
 public_folder: "/assets/uploads"
