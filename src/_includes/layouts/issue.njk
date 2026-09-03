@@ -1,0 +1,26 @@
+---
+layout: base.njk
+---
+<section class="issue-head wrap">
+  {% if cover %}
+  <img src="{{ cover }}" alt="">
+  {% else %}
+  <div class="ph cover"><span>Cover — Issue {{ number }}</span></div>
+  {% endif %}
+  <div>
+    <p class="eyebrow">Issue {{ number }} · {{ date | readableDateMonthYear }}</p>
+    <h1>{{ title }}</h1>
+    <p>{{ intro or description }}</p>
+    {% if pdf %}<a href="{{ pdf }}" class="download-link"><span class="arrow">↓</span> Download Full Issue</a>{% endif %}
+  </div>
+</section>
+
+<section class="spread-gallery wrap">
+{{ content | safe }}
+</section>
+
+{% if pdf %}
+<section class="issue-download">
+  <a href="{{ pdf }}" class="download-link"><span class="arrow">↓</span> Download Full Issue</a>
+</section>
+{% endif %}

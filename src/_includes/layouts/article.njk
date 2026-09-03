@@ -1,0 +1,24 @@
+---
+layout: base.njk
+---
+<section class="article-head wrap">
+  <div class="meta-row">
+    <span>{{ date | readableDate }}</span>
+  </div>
+  <h1>{{ title }}</h1>
+  {% if deck %}<p class="deck">{{ deck }}</p>{% endif %}
+  <p class="byline">By <strong>{{ author }}</strong></p>
+</section>
+
+<figure class="article-hero wrap">
+  {% if image %}
+  <img src="{{ image }}" alt="">
+  {% else %}
+  <div class="ph wide"><span>Featured photograph — wide</span></div>
+  {% endif %}
+  {% if imageCaption %}<figcaption>{{ imageCaption }}</figcaption>{% endif %}
+</figure>
+
+<article class="article-body wrap">
+{{ content | safe }}
+</article>

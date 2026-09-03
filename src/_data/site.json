@@ -1,0 +1,14 @@
+{
+  "nameLine1": "LAVA",
+  "nameLine2": "LAMP",
+  "tagline": "an independent student magazine, AUBG",
+  "description": "LAVA LAMP is an independent student magazine from the American University in Bulgaria — stories, culture, and the print archive.",
+  "logo": "/assets/lava-lamp-logo.png",
+  "email": "lavalamp@aubg.edu",
+  "footerMeta": "An independent student magazine — American University in Bulgaria",
+  "nav": [
+    { "label": "Stories", "url": "/stories/" },
+    { "label": "Print", "url": "/print/" },
+    { "label": "About", "url": "/about/" }
+  ]
+}

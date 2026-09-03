@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if title %}{{ title }} — {{ site.nameLine1 }} {{ site.nameLine2 }}{% else %}{{ site.nameLine1 }} {{ site.nameLine2 }} — {{ site.tagline }}{% endif %}</title>
+<meta name="description" content="{{ description or site.description }}">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="/" class="logo"><img src="{{ site.logo }}" alt="{{ site.nameLine1 }} {{ site.nameLine2 }}" class="logo-mark"><span class="logo-text"><span>{{ site.nameLine1 }}</span><span>{{ site.nameLine2 }}</span></span></a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span></button>
+    <nav class="main-nav">
+      {%- for item in site.nav %}
+      <a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+      {%- endfor %}
+    </nav>
+  </div>
+</header>
+
+<main>
+{{ content | safe }}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span class="foot-mark">{{ site.nameLine1 }} {{ site.nameLine2 }}</span>
+    <span class="foot-meta">{{ site.footerMeta }}</span>
+    <div class="foot-links">
+      <a href="/about/">About</a>
+      <a href="mailto:{{ site.email }}">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="/nav.js"></script>
+</body>
+</html>

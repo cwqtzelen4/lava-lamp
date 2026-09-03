@@ -1,0 +1,50 @@
+---
+layout: base.njk
+title: null
+---
+{%- set featured = collections.stories[0] -%}
+{%- set recent = collections.recentStories -%}
+{%- set latestIssue = collections.issues[0] -%}
+
+<section class="hero-story">
+  <div class="wrap hero-grid">
+    <a href="{{ featured.url }}" class="ph {{ featured.data.imageAspect or 'landscape' }}"><span>Featured photograph — {{ featured.data.imageAspect or 'landscape' }}</span></a>
+    <div class="hero-text">
+      <h1><a href="{{ featured.url }}">{{ featured.data.title }}</a></h1>
+      {% if featured.data.deck %}<p class="deck">{{ featured.data.deck }}</p>{% endif %}
+      <p class="byline"><strong>{{ featured.data.author }}</strong> · {{ featured.data.date | readableDateFull }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="recent-section">
+  <div class="wrap">
+    <div class="section-heading">
+      <h2>Recent Stories</h2>
+      <a href="/stories/" class="see-all">All Stories →</a>
+    </div>
+    <div class="recent-grid">
+      {%- for story in recent %}
+      <a href="{{ story.url }}" class="story-card">
+        <div class="ph {{ story.data.imageAspect or 'portrait' }}"><span>{{ story.data.imageAspect | capitalize or 'Portrait' }} photograph</span></div>
+        <h3>{{ story.data.title }}</h3>
+        <p class="meta">{{ story.data.author }} · {{ story.data.date | readableDateShort }}</p>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+{% if latestIssue %}
+<section class="print-preview">
+  <div class="wrap print-preview-grid">
+    <a href="{{ latestIssue.url }}" class="ph cover"><span>Cover</span></a>
+    <div>
+      <p class="eyebrow">In Print</p>
+      <h2>Issue {{ latestIssue.data.number }} — {{ latestIssue.data.date | readableDateMonthYear }}</h2>
+      <p>{{ latestIssue.data.description }}</p>
+      <a href="/print/" class="text-link">Visit the Print Archive →</a>
+    </div>
+  </div>
+</section>
+{% endif %}

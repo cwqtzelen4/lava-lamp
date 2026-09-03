@@ -1,0 +1,74 @@
+backend:
+  name: github
+  repo: cwqtzelen4/lava-lamp
+  branch: main
+
+media_folder: "src/assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "stories"
+    label: "Stories"
+    folder: "src/stories"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/article.njk" }
+      - { label: "Permalink", name: "permalink", widget: "string", pattern: ['^/stories/.*/$', "Must look like /stories/your-slug/"] }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Deck", name: "deck", widget: "text", required: false }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Image Aspect", name: "imageAspect", widget: "select", options: ["landscape", "portrait", "square", "wide"], default: "landscape" }
+      - { label: "Hero Image", name: "image", widget: "image", required: false }
+      - { label: "Image Caption", name: "imageCaption", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "issues"
+    label: "Print Issues"
+    folder: "src/issues"
+    create: true
+    slug: "issue-{{fields.number}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/issue.njk" }
+      - { label: "Permalink", name: "permalink", widget: "string", pattern: ['^/print/.*/$', "Must look like /print/your-slug/"] }
+      - { label: "Issue Number", name: "number", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Intro (issue detail page)", name: "intro", widget: "text", required: false }
+      - { label: "Cover Image", name: "cover", widget: "image", required: false }
+      - { label: "PDF", name: "pdf", widget: "file", required: false }
+      - { label: "Spreads", name: "body", widget: "markdown", required: false }
+
+  - name: "site"
+    label: "Site Settings"
+    files:
+      - label: "General"
+        name: "general"
+        file: "src/_data/site.json"
+        fields:
+          - { label: "Name — line 1", name: "nameLine1", widget: "string" }
+          - { label: "Name — line 2", name: "nameLine2", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Logo", name: "logo", widget: "image" }
+          - { label: "Contact Email", name: "email", widget: "string" }
+          - { label: "Footer Meta", name: "footerMeta", widget: "string" }
+          - label: "Nav Links"
+            name: "nav"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+      - label: "Team"
+        name: "team"
+        file: "src/_data/team.json"
+        fields:
+          - label: "Members"
+            name: "members"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
+              - { label: "Bio", name: "bio", widget: "text" }
