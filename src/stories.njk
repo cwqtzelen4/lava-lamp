@@ -1,0 +1,21 @@
+---
+layout: base.njk
+title: Stories
+---
+<section class="page-header">
+  <div class="wrap">
+    <h1>Stories</h1>
+    <p class="lede">Creative nonfiction from current and former students — personal narratives, essays, features and photo essays, published as they come in.</p>
+  </div>
+</section>
+
+<section class="stories-grid wrap">
+  {%- for story in collections.stories %}
+  <a href="{{ story.url }}" class="story-card">
+    <div class="ph {{ story.data.imageAspect or 'portrait' }}"><span>{{ story.data.imageAspect | capitalize or 'Portrait' }} photograph</span></div>
+
+    <h3>{{ story.data.title }}</h3>
+    <p class="meta">{{ story.data.author }} · {{ story.data.date | readableDateShort }}</p>
+  </a>
+  {%- endfor %}
+</section>

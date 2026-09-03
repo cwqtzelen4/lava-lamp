@@ -1,0 +1,28 @@
+---
+layout: base.njk
+title: About
+---
+<section class="about-section wrap">
+  <h1>About</h1>
+  <p>{{ site.nameLine1 }} {{ site.nameLine2 }} is an independent student magazine at the American University in Bulgaria. We publish online year-round and in print each semester — stories, essays and photography made by students, about the place we're all temporarily from.</p>
+  <p>We're not affiliated with any university office, and we like it that way. Nobody assigns our stories but us.</p>
+</section>
+
+<section class="contact-box wrap">
+  <p class="eyebrow">Submissions</p>
+  <h2>Have something to send us?</h2>
+  <p>We read everything — personal narratives, essays, features, photo essays, and anything else that fits under creative nonfiction. Submissions are open year-round and reviewed blind.</p>
+  <a href="mailto:{{ site.email }}" class="email-link">{{ site.email }}</a>
+</section>
+
+<section class="team-section wrap">
+  <div class="team-list">
+    {%- for member in team.members %}
+    <div class="team-member">
+      <h3>{{ member.name }}</h3>
+      <p class="role">{{ member.role }}</p>
+      <p>{{ member.bio }}</p>
+    </div>
+    {%- endfor %}
+  </div>
+</section>

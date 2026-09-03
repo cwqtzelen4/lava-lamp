@@ -1,0 +1,12 @@
+{
+  "name": "lava-lamp",
+  "version": "1.0.0",
+  "description": "LAVA LAMP — an independent student magazine, AUBG",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
