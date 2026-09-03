@@ -13,9 +13,9 @@ title: Stories
   {%- for story in collections.stories %}
   <a href="{{ story.url }}" class="story-card">
     {% if story.data.image %}
-    <div class="ph-image {{ story.data.imageAspect or 'portrait' }}"><img src="{{ story.data.image }}" alt=""></div>
+    <div class="ph-image landscape"><img src="{{ story.data.image }}" alt=""></div>
     {% else %}
-    <div class="ph {{ story.data.imageAspect or 'portrait' }}"><span>{{ story.data.imageAspect | capitalize or 'Portrait' }} photograph</span></div>
+    <div class="ph landscape"><span>Landscape photograph</span></div>
     {% endif %}
 
     <h3>{{ story.data.title }}</h3>
