@@ -323,21 +323,12 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   .recent-grid{ grid-template-columns: 1fr; }
 }
 
-.story-card .cat{
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--ink-faint);
-  margin: 14px 0 6px;
-}
-
 .story-card h3{
   font-family: var(--font-display);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.25;
-  margin: 0 0 8px;
+  margin: 14px 0 8px;
 }
 
 .story-card .meta{
@@ -421,7 +412,8 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .filter-row a[aria-current="true"]{ color: var(--ink); border-bottom: 1px solid var(--ink); padding-bottom: 3px; }
 
 .stories-grid{
-  padding: clamp(36px, 5vw, 56px) 0 clamp(64px, 8vw, 96px);
+  padding-top: clamp(36px, 5vw, 56px);
+  padding-bottom: clamp(64px, 8vw, 96px);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: clamp(32px, 4vw, 48px) clamp(24px, 3vw, 40px);
@@ -445,7 +437,8 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
    ========================================================= */
 
 .article-head{
-  padding: clamp(32px, 5vw, 52px) 0 clamp(28px, 4vw, 40px);
+  padding-top: clamp(32px, 5vw, 52px);
+  padding-bottom: clamp(28px, 4vw, 40px);
   text-align: left;
 }
 .article-head .meta-row{
@@ -473,7 +466,7 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .article-head .byline strong{ color: var(--ink); }
 
 .article-hero{
-  margin: 0 0 clamp(36px, 6vw, 64px);
+  margin-bottom: clamp(36px, 6vw, 64px);
 }
 .article-hero .ph{ aspect-ratio: 16/9; }
 .article-hero figcaption{
@@ -574,7 +567,8 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
    ========================================================= */
 
 .issues-list{
-  padding: clamp(32px, 5vw, 56px) 0 clamp(80px, 10vw, 120px);
+  padding-top: clamp(32px, 5vw, 56px);
+  padding-bottom: clamp(80px, 10vw, 120px);
 }
 
 .issue-grid{
@@ -668,7 +662,8 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
    ========================================================= */
 
 .issue-head{
-  padding: clamp(36px, 6vw, 64px) 0;
+  padding-top: clamp(36px, 6vw, 64px);
+  padding-bottom: clamp(36px, 6vw, 64px);
   display: grid;
   grid-template-columns: 280px 1fr;
   gap: clamp(32px, 5vw, 64px);
@@ -689,7 +684,8 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 
 .spread-gallery{
-  padding: clamp(44px, 6vw, 72px) 0;
+  padding-top: clamp(44px, 6vw, 72px);
+  padding-bottom: clamp(44px, 6vw, 72px);
   display: flex;
   flex-direction: column;
   gap: clamp(28px, 4vw, 44px);
@@ -734,7 +730,7 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 
 .team-section{
-  padding: 0 0 clamp(72px, 9vw, 110px);
+  padding-bottom: clamp(72px, 9vw, 110px);
   border-top: 1px solid var(--rule);
   margin-top: clamp(40px, 6vw, 64px);
 }
