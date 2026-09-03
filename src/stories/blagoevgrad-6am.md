@@ -4,7 +4,7 @@ permalink: /stories/blagoevgrad-6am/
 title: Bibi i mimi making a magazine
 author: Lelya Katya
 date: 2026-08-19
-imageAspect: square
+imageAspect: landscape
 image: /assets/uploads/img_20260612_183229.jpg
 ---
 <p><em>What is Lorem Ipsum?
