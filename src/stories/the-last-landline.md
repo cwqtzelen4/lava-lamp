@@ -1,7 +1,7 @@
 ---
 layout: layouts/article.njk
 permalink: /stories/the-last-landline/
-title: "The Last Landline: Why the Payphone Outside Bell Hall Still Rings"
+title: Inverno Inversed
 deck: Nobody has used it to call anyone in years. So why did three students
   spend a semester trying to keep it working?
 author: Elena Dimitrova
