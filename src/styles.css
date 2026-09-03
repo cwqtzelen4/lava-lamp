@@ -573,9 +573,9 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 
 .issue-grid{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
-  gap: 32px 20px;
-  justify-content: center;
+  grid-template-columns: repeat(4, 210px);
+  gap: 40px 48px;
+  justify-content: start;
 }
 
 .issue-tile{
@@ -653,8 +653,11 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 
 .issue-tile .text-link{ font-size: 12px; }
 
+@media (max-width: 1000px){
+  .issue-grid{ grid-template-columns: repeat(2, 210px); }
+}
 @media (max-width: 560px){
-  .issue-grid{ grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 26px 14px; }
+  .issue-grid{ grid-template-columns: repeat(2, minmax(130px, 1fr)); gap: 26px 14px; }
 }
 
 /* =========================================================
