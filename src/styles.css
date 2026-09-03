@@ -234,6 +234,25 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .ph.wide{ aspect-ratio: 16/7; }
 .ph.cover{ aspect-ratio: 210 / 297; }
 
+/* ---------- real photo blocks (same aspect ratios as .ph, once an image is set) ---------- */
+.ph-image{
+  position: relative;
+  overflow: hidden;
+}
+.ph-image img{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.ph-image.landscape{ aspect-ratio: 3/2; }
+.ph-image.portrait{ aspect-ratio: 3/4; }
+.ph-image.square{ aspect-ratio: 1/1; }
+.ph-image.wide{ aspect-ratio: 16/7; }
+.ph-image.cover{ aspect-ratio: 210 / 297; }
+
 /* =========================================================
    HOME
    ========================================================= */
@@ -348,7 +367,8 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   align-items: center;
 }
 
-.print-preview .ph.cover{ width: 200px; }
+.print-preview .ph.cover,
+.print-preview .ph-image.cover{ width: 200px; }
 
 .print-preview h2{
   font-family: var(--font-display);
@@ -468,7 +488,8 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .article-hero{
   margin-bottom: clamp(36px, 6vw, 64px);
 }
-.article-hero .ph{ aspect-ratio: 16/9; }
+.article-hero .ph,
+.article-hero .ph-image{ aspect-ratio: 16/9; }
 .article-hero figcaption{
   font-size: 12.5px;
   color: var(--ink-faint);
@@ -585,14 +606,16 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   text-align: center;
 }
 
-.issue-tile .ph.cover{
+.issue-tile .ph.cover,
+.issue-tile .ph-image.cover{
   position: relative;
   margin: 0 0 12px;
   max-width: 210px;
   width: 100%;
 }
 /* torn-corner signature detail on covers */
-.issue-tile .ph.cover::after{
+.issue-tile .ph.cover::after,
+.issue-tile .ph-image.cover::after{
   content: "";
   position: absolute;
   top: 0; right: 0;

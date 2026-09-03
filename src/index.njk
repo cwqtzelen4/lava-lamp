@@ -8,7 +8,11 @@ title: null
 
 <section class="hero-story">
   <div class="wrap hero-grid">
+    {% if featured.data.image %}
+    <a href="{{ featured.url }}" class="ph-image {{ featured.data.imageAspect or 'landscape' }}"><img src="{{ featured.data.image }}" alt=""></a>
+    {% else %}
     <a href="{{ featured.url }}" class="ph {{ featured.data.imageAspect or 'landscape' }}"><span>Featured photograph — {{ featured.data.imageAspect or 'landscape' }}</span></a>
+    {% endif %}
     <div class="hero-text">
       <h1><a href="{{ featured.url }}">{{ featured.data.title }}</a></h1>
       {% if featured.data.deck %}<p class="deck">{{ featured.data.deck }}</p>{% endif %}
@@ -26,7 +30,11 @@ title: null
     <div class="recent-grid">
       {%- for story in recent %}
       <a href="{{ story.url }}" class="story-card">
+        {% if story.data.image %}
+        <div class="ph-image {{ story.data.imageAspect or 'portrait' }}"><img src="{{ story.data.image }}" alt=""></div>
+        {% else %}
         <div class="ph {{ story.data.imageAspect or 'portrait' }}"><span>{{ story.data.imageAspect | capitalize or 'Portrait' }} photograph</span></div>
+        {% endif %}
         <h3>{{ story.data.title }}</h3>
         <p class="meta">{{ story.data.author }} · {{ story.data.date | readableDateShort }}</p>
       </a>
@@ -38,7 +46,11 @@ title: null
 {% if latestIssue %}
 <section class="print-preview">
   <div class="wrap print-preview-grid">
+    {% if latestIssue.data.cover %}
+    <a href="{{ latestIssue.url }}" class="ph-image cover"><img src="{{ latestIssue.data.cover }}" alt=""></a>
+    {% else %}
     <a href="{{ latestIssue.url }}" class="ph cover"><span>Cover</span></a>
+    {% endif %}
     <div>
       <p class="eyebrow">In Print</p>
       <h2>Issue {{ latestIssue.data.number }} — {{ latestIssue.data.date | readableDateMonthYear }}</h2>

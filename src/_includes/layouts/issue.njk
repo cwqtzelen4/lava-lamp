@@ -3,7 +3,7 @@ layout: base.njk
 ---
 <section class="issue-head wrap">
   {% if cover %}
-  <img src="{{ cover }}" alt="">
+  <div class="ph-image cover"><img src="{{ cover }}" alt=""></div>
   {% else %}
   <div class="ph cover"><span>Cover — Issue {{ number }}</span></div>
   {% endif %}
