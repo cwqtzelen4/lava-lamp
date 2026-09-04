@@ -416,12 +416,26 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   margin: 0;
 }
 
-.search-input{
-  display: block;
+.search-wrap{
+  position: relative;
   width: 100%;
   max-width: 360px;
   margin-top: 20px;
-  padding: 10px 14px;
+}
+
+.search-icon{
+  position: absolute;
+  left: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--ink-faint);
+  pointer-events: none;
+}
+
+.search-input{
+  display: block;
+  width: 100%;
+  padding: 10px 14px 10px 36px;
   font-family: var(--font-body);
   font-size: 14px;
   color: var(--ink);
