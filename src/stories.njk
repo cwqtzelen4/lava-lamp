@@ -6,12 +6,13 @@ title: Stories
   <div class="wrap">
     <h1>Stories</h1>
     <p class="lede">Creative nonfiction from current and former students — personal narratives, essays, features and photo essays, published as they come in.</p>
+    <input type="search" id="story-search" class="search-input" placeholder="Search stories by title or author…" aria-label="Search stories">
   </div>
 </section>
 
 <section class="stories-grid wrap">
   {%- for story in collections.stories %}
-  <a href="{{ story.url }}" class="story-card">
+  <a href="{{ story.url }}" class="story-card" data-search="{{ story.data.title }} {{ story.data.author }}">
     {% if story.data.image %}
     <div class="ph-image landscape"><img src="{{ story.data.image }}" alt=""></div>
     {% else %}
@@ -22,4 +23,7 @@ title: Stories
     <p class="meta">{{ story.data.author }} · {{ story.data.date | readableDateShort }}</p>
   </a>
   {%- endfor %}
+  <p id="search-empty" class="lede" hidden>No stories match your search.</p>
 </section>
+
+<script src="/search.js" defer></script>

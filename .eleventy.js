@@ -26,6 +26,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "src/styles.css": "styles.css" });
   eleventyConfig.addPassthroughCopy({ "src/nav.js": "nav.js" });
+  eleventyConfig.addPassthroughCopy({ "src/search.js": "search.js" });
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "admin": "admin" });
 

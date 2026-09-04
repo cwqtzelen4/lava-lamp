@@ -416,6 +416,29 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   margin: 0;
 }
 
+.search-input{
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  margin-top: 20px;
+  padding: 10px 14px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.search-input::placeholder{ color: var(--ink-faint); }
+.search-input:focus-visible{ outline: 2px solid var(--ink); outline-offset: 2px; }
+
+.stories-grid #search-empty{
+  grid-column: 1 / -1;
+  padding: 20px 0;
+}
+
 .filter-row{
   display: flex;
   gap: 22px;
