@@ -859,14 +859,14 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   margin: 0 0 24px;
 }
 .about-section p{
-  font-size: 18px;
+  font-size: 16px;
   color: var(--ink);
   margin: 0 0 20px;
   max-width: 62ch;
 }
 
 .team-section{
-  padding-bottom: clamp(72px, 9vw, 110px);
+  padding-bottom: clamp(40px, 6vw, 56px);
   border-top: 1px solid var(--rule);
 }
 .team-list{
@@ -909,7 +909,6 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   padding-top: clamp(40px, 6vw, 64px);
   padding-bottom: clamp(64px, 9vw, 100px);
   border-top: 1px solid var(--rule);
-  margin-top: clamp(40px, 6vw, 64px);
 }
 .authors-section .eyebrow{ margin-bottom: 8px; }
 .authors-section h2{
