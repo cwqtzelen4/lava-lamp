@@ -24,6 +24,7 @@ module.exports = function (eleventyConfig) {
     return `${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}`;
   });
 
+  eleventyConfig.addPassthroughCopy({ "src/favicon.jpg": "favicon.jpg" });
   eleventyConfig.addPassthroughCopy({ "src/styles.css": "styles.css" });
   eleventyConfig.addPassthroughCopy({ "src/nav.js": "nav.js" });
   eleventyConfig.addPassthroughCopy({ "src/search.js": "search.js" });
