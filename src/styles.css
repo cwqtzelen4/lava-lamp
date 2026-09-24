@@ -71,6 +71,7 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 
 /* ---------- header ---------- */
 .site-header{
+  position: relative;
   background: var(--bg);
   border-bottom: 1px solid var(--rule);
 }
