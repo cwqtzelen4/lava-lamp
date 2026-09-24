@@ -20,8 +20,8 @@ title: About
     {%- for member in team.members %}
     {%- set authorRec = member.author | findAuthor(collections.authors) -%}
     <div class="team-member">
-      {% if member.photo %}
-      <div class="ph-image square">{% if authorRec %}<a href="{{ authorRec.url }}">{% endif %}<img src="{{ member.photo }}" alt="">{% if authorRec %}</a>{% endif %}</div>
+      {% if authorRec.data.photo %}
+      <div class="ph-image square"><a href="{{ authorRec.url }}"><img src="{{ authorRec.data.photo }}" alt=""></a></div>
       {% else %}
       <div class="ph square"><span>Photo</span></div>
       {% endif %}
