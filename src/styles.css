@@ -185,12 +185,12 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   flex-wrap: wrap;
   gap: 12px 32px;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 .site-footer .foot-mark{
-  font-family: var(--font-display);
-  font-style: italic;
-  font-size: 16px;
+  height: 40px;
+  width: auto;
+  display: block;
 }
 .site-footer .foot-meta{
   font-size: 13px;
