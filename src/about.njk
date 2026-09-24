@@ -19,6 +19,11 @@ title: About
   <div class="team-list">
     {%- for member in team.members %}
     <div class="team-member">
+      {% if member.photo %}
+      <div class="ph-image square"><img src="{{ member.photo }}" alt=""></div>
+      {% else %}
+      <div class="ph square"><span>Photo</span></div>
+      {% endif %}
       <h3>{{ member.name }}</h3>
       <p class="role">{{ member.role }}</p>
       <p>{{ member.bio }}</p>
@@ -26,3 +31,22 @@ title: About
     {%- endfor %}
   </div>
 </section>
+
+{% if collections.authors.length %}
+<section class="authors-section wrap">
+  <p class="eyebrow">Contributors</p>
+  <h2>Everyone who's written for us</h2>
+  <div class="authors-grid">
+    {%- for author in collections.authors %}
+    <a href="{{ author.url }}" class="author-tile">
+      {% if author.data.photo %}
+      <div class="ph-image square"><img src="{{ author.data.photo }}" alt=""></div>
+      {% else %}
+      <div class="ph square"><span>Author photo</span></div>
+      {% endif %}
+      <h3>{{ author.data.name }}</h3>
+    </a>
+    {%- endfor %}
+  </div>
+</section>
+{% endif %}

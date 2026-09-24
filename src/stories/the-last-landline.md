@@ -4,7 +4,7 @@ permalink: /stories/the-last-landline/
 title: Inverno Inversed
 deck: Nobody has used it to call anyone in years. So why did three students
   spend a semester trying to keep it working?
-author: Elena Dimitrova
+author: elena-dimitrova
 date: 2026-09-03
 imageAspect: landscape
 image: /assets/uploads/img-e341c102eab4c4ad8583049fa46f9963-v.jpg

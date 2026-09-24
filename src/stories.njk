@@ -18,7 +18,9 @@ title: Stories
 
 <section class="stories-grid wrap">
   {%- for story in collections.stories %}
-  <a href="{{ story.url }}" class="story-card" data-search="{{ story.data.title }} {{ story.data.author }}">
+  {%- set authorRec = story.data.author | findAuthor(collections.authors) -%}
+  {%- set authorName = authorRec.data.name if authorRec else story.data.author -%}
+  <a href="{{ story.url }}" class="story-card" data-search="{{ story.data.title }} {{ authorName }}">
     {% if story.data.image %}
     <div class="ph-image landscape"><img src="{{ story.data.image }}" alt=""></div>
     {% else %}
@@ -26,7 +28,7 @@ title: Stories
     {% endif %}
 
     <h3>{{ story.data.title }}</h3>
-    <p class="meta">{{ story.data.author }} · {{ story.data.date | readableDateShort }}</p>
+    <p class="meta">{{ authorName }} · {{ story.data.date | readableDateShort }}</p>
   </a>
   {%- endfor %}
   <p id="search-empty" class="lede" hidden>No stories match your search.</p>

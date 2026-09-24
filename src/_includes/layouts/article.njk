@@ -1,13 +1,14 @@
 ---
 layout: base.njk
 ---
+{%- set authorRec = author | findAuthor(collections.authors) -%}
 <section class="article-head wrap">
   <div class="meta-row">
     <span>{{ date | readableDate }}</span>
   </div>
   <h1>{{ title }}</h1>
   {% if deck %}<p class="deck">{{ deck }}</p>{% endif %}
-  <p class="byline">By <strong>{{ author }}</strong></p>
+  <p class="byline">By <strong>{% if authorRec %}<a href="{{ authorRec.url }}">{{ authorRec.data.name }}</a>{% else %}{{ author }}{% endif %}</strong></p>
 </section>
 
 <figure class="article-hero wrap">
@@ -22,3 +23,20 @@ layout: base.njk
 <article class="article-body wrap">
 {{ content | safe }}
 </article>
+
+{% if authorRec %}
+<section class="author-card wrap">
+  <a href="{{ authorRec.url }}" class="author-card-photo">
+    {% if authorRec.data.photo %}
+    <div class="ph-image square"><img src="{{ authorRec.data.photo }}" alt=""></div>
+    {% else %}
+    <div class="ph square"><span>Author photo</span></div>
+    {% endif %}
+  </a>
+  <div>
+    <p class="eyebrow">Written by</p>
+    <h3><a href="{{ authorRec.url }}">{{ authorRec.data.name }}</a></h3>
+    <p>{{ authorRec.data.bio }}</p>
+  </div>
+</section>
+{% endif %}

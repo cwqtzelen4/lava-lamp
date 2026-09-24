@@ -614,6 +614,32 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 .embed span{ font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--placeholder-ink); }
 
+/* ---------- author card, bottom of article ---------- */
+.author-card{
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 24px;
+  align-items: center;
+  padding-top: clamp(32px, 5vw, 48px);
+  padding-bottom: clamp(48px, 7vw, 80px);
+  border-top: 1px solid var(--rule);
+  margin-top: clamp(24px, 4vw, 40px);
+}
+.author-card .ph,
+.author-card .ph-image{ width: 96px; }
+.author-card .eyebrow{ margin-bottom: 2px; }
+.author-card h3{
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 18px;
+  margin: 4px 0 6px;
+}
+.author-card p{ color: var(--ink-soft); font-size: 14px; margin: 0; max-width: 50ch; }
+@media (max-width: 480px){
+  .author-card{ grid-template-columns: 72px 1fr; gap: 16px; }
+  .author-card .ph, .author-card .ph-image{ width: 72px; }
+}
+
 /* =========================================================
    PRINT — tight gallery grid
    ========================================================= */
@@ -766,6 +792,31 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .issue-download .download-link{ font-size: 14px; }
 
 /* =========================================================
+   AUTHOR PAGE
+   ========================================================= */
+
+.author-head{
+  padding-top: clamp(36px, 6vw, 64px);
+  padding-bottom: clamp(36px, 6vw, 64px);
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: clamp(32px, 5vw, 64px);
+  align-items: center;
+  border-bottom: 1px solid var(--rule);
+}
+.author-head h1{
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(28px, 4vw, 40px);
+  margin: 8px 0 12px;
+}
+.author-head p{ color: var(--ink-soft); max-width: 48ch; margin: 0; }
+@media (max-width: 720px){
+  .author-head{ grid-template-columns: 1fr; }
+  .author-head .ph.square, .author-head .ph-image.square{ width: 50%; }
+}
+
+/* =========================================================
    ABOUT
    ========================================================= */
 
@@ -798,6 +849,11 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   gap: clamp(28px, 4vw, 48px);
   max-width: 760px;
 }
+.team-member .ph,
+.team-member .ph-image{
+  width: 96px;
+  margin-bottom: 14px;
+}
 .team-member h3{
   font-family: var(--font-display);
   font-weight: 500;
@@ -819,6 +875,43 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 @media (max-width: 560px){
   .team-list{ grid-template-columns: 1fr; }
+}
+
+/* ---------- authors gallery ---------- */
+.authors-section{
+  padding-top: clamp(40px, 6vw, 64px);
+  padding-bottom: clamp(64px, 9vw, 100px);
+  border-top: 1px solid var(--rule);
+  margin-top: clamp(40px, 6vw, 64px);
+}
+.authors-section .eyebrow{ margin-bottom: 8px; }
+.authors-section h2{
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0;
+}
+.authors-grid{
+  padding-top: clamp(28px, 4vw, 40px);
+  display: grid;
+  grid-template-columns: repeat(4, 130px);
+  gap: 32px 28px;
+  justify-content: start;
+}
+.author-tile{ text-align: center; }
+.author-tile .ph,
+.author-tile .ph-image{ margin: 0 0 10px; }
+.author-tile h3{
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0;
+}
+@media (max-width: 720px){
+  .authors-grid{ grid-template-columns: repeat(3, 110px); gap: 24px 16px; }
+}
+@media (max-width: 480px){
+  .authors-grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 /* ---------- email / submissions box ---------- */

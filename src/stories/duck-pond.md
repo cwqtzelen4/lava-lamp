@@ -2,7 +2,7 @@
 layout: layouts/article.njk
 permalink: /stories/duck-pond/
 title: Bittersalty Memory
-author: Bilyana Spasova
+author: bilyana-spasova
 date: 2026-08-09
 imageAspect: landscape
 image: /assets/uploads/sss.png

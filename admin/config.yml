@@ -19,12 +19,24 @@ collections:
       - { label: "Permalink", name: "permalink", widget: "string", pattern: ['^/stories/.*/$', "Must look like /stories/your-slug/"] }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Deck", name: "deck", widget: "text", required: false }
-      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Author", name: "author", widget: "relation", collection: "authors", search_fields: ["name"], display_fields: ["name"], value_field: "{{slug}}" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Image Aspect", name: "imageAspect", widget: "select", options: ["landscape", "portrait", "square", "wide"], default: "landscape" }
       - { label: "Hero Image", name: "image", widget: "image", required: false }
       - { label: "Image Caption", name: "imageCaption", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "authors"
+    label: "Authors"
+    folder: "src/authors"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/author.njk" }
+      - { label: "Permalink", name: "permalink", widget: "string", pattern: ['^/authors/.*/$', "Must look like /authors/your-slug/"] }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Photo", name: "photo", widget: "image", required: false }
+      - { label: "Short Bio (a few lines - major, interests, etc.)", name: "bio", widget: "text" }
 
   - name: "issues"
     label: "Print Issues"
@@ -74,5 +86,6 @@ collections:
             widget: "list"
             fields:
               - { label: "Name", name: "name", widget: "string" }
+              - { label: "Photo", name: "photo", widget: "image", required: false }
               - { label: "Role", name: "role", widget: "string" }
               - { label: "Bio", name: "bio", widget: "text" }

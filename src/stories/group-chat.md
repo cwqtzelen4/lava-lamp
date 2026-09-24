@@ -3,7 +3,7 @@ layout: layouts/article.njk
 permalink: /stories/group-chat/
 title: Buffalo Heart
 deck: Who knows what grows into someone’s heart?
-author: Valentina Velikova
+author: valentina-velikova
 date: 2026-08-14
 imageAspect: portrait
 image: /assets/uploads/screenshot-2026-09-03-172701.png

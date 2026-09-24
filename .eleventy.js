@@ -47,6 +47,22 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => Number(b.data.number) - Number(a.data.number));
   });
 
+  eleventyConfig.addCollection("authors", (collectionApi) => {
+    return collectionApi
+      .getFilteredByGlob("src/authors/*.md")
+      .sort((a, b) => a.data.name.localeCompare(b.data.name));
+  });
+
+  eleventyConfig.addFilter("findAuthor", (slug, authors) => {
+    if (!slug || !authors) return null;
+    return authors.find((a) => a.fileSlug === slug) || null;
+  });
+
+  eleventyConfig.addFilter("byAuthor", (stories, slug) => {
+    if (!stories || !slug) return [];
+    return stories.filter((s) => s.data.author === slug);
+  });
+
   return {
     dir: {
       input: "src",

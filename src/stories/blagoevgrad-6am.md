@@ -2,7 +2,7 @@
 layout: layouts/article.njk
 permalink: /stories/blagoevgrad-6am/
 title: Bibi i mimi making a magazine
-author: Lelya Katya
+author: lelya-katya
 date: 2026-08-19
 imageAspect: landscape
 image: /assets/uploads/img_20260612_183229.jpg

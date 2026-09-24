@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% if title %}{{ title }} — {{ site.nameLine1 }} {{ site.nameLine2 }}{% else %}{{ site.nameLine1 }} {{ site.nameLine2 }} — {{ site.tagline }}{% endif %}</title>
+<title>{% if title %}{{ title }} — {{ site.nameLine1 }} {{ site.nameLine2 }}{% elif name %}{{ name }} — {{ site.nameLine1 }} {{ site.nameLine2 }}{% else %}{{ site.nameLine1 }} {{ site.nameLine2 }} — {{ site.tagline }}{% endif %}</title>
 <meta name="description" content="{{ description or site.description }}">
 <link rel="stylesheet" href="/styles.css">
 </head>

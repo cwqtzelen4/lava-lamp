@@ -13,6 +13,7 @@ title: null
     </div>
     <div class="recent-grid">
       {%- for story in recent %}
+      {%- set authorRec = story.data.author | findAuthor(collections.authors) -%}
       <a href="{{ story.url }}" class="story-card">
         {% if story.data.image %}
         <div class="ph-image landscape"><img src="{{ story.data.image }}" alt=""></div>
@@ -20,7 +21,7 @@ title: null
         <div class="ph landscape"><span>Landscape photograph</span></div>
         {% endif %}
         <h3>{{ story.data.title }}</h3>
-        <p class="meta">{{ story.data.author }} · {{ story.data.date | readableDateShort }}</p>
+        <p class="meta">{{ authorRec.data.name if authorRec else story.data.author }} · {{ story.data.date | readableDateShort }}</p>
       </a>
       {%- endfor %}
     </div>

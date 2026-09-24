@@ -1,0 +1,32 @@
+---
+layout: base.njk
+---
+{%- set authorStories = collections.stories | byAuthor(page.fileSlug) -%}
+<section class="author-head wrap">
+  {% if photo %}
+  <div class="ph-image square"><img src="{{ photo }}" alt=""></div>
+  {% else %}
+  <div class="ph square"><span>Author photo</span></div>
+  {% endif %}
+  <div>
+    <p class="eyebrow">Author</p>
+    <h1>{{ name }}</h1>
+    <p>{{ bio }}</p>
+  </div>
+</section>
+
+{% if authorStories.length %}
+<section class="stories-grid wrap">
+  {%- for story in authorStories %}
+  <a href="{{ story.url }}" class="story-card">
+    {% if story.data.image %}
+    <div class="ph-image landscape"><img src="{{ story.data.image }}" alt=""></div>
+    {% else %}
+    <div class="ph landscape"><span>Landscape photograph</span></div>
+    {% endif %}
+    <h3>{{ story.data.title }}</h3>
+    <p class="meta">{{ story.data.date | readableDateShort }}</p>
+  </a>
+  {%- endfor %}
+</section>
+{% endif %}
