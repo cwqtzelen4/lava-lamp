@@ -55,6 +55,7 @@ collections:
           - { label: "Tagline", name: "tagline", widget: "string" }
           - { label: "Description", name: "description", widget: "text" }
           - { label: "Logo", name: "logo", widget: "image" }
+          - { label: "Header Statement Line", name: "statement", widget: "string" }
           - { label: "Contact Email", name: "email", widget: "string" }
           - { label: "Footer Meta", name: "footerMeta", widget: "string" }
           - label: "Nav Links"
