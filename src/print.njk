@@ -16,7 +16,7 @@ title: Print
       {% if issue.data.cover %}
       <div class="ph-image cover"><img src="{{ issue.data.cover }}" alt=""></div>
       {% else %}
-      <div class="ph cover"><span>Cover — Issue {{ issue.data.number }}</span></div>
+      <div class="ph cover"><span>Cover - Issue {{ issue.data.number }}</span></div>
       {% endif %}
       <p class="eyebrow">Issue {{ issue.data.number }} · {{ issue.data.date | readableDateMonthYear }}</p>
       <h2>{{ issue.data.title }}</h2>
