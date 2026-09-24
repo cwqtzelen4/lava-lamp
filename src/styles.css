@@ -17,7 +17,7 @@
   --font-display: 'Fraunces', serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 
-  --measure: 66ch;
+  --measure: 82ch;
   --side-pad: clamp(20px, 5vw, 64px);
   --header-h: 104px;
 }
