@@ -560,6 +560,30 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   margin-top: 10px;
 }
 
+.inline-float{
+  margin: 4px 0 20px;
+}
+.inline-float img{ display: block; width: 100%; }
+.inline-float figcaption{ font-size: 12px; }
+.inline-float-left{
+  float: left;
+  width: 38%;
+  margin-right: 24px;
+}
+.inline-float-right{
+  float: right;
+  width: 38%;
+  margin-left: 24px;
+}
+@media (max-width: 560px){
+  .inline-float-left,
+  .inline-float-right{
+    float: none;
+    width: 60%;
+    margin: 0 auto 20px;
+  }
+}
+
 .two-up{
   display: grid;
   grid-template-columns: 1fr 1fr;
