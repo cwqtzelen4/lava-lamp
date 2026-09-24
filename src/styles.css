@@ -101,9 +101,10 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 
 .logo-statement{
+  display: flex;
+  flex-direction: column;
   font-family: var(--font-body);
   font-weight: 600;
-  font-size: 14px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ink-soft);
@@ -111,6 +112,9 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   max-width: 260px;
   line-height: 1.4;
 }
+
+.statement-line{ font-size: 14px; }
+.statement-line-big{ font-size: 17px; }
 
 .main-nav{
   display: flex;
@@ -154,7 +158,9 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   .nav-toggle{ display: block; }
   .logo{ gap: 10px; }
   .logo .logo-mark{ height: 84px; }
-  .logo-statement{ font-size: 11px; max-width: 150px; }
+  .logo-statement{ max-width: 150px; }
+  .statement-line{ font-size: 11px; }
+  .statement-line-big{ font-size: 13px; }
   .main-nav{
     display: none;
     position: absolute;

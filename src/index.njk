@@ -2,24 +2,8 @@
 layout: base.njk
 title: null
 ---
-{%- set featured = collections.stories[0] -%}
-{%- set recent = collections.recentStories -%}
+{%- set recent = collections.stories -%}
 {%- set latestIssue = collections.issues[0] -%}
-
-<section class="hero-story">
-  <div class="wrap hero-grid">
-    {% if featured.data.image %}
-    <a href="{{ featured.url }}" class="ph-image {{ featured.data.imageAspect or 'landscape' }}"><img src="{{ featured.data.image }}" alt=""></a>
-    {% else %}
-    <a href="{{ featured.url }}" class="ph {{ featured.data.imageAspect or 'landscape' }}"><span>Featured photograph — {{ featured.data.imageAspect or 'landscape' }}</span></a>
-    {% endif %}
-    <div class="hero-text">
-      <h1><a href="{{ featured.url }}">{{ featured.data.title }}</a></h1>
-      {% if featured.data.deck %}<p class="deck">{{ featured.data.deck }}</p>{% endif %}
-      <p class="byline"><strong>{{ featured.data.author }}</strong> · {{ featured.data.date | readableDateFull }}</p>
-    </div>
-  </div>
-</section>
 
 <section class="recent-section">
   <div class="wrap">
