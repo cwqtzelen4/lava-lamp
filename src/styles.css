@@ -531,13 +531,14 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 
 .article-body{
-  display: grid;
-  grid-template-columns: 1fr min(var(--measure), 100%) 1fr;
+  max-width: var(--measure);
+  margin: 0 auto;
   padding-bottom: clamp(64px, 8vw, 100px);
 }
-.article-body > *{ grid-column: 2; }
-.article-body > .bleed{ grid-column: 1 / -1; }
-.article-body > .bleed-right{ grid-column: 2 / 4; }
+.article-body > .bleed{
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
 
 .article-body p{
   font-size: 18px;
@@ -560,24 +561,25 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   margin-top: 10px;
 }
 
-.inline-float{
-  margin: 4px 0 20px;
+.article-body .inline-float{
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 .inline-float img{ display: block; width: 100%; }
 .inline-float figcaption{ font-size: 12px; }
-.inline-float-left{
+.article-body .inline-float-left{
   float: left;
   width: 38%;
   margin-right: 24px;
 }
-.inline-float-right{
+.article-body .inline-float-right{
   float: right;
   width: 38%;
   margin-left: 24px;
 }
 @media (max-width: 560px){
-  .inline-float-left,
-  .inline-float-right{
+  .article-body .inline-float-left,
+  .article-body .inline-float-right{
     float: none;
     width: 60%;
     margin: 0 auto 20px;
