@@ -1,6 +1,6 @@
 ---
 layout: layouts/author.njk
 permalink: /authors/elena-dimitrova/
-name: Elena Dimitrova
+name: Ilen Belyanova
 bio: Bio coming soon.
 ---
