@@ -1,11 +1,10 @@
 ---
 layout: layouts/issue.njk
 permalink: /print/issue-01/
-number: "01"
-title: First Draft, Literally
+number: "00"
+title: COMING SOON
 date: 2025-11-01
-description: Where we introduced ourselves, badly, and figured out what this
-  could actually be.
+description: Where we introduced ourselves
 cover: /assets/uploads/issue-01-1-.jpg
 pdf: /assets/uploads/issue-01.pdf
 ---
