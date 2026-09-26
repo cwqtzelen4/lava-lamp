@@ -35,6 +35,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/author.njk" }
       - { label: "Permalink", name: "permalink", widget: "string", pattern: ['^/authors/.*/$', "Must look like /authors/your-slug/"] }
       - { label: "Name", name: "name", widget: "string" }
+      - { label: "Role (shown as their title on the site)", name: "role", widget: "select", options: ["Author", "Illustrator", "Photographer"], default: "Author", required: false }
       - { label: "Photo", name: "photo", widget: "image", required: false }
       - { label: "Short Bio (a few lines - major, interests, etc.)", name: "bio", widget: "text" }
 
@@ -68,7 +69,7 @@ collections:
           - { label: "Description", name: "description", widget: "text" }
           - { label: "Logo", name: "logo", widget: "image" }
           - { label: "Header Statement Line 1", name: "statementLine1", widget: "string" }
-          - { label: "Header Statement Line 2 (bigger text)", name: "statementLine2", widget: "string" }
+          - { label: "Header Statement Line 2", name: "statementLine2", widget: "string" }
           - { label: "Contact Email", name: "email", widget: "string" }
           - { label: "Footer Meta", name: "footerMeta", widget: "string" }
           - label: "Nav Links"
@@ -89,3 +90,10 @@ collections:
               - { label: "Role", name: "role", widget: "string" }
               - { label: "Bio", name: "bio", widget: "text" }
               - { label: "Linked Author Page (their photo comes from here)", name: "author", widget: "relation", collection: "authors", search_fields: ["name"], display_fields: ["name"], value_field: "{{slug}}", required: false }
+      - label: "Submissions Page"
+        name: "submissions"
+        file: "src/_data/submissions.json"
+        fields:
+          - { label: "Intro text (top of page)", name: "intro", widget: "text" }
+          - { label: "Ethics guide blurb", name: "ethicsText", widget: "text" }
+          - { label: "Ethics guide PDF", name: "ethicsPdf", widget: "file", required: false }

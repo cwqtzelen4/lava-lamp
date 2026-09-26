@@ -1,0 +1,81 @@
+---
+layout: base.njk
+title: Submissions
+---
+<section class="page-header">
+  <div class="wrap">
+    <h1>Submissions</h1>
+    <p class="lede">{{ submissions.intro }}</p>
+  </div>
+</section>
+
+<section class="submissions-body wrap">
+  <div class="ethics-box">
+    <p class="eyebrow">Ethics guide</p>
+    <h2>Before you submit</h2>
+    <p>{{ submissions.ethicsText }}</p>
+    {% if submissions.ethicsPdf %}
+    <a href="{{ submissions.ethicsPdf }}" class="download-link"><span class="arrow">↓</span> Download the Ethics Guide (PDF)</a>
+    {% else %}
+    <p>The ethics guide PDF is coming soon.</p>
+    {% endif %}
+  </div>
+
+  <div id="submit-thanks" class="submit-thanks" hidden>
+    <h2>Thank you</h2>
+    <p>Your submission is in. We read everything, and we'll be in touch.</p>
+  </div>
+
+  <form class="submit-form" action="https://formsubmit.co/{{ site.email }}" method="POST" enctype="multipart/form-data">
+    <input type="hidden" name="_subject" value="New {{ site.nameLine1 }} {{ site.nameLine2 }} submission">
+    <input type="hidden" name="_next" value="">
+    <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+    <div class="field">
+      <label for="sub-name">Your name</label>
+      <input type="text" id="sub-name" name="name" required autocomplete="name">
+    </div>
+
+    <div class="field">
+      <label for="sub-email">Your email</label>
+      <input type="email" id="sub-email" name="email" required autocomplete="email">
+    </div>
+
+    <div class="field">
+      <label for="sub-title">Title of your piece</label>
+      <input type="text" id="sub-title" name="title" required>
+    </div>
+
+    <div class="field">
+      <label for="sub-type">Type of piece</label>
+      <select id="sub-type" name="type" required>
+        <option value="">Choose one</option>
+        <option>Personal narrative</option>
+        <option>Essay</option>
+        <option>Feature</option>
+        <option>Photo essay</option>
+        <option>Other</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label for="sub-file">Your piece</label>
+      <input type="file" id="sub-file" name="attachment" accept=".doc,.docx,.pdf,.rtf,.txt,.odt">
+      <p class="hint">Word or PDF. Trouble uploading? Email it to {{ site.email }} instead.</p>
+    </div>
+
+    <div class="field">
+      <label for="sub-note">Anything you'd like us to know (optional)</label>
+      <textarea id="sub-note" name="note"></textarea>
+    </div>
+
+    <label class="check">
+      <input type="checkbox" name="ethics_guide_read" value="yes" required>
+      <span>I have read the ethics guide.</span>
+    </label>
+
+    <button type="submit" class="submit-btn">Send submission</button>
+  </form>
+</section>
+
+<script src="/submit.js" defer></script>

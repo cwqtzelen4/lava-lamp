@@ -8,13 +8,6 @@ title: About
   <p>We're not affiliated with any university office, and we like it that way. Nobody assigns our stories but us.</p>
 </section>
 
-<section class="contact-box wrap">
-  <p class="eyebrow">Submissions</p>
-  <h2>Have something to send us?</h2>
-  <p>We read everything - personal narratives, essays, features, photo essays, and anything else that fits under creative nonfiction. Submissions are open year-round and reviewed blind.</p>
-  <a href="mailto:{{ site.email }}" class="email-link">{{ site.email }}</a>
-</section>
-
 <section class="team-section wrap">
   <div class="team-list">
     {%- for member in team.members %}
@@ -36,7 +29,6 @@ title: About
 {% if collections.authors.length %}
 <section class="authors-section wrap">
   <p class="eyebrow">Contributors</p>
-  <h2>Everyone who's written for us</h2>
   <div class="authors-grid">
     {%- for author in collections.authors %}
     <a href="{{ author.url }}" class="author-tile">
@@ -46,6 +38,7 @@ title: About
       <div class="ph square"><span>Author photo</span></div>
       {% endif %}
       <h3>{{ author.data.name }}</h3>
+      <p class="role">{{ author.data.role or "Author" }}</p>
     </a>
     {%- endfor %}
   </div>

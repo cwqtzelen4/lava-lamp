@@ -34,7 +34,8 @@ layout: base.njk
     {% endif %}
   </a>
   <div>
-    <p class="eyebrow">Written by</p>
+    {%- set roleLabels = { "Author": "Written by", "Illustrator": "Illustrated by", "Photographer": "Photographed by" } %}
+    <p class="eyebrow">{{ roleLabels[authorRec.data.role] or "Written by" }}</p>
     <h3><a href="{{ authorRec.url }}">{{ authorRec.data.name }}</a></h3>
     <p>{{ authorRec.data.bio }}</p>
   </div>

@@ -9,24 +9,33 @@ title: null
   <div class="wrap">
     <div class="section-heading">
       <h2>Recent Stories</h2>
-      <a href="/stories/" class="see-all">All Stories →</a>
+      <div class="search-wrap">
+        <svg class="search-icon" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="6.5" cy="6.5" r="5" stroke="currentColor" stroke-width="1.4"/>
+          <line x1="10.4" y1="10.4" x2="14" y2="14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
+        <input type="search" id="story-search" class="search-input" placeholder="Search stories by title or author…" aria-label="Search stories">
+      </div>
     </div>
     <div class="recent-grid">
       {%- for story in recent %}
       {%- set authorRec = story.data.author | findAuthor(collections.authors) -%}
-      <a href="{{ story.url }}" class="story-card">
+      {%- set authorName = authorRec.data.name if authorRec else story.data.author -%}
+      <a href="{{ story.url }}" class="story-card" data-search="{{ story.data.title }} {{ authorName }}">
         {% if story.data.image %}
         <div class="ph-image landscape"><img src="{{ story.data.image }}" alt=""></div>
         {% else %}
         <div class="ph landscape"><span>Landscape photograph</span></div>
         {% endif %}
         <h3>{{ story.data.title }}</h3>
-        <p class="meta">{{ authorRec.data.name if authorRec else story.data.author }} · {{ story.data.date | readableDateShort }}</p>
+        <p class="meta">{{ authorName }} · {{ story.data.date | readableDateShort }}</p>
       </a>
       {%- endfor %}
+      <p id="search-empty" class="lede" hidden>No stories match your search.</p>
     </div>
   </div>
 </section>
+<script src="/search.js" defer></script>
 
 {% if latestIssue %}
 <section class="print-preview">

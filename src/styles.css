@@ -90,7 +90,7 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 18px;
+  gap: 26px;
 }
 
 .logo .logo-mark{
@@ -108,12 +108,11 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   text-transform: uppercase;
   color: var(--ink-soft);
   white-space: normal;
-  max-width: 260px;
+  max-width: 330px;
   line-height: 1.4;
 }
 
-.statement-line{ font-size: 14px; }
-.statement-line-big{ font-size: 17px; }
+.statement-line{ font-size: 15px; }
 
 .main-nav{
   display: flex;
@@ -155,11 +154,10 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 
 @media (max-width: 720px){
   .nav-toggle{ display: block; }
-  .logo{ gap: 10px; }
+  .logo{ gap: 14px; }
   .logo .logo-mark{ height: 84px; }
   .logo-statement{ max-width: 150px; }
-  .statement-line{ font-size: 11px; }
-  .statement-line-big{ font-size: 13px; }
+  .statement-line{ font-size: 12px; }
   .main-nav{
     display: none;
     position: absolute;
@@ -308,9 +306,15 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 
 .section-heading{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
+  gap: 16px 24px;
   margin-bottom: clamp(24px, 4vw, 40px);
+}
+.section-heading .search-wrap{
+  margin-top: 0;
+  flex: 0 1 360px;
 }
 
 .section-heading h2{
@@ -318,15 +322,6 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   font-weight: 500;
   font-size: 22px;
   margin: 0;
-}
-
-.section-heading .see-all{
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  border-bottom: 1px solid var(--ink);
-  padding-bottom: 2px;
 }
 
 .recent-grid{
@@ -451,7 +446,8 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .search-input::placeholder{ color: var(--ink-faint); }
 .search-input:focus-visible{ outline: 2px solid var(--ink); outline-offset: 2px; }
 
-.stories-grid #search-empty{
+.stories-grid #search-empty,
+.recent-grid #search-empty{
   grid-column: 1 / -1;
   padding: 20px 0;
 }
@@ -909,22 +905,19 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   padding-top: clamp(40px, 6vw, 64px);
   padding-bottom: clamp(64px, 9vw, 100px);
   border-top: 1px solid var(--rule);
-}
-.authors-section .eyebrow{ margin-bottom: 8px; }
-.authors-section h2{
-  font-family: var(--font-display);
-  font-weight: 500;
-  font-size: 24px;
-  margin: 0;
+  text-align: center;
 }
 .authors-grid{
-  padding-top: clamp(28px, 4vw, 40px);
-  display: grid;
-  grid-template-columns: repeat(4, 130px);
+  padding-top: clamp(24px, 4vw, 36px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 32px 28px;
-  justify-content: start;
 }
-.author-tile{ text-align: center; }
+.author-tile{
+  width: 130px;
+  text-align: center;
+}
 .author-tile .ph,
 .author-tile .ph-image{ margin: 0 0 10px; }
 .author-tile h3{
@@ -933,37 +926,106 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   font-size: 15px;
   margin: 0;
 }
-@media (max-width: 720px){
-  .authors-grid{ grid-template-columns: repeat(3, 110px); gap: 24px 16px; }
+.author-tile .role{
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 4px 0 0;
 }
-@media (max-width: 480px){
-  .authors-grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 720px){
+  .authors-grid{ gap: 24px 16px; }
+  .author-tile{ width: 110px; }
 }
 
-/* ---------- email / submissions box ---------- */
-.contact-box{
-  border-top: 1px solid var(--rule);
+/* =========================================================
+   SUBMISSIONS PAGE
+   ========================================================= */
+
+.submissions-body{
   padding-top: clamp(32px, 5vw, 48px);
-  padding-bottom: clamp(32px, 5vw, 48px);
-  margin-top: clamp(8px, 2vw, 16px);
-  margin-bottom: clamp(40px, 6vw, 64px);
+  padding-bottom: clamp(64px, 9vw, 100px);
 }
-.contact-box .eyebrow{ margin-bottom: 10px; }
-.contact-box h2{
+.submissions-body > *{ max-width: 640px; }
+
+.ethics-box{
+  border: 1px solid var(--rule);
+  padding: 24px 28px;
+  margin-bottom: clamp(32px, 5vw, 48px);
+}
+.ethics-box .eyebrow{ margin-bottom: 8px; }
+.ethics-box h2{
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 22px;
+  margin: 0 0 8px;
+}
+.ethics-box p{ color: var(--ink-soft); margin: 0 0 16px; }
+.ethics-box p:last-child{ margin-bottom: 0; }
+
+.submit-form{
+  display: grid;
+  gap: 22px;
+}
+.field label,
+.field .label{
+  display: block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.field input[type="text"],
+.field input[type="email"],
+.field select,
+.field textarea{
+  display: block;
+  width: 100%;
+  padding: 10px 14px;
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+}
+.field textarea{ min-height: 130px; resize: vertical; }
+.field input:focus-visible,
+.field select:focus-visible,
+.field textarea:focus-visible{ outline: 2px solid var(--ink); outline-offset: 2px; }
+.field input[type="file"]{ font-family: var(--font-body); font-size: 14px; }
+.field .hint{ margin: 6px 0 0; font-size: 13px; color: var(--ink-faint); }
+
+.check{
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+.check input{ margin-top: 4px; }
+
+.submit-btn{
+  justify-self: start;
+  padding: 13px 28px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--bg);
+  background: var(--ink);
+}
+.submit-btn:hover{ background: var(--ink-soft); }
+
+.hp{ position: absolute; left: -9999px; }
+
+.submit-thanks h2{
   font-family: var(--font-display);
   font-weight: 500;
   font-size: 24px;
-  margin: 0 0 10px;
+  margin: 0 0 8px;
 }
-.contact-box p{
-  color: var(--ink-soft);
-  font-size: 15px;
-  margin: 0 0 16px;
-  max-width: 50ch;
-}
-.contact-box .email-link{
-  font-family: var(--font-display);
-  font-style: italic;
-  font-size: 20px;
-}
-.contact-box .email-link:hover{ text-decoration: underline; }
+.submit-thanks p{ color: var(--ink-soft); margin: 0; }
