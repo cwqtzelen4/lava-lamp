@@ -948,6 +948,32 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   padding-bottom: clamp(64px, 9vw, 100px);
 }
 .submissions-body > *{ max-width: 640px; }
+.submissions-body > .submissions-intro{ max-width: none; position: relative; }
+.submissions-intro > .prose{ max-width: 640px; }
+
+/* lava bubbles in the empty space beside the intro text */
+.lava{
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: calc(100% - 640px - 56px);
+  overflow: hidden;
+  pointer-events: none;
+  filter: url(#goo);
+}
+.lava-blob{
+  position: absolute;
+  border-radius: 50%;
+  background: #8a0f3e;
+  transform: translate(-50%, -50%);
+  will-change: transform;
+}
+.lava-blob.pink{ background: #e8176f; }
+@media (min-width: 1000px){
+  .lava{ display: block; }
+}
 
 .prose h2,
 .submit-form h2,
