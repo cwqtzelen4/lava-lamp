@@ -56,11 +56,14 @@ title: Submissions
       <textarea id="sub-note" name="note"></textarea>
     </div>
 
-    {% if submissions.ethicsPdf %}
-    <a href="{{ submissions.ethicsPdf }}" class="download-link ethics-link" target="_blank" rel="noopener"><span class="arrow">↓</span> Open PDF</a>
-    {% else %}
-    <p class="hint ethics-link">The ethics guide PDF is coming soon.</p>
-    {% endif %}
+    <div class="field">
+      <span class="label">Ethics guide</span>
+      {% if submissions.ethicsPdf %}
+      <a href="{{ submissions.ethicsPdf }}" class="download-link" target="_blank" rel="noopener"><span class="arrow">↓</span> Open PDF</a>
+      {% else %}
+      <p class="hint">The ethics guide PDF is coming soon.</p>
+      {% endif %}
+    </div>
 
     <label class="check">
       <input type="checkbox" name="ethics_guide_read" value="yes" required>
