@@ -950,7 +950,7 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .submissions-body > *{ max-width: 640px; }
 .submissions-body{ position: relative; }
 
-/* lava bubbles: fill the empty space to the right of the whole page */
+/* lava lamp: one tall wax column with a few loose bubbles, beside the whole page */
 .submissions-body > .lava{
   display: none;
   position: absolute;
@@ -961,9 +961,13 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   max-width: none;
   overflow: hidden;
   pointer-events: none;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 2%, #000 98%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0, #000 2%, #000 98%, transparent 100%);
+}
+.lava-goo{
+  position: absolute;
+  inset: 0;
   filter: url(#goo);
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 5%, #000 95%, transparent 100%);
-  mask-image: linear-gradient(to bottom, transparent 0, #000 5%, #000 95%, transparent 100%);
 }
 .lava-blob{
   position: absolute;
@@ -972,10 +976,14 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   transform: translate(-50%, -50%);
   will-change: transform;
 }
-.lava-blob.pink{ background: #e8176f; }
+.lava-shine{
+  position: absolute;
+  background: #ff1a7e;
+  border-radius: 50%;
+  will-change: transform;
+}
 @media (min-width: 1000px){
   .submissions-body > .lava{ display: block; }
-}
 }
 
 .prose h2,
