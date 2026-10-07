@@ -1,11 +1,11 @@
 ---
 layout: layouts/article.njk
-permalink: /stories/blagoevgrad-6am/
-title: Article 1
+permalink: /stories/pressing-sound/
+title: Pressing Sound
 author: maria-pencheva
 date: 2026-08-19
 imageAspect: landscape
-image: /assets/uploads/img_20260612_183229.jpg
+image: /assets/uploads/1_69rkhb0rfcvbdjypmsm94a.jpg
 ---
 <p><em>What is Lorem Ipsum?
 
