@@ -1,6 +1,6 @@
 ---
 layout: layouts/article.njk
-permalink: /stories/pressing-sound/
+permalink: /stories/blagoevgrad-6am/
 title: Pressing Sound
 author: maria-pencheva
 date: 2026-08-19
