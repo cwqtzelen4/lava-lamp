@@ -69,7 +69,7 @@ collections:
           - { label: "Description", name: "description", widget: "text" }
           - { label: "Logo", name: "logo", widget: "image" }
           - { label: "Header Statement Line 1", name: "statementLine1", widget: "string" }
-          - { label: "Header Statement Line 2", name: "statementLine2", widget: "string" }
+          - { label: "Header Statement Line 2 (optional)", name: "statementLine2", widget: "string", required: false }
           - { label: "Contact Email", name: "email", widget: "string" }
           - { label: "Footer Meta", name: "footerMeta", widget: "string" }
           - label: "Nav Links"
