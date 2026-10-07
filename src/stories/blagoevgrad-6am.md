@@ -1,7 +1,7 @@
 ---
 layout: layouts/article.njk
 permalink: /stories/blagoevgrad-6am/
-title: Bibi i mimi making a magazine
+title: Article 1
 author: maria-pencheva
 date: 2026-08-19
 imageAspect: landscape
