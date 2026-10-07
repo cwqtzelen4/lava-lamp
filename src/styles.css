@@ -949,24 +949,42 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 .submissions-body > *{ max-width: 640px; }
 
-.ethics-box{
-  border: 1px solid var(--rule);
-  padding: 24px 28px;
-  margin-bottom: clamp(32px, 5vw, 48px);
-}
-.ethics-box .eyebrow{ margin-bottom: 8px; }
-.ethics-box h2{
+.prose h2,
+.submit-form h2,
+.submit-thanks h2{
   font-family: var(--font-display);
   font-weight: 500;
-  font-size: 22px;
-  margin: 0 0 8px;
+  font-size: 24px;
+  margin: 0 0 14px;
 }
-.ethics-box p{ color: var(--ink-soft); margin: 0 0 16px; }
-.ethics-box p:last-child{ margin-bottom: 0; }
+.prose h2:not(:first-child){ margin-top: 44px; }
+.prose h3{
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 19px;
+  margin: 32px 0 8px;
+}
+.prose p,
+.prose li{ font-size: 16px; line-height: 1.6; color: var(--ink); }
+.prose p{ margin: 0 0 16px; }
+.prose ul{ margin: 0 0 16px; padding-left: 20px; }
+.prose li{ margin-bottom: 8px; }
+.prose a{ border-bottom: 1px solid var(--ink-faint); overflow-wrap: anywhere; }
+.prose a:hover{ border-bottom-color: var(--ink); }
+.prose a.download-link{ border-bottom-color: var(--ink); }
 
 .submit-form{
   display: grid;
   gap: 22px;
+  margin: clamp(40px, 6vw, 56px) 0;
+  padding-top: clamp(32px, 5vw, 44px);
+  border-top: 1px solid var(--rule);
+}
+.submit-form[hidden]{ display: none; }
+.submit-form h2{ margin: 0; }
+.prose.ethics{
+  padding-top: clamp(32px, 5vw, 44px);
+  border-top: 1px solid var(--rule);
 }
 .field label,
 .field .label{
@@ -980,7 +998,6 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 .field input[type="text"],
 .field input[type="email"],
-.field select,
 .field textarea{
   display: block;
   width: 100%;
@@ -994,7 +1011,6 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 .field textarea{ min-height: 130px; resize: vertical; }
 .field input:focus-visible,
-.field select:focus-visible,
 .field textarea:focus-visible{ outline: 2px solid var(--ink); outline-offset: 2px; }
 .field input[type="file"]{ font-family: var(--font-body); font-size: 14px; }
 .field .hint{ margin: 6px 0 0; font-size: 13px; color: var(--ink-faint); }

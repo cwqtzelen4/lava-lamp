@@ -24,6 +24,9 @@ module.exports = function (eleventyConfig) {
     return `${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}`;
   });
 
+  const md = require("markdown-it")({ html: false, linkify: true });
+  eleventyConfig.addFilter("markdown", (text) => (text ? md.render(text) : ""));
+
   eleventyConfig.addPassthroughCopy({ "src/favicon.jpg": "favicon.jpg" });
   eleventyConfig.addPassthroughCopy({ "src/styles.css": "styles.css" });
   eleventyConfig.addPassthroughCopy({ "src/nav.js": "nav.js" });

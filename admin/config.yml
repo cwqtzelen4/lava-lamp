@@ -94,6 +94,6 @@ collections:
         name: "submissions"
         file: "src/_data/submissions.json"
         fields:
-          - { label: "Intro text (top of page)", name: "intro", widget: "text" }
-          - { label: "Ethics guide blurb", name: "ethicsText", widget: "text" }
-          - { label: "Ethics guide PDF", name: "ethicsPdf", widget: "file", required: false }
+          - { label: "Text above the form (what we're looking for + submission guidelines)", name: "guidelines", widget: "markdown", editor_components: [] }
+          - { label: "Ethics guide PDF (download link under 'Ethics Guidelines', below the form)", name: "ethicsPdf", widget: "file", required: false }
+          - { label: "Ethics guidelines text (below the form)", name: "ethics", widget: "markdown", editor_components: [] }
