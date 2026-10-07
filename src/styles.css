@@ -972,7 +972,7 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .lava-blob{
   position: absolute;
   border-radius: 50%;
-  background: #ff86bc;
+  background: #65002e;
 }
 @media (min-width: 1000px){
   .submissions-body > .lava{ display: block; }

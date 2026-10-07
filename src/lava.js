@@ -3,7 +3,7 @@
   if (!lava) return;
 
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var colors = ['#ff86bc', '#ff9fcb', '#ffb9d9', '#ff68a9'];
+  var colors = ['#65002e', '#da0070', '#da0070', '#65002e'];
 
   // x% and y% of the zone, size px, freq, phase, travel-y px, travel-x px, colour
   var spec = [
