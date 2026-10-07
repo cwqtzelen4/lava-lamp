@@ -5,7 +5,7 @@ title: The Art of Being Nosey
 author: map-layout-layouts-author-njk-role-author-permalink-authors-martin-milevski-name-martin-milevski-bio-martin-milevski-is-a-senior-at-aubg
 date: 2026-10-07T13:34:00.000+03:00
 imageAspect: landscape
-image: /assets/uploads/untitled-design-1-.jpg
+image: /assets/uploads/untitled-design-2-.jpg
 ---
 Beauty standards have long promoted the ‘ideal’ nose through contouring and surgery. Many opt for that same look (evident enough on social media). If it brings people comfort, it is okay. However, this exhibition celebrates the “imperfections”: texture, pores, asymmetry - what distinguishes us. This exhibit shares stories about insecurities, family heritage, and self-acceptance - a close-up of one minor facial feature that carries much weight.
 
