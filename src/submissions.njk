@@ -12,28 +12,16 @@ title: Submissions
   <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
     <defs>
       <filter id="goo">
-        <feGaussianBlur in="SourceGraphic" stdDeviation="9" result="blur"/>
-        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -8"/>
+        <feGaussianBlur in="SourceGraphic" stdDeviation="11" result="blur"/>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 24 -10"/>
       </filter>
     </defs>
   </svg>
 
-  <div class="submissions-intro">
-    <div class="prose">
-      {{ submissions.guidelines | markdown | safe }}
-    </div>
+  <div class="lava" aria-hidden="true"></div>
 
-    <div class="lava" aria-hidden="true">
-      <span class="lava-blob" style="left:16%;top:11%;width:96px;height:96px" data-f="0.0055" data-p="0"   data-ay="16" data-ax="14"></span>
-      <span class="lava-blob pink" style="left:64%;top:19%;width:62px;height:62px" data-f="0.0072" data-p="1.3" data-ay="18" data-ax="18"></span>
-      <span class="lava-blob" style="left:36%;top:33%;width:118px;height:118px" data-f="0.0042" data-p="2.1" data-ay="14" data-ax="12"></span>
-      <span class="lava-blob" style="left:78%;top:44%;width:80px;height:80px" data-f="0.0063" data-p="4.0" data-ay="20" data-ax="16"></span>
-      <span class="lava-blob pink" style="left:22%;top:57%;width:68px;height:68px" data-f="0.0080" data-p="5.2" data-ay="17" data-ax="20"></span>
-      <span class="lava-blob" style="left:58%;top:66%;width:108px;height:108px" data-f="0.0048" data-p="0.7" data-ay="15" data-ax="14"></span>
-      <span class="lava-blob pink" style="left:84%;top:80%;width:58px;height:58px" data-f="0.0090" data-p="3.3" data-ay="19" data-ax="12"></span>
-      <span class="lava-blob" style="left:40%;top:88%;width:86px;height:86px" data-f="0.0058" data-p="2.9" data-ay="14" data-ax="18"></span>
-      <span class="lava-blob pink" style="left:70%;top:7%;width:48px;height:48px" data-f="0.0100" data-p="1.9" data-ay="12" data-ax="10"></span>
-    </div>
+  <div class="prose">
+    {{ submissions.guidelines | markdown | safe }}
   </div>
 
   <div id="submit-thanks" class="submit-thanks" hidden>

@@ -948,20 +948,22 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   padding-bottom: clamp(64px, 9vw, 100px);
 }
 .submissions-body > *{ max-width: 640px; }
-.submissions-body > .submissions-intro{ max-width: none; position: relative; }
-.submissions-intro > .prose{ max-width: 640px; }
+.submissions-body{ position: relative; }
 
-/* lava bubbles in the empty space beside the intro text */
-.lava{
+/* lava bubbles: fill the empty space to the right of the whole page */
+.submissions-body > .lava{
   display: none;
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 0;
-  width: calc(100% - 640px - 56px);
+  left: calc(var(--side-pad) + 640px + 56px);
+  right: var(--side-pad);
+  max-width: none;
   overflow: hidden;
   pointer-events: none;
   filter: url(#goo);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 5%, #000 95%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0, #000 5%, #000 95%, transparent 100%);
 }
 .lava-blob{
   position: absolute;
@@ -972,7 +974,8 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 .lava-blob.pink{ background: #e8176f; }
 @media (min-width: 1000px){
-  .lava{ display: block; }
+  .submissions-body > .lava{ display: block; }
+}
 }
 
 .prose h2,
