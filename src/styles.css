@@ -950,7 +950,7 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .submissions-body > *{ max-width: 640px; }
 .submissions-body{ position: relative; }
 
-/* lava lamp: one tall wax column with a few loose bubbles, beside the whole page */
+/* soft pink lava bubbles that merge and glide with the scroll, beside the whole page */
 .submissions-body > .lava{
   display: none;
   position: absolute;
@@ -961,8 +961,8 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   max-width: none;
   overflow: hidden;
   pointer-events: none;
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 2%, #000 98%, transparent 100%);
-  mask-image: linear-gradient(to bottom, transparent 0, #000 2%, #000 98%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 4%, #000 96%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0, #000 4%, #000 96%, transparent 100%);
 }
 .lava-goo{
   position: absolute;
@@ -974,12 +974,6 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   border-radius: 50%;
   background: #8a0f3e;
   transform: translate(-50%, -50%);
-  will-change: transform;
-}
-.lava-shine{
-  position: absolute;
-  background: #ff1a7e;
-  border-radius: 50%;
   will-change: transform;
 }
 @media (min-width: 1000px){
