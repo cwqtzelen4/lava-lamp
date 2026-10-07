@@ -67,11 +67,11 @@ title: Submissions
   <div class="prose ethics">
     <h2>Ethics Guidelines</h2>
     {% if submissions.ethicsPdf %}
-    <p><a href="{{ submissions.ethicsPdf }}" class="download-link"><span class="arrow">↓</span> Download the Ethics Guidelines (PDF)</a></p>
+    <p><a href="{{ submissions.ethicsPdf }}" class="download-link" target="_blank" rel="noopener"><span class="arrow">↓</span> Open or download the Ethics Guidelines (PDF)</a></p>
+    <iframe class="pdf-embed" src="{{ submissions.ethicsPdf }}" title="Lava Lamp Code of Ethics (PDF)"></iframe>
     {% else %}
     <p>The PDF version of the ethics guidelines is coming soon.</p>
     {% endif %}
-    {{ submissions.ethics | markdown | safe }}
   </div>
 </section>
 
