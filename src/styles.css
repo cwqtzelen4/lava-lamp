@@ -972,9 +972,7 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .lava-blob{
   position: absolute;
   border-radius: 50%;
-  background: #8a0f3e;
-  transform: translate(-50%, -50%);
-  will-change: transform;
+  background: #ff86bc;
 }
 @media (min-width: 1000px){
   .submissions-body > .lava{ display: block; }

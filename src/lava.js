@@ -3,7 +3,7 @@
   if (!lava) return;
 
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var colors = ['#f6a6c8', '#f08ab6', '#fac3da', '#ee7fae'];
+  var colors = ['#ff86bc', '#ff9fcb', '#ffb9d9', '#ff68a9'];
 
   // x% and y% of the zone, size px, freq, phase, travel-y px, travel-x px, colour
   var spec = [
@@ -34,15 +34,16 @@
     lava.appendChild(goo);
     var k = Math.max(0.6, Math.min(1, W / 520));
     blobs = spec.map(function (s) {
+      var d = s[2] * k * 1.18;
       var el = document.createElement('span');
       el.className = 'lava-blob';
       el.style.left = '0';
       el.style.top = '0';
-      el.style.width = '100px';
-      el.style.height = '100px';
+      el.style.width = d + 'px';
+      el.style.height = d + 'px';
       el.style.background = colors[s[7]];
       goo.appendChild(el);
-      return { el: el, x: s[0] / 100 * W, y: s[1] / 100 * H, d: s[2] * k * 1.18, f: s[3], p: s[4], ay: s[5] * k * 1.25, ax: s[6] * k * 1.2 };
+      return { el: el, x: s[0] / 100 * W, y: s[1] / 100 * H, d: d, f: s[3], p: s[4], ay: s[5] * k * 1.25, ax: s[6] * k * 1.2 };
     });
     pos = window.pageYOffset || 0;
     draw();
@@ -53,8 +54,8 @@
       var t = pos * b.f + b.p;
       var x = b.x + Math.cos(t * 0.7) * b.ax;
       var y = b.y + Math.sin(t) * b.ay;
-      var s = b.d / 100 * (1 + 0.06 * Math.sin(t * 1.3 + b.p));  // slow, gentle breathing
-      b.el.style.transform = 'translate(' + (x - 50).toFixed(1) + 'px,' + (y - 50).toFixed(1) + 'px) scale(' + s.toFixed(3) + ')';
+      var s = (1 + 0.06 * Math.sin(t * 1.3 + b.p));  // slow, gentle breathing
+      b.el.style.transform = 'translate(' + (x - b.d / 2).toFixed(1) + 'px,' + (y - b.d / 2).toFixed(1) + 'px) scale(' + s.toFixed(3) + ')';
     });
   }
 
