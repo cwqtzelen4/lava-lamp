@@ -1,6 +1,6 @@
 ---
 layout: layouts/author.njk
 permalink: /authors/lelya-katya/
-name: Lelya Katya
+name: Teodora Lazarevska
 bio: Bio coming soon.
 ---
