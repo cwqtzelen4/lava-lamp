@@ -1096,11 +1096,10 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 .submit-thanks p{ color: var(--ink-soft); margin: 0; }
 
-/* ---------- contact pop-up (footer "Contact") ---------- */
+/* ---------- contact pop-up (footer "Contact": opens Gmail or Outlook) ---------- */
 .contact-dialog{
-  width: min(480px, calc(100vw - 32px));
-  max-height: calc(100vh - 32px);
-  overflow-y: auto;
+  overflow: visible;
+  width: min(440px, calc(100vw - 32px));
   margin: auto;
   padding: clamp(24px, 5vw, 36px);
   color: var(--ink);
@@ -1115,8 +1114,10 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   font-size: 24px;
   margin: 0 0 10px;
 }
-.contact-intro{ margin: 0 0 22px; font-size: 15px; line-height: 1.6; color: var(--ink-soft); }
-.contact-form{ display: grid; gap: 18px; }
+.contact-intro{ margin: 0 0 24px; font-size: 15px; line-height: 1.6; color: var(--ink-soft); overflow-wrap: anywhere; }
+.contact-intro strong{ color: var(--ink); font-weight: 600; }
+.contact-choices{ display: grid; gap: 12px; }
+.contact-choice{ display: block; justify-self: stretch; text-align: center; }
 .contact-close{
   position: absolute;
   top: 10px;
@@ -1127,7 +1128,3 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   color: var(--ink-soft);
 }
 .contact-close:hover{ color: var(--ink); }
-.contact-status{ margin: 0; font-size: 14px; line-height: 1.5; color: var(--ink-soft); }
-.contact-status.is-error{ color: #a1123f; }
-.contact-status a{ text-decoration: underline; }
-.submit-btn[disabled]{ opacity: 0.6; cursor: wait; }
