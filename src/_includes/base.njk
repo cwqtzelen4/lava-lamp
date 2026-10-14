@@ -45,15 +45,10 @@
   </div>
 </footer>
 
-<dialog id="contact-dialog" class="contact-dialog" aria-labelledby="contact-title">
+<dialog id="contact-dialog" class="contact-dialog" aria-label="Contact us">
   <button type="button" class="contact-close" aria-label="Close">&times;</button>
-  <h2 id="contact-title">Contact us</h2>
-  <p class="contact-intro">Write to us at <strong>{{ site.contactEmail }}</strong>. Choose where you want to write your email:</p>
-  {%- set mailSubject = (site.nameLine1 + ' ' + site.nameLine2 + ' magazine') | urlencode %}
-  <div class="contact-choices">
-    <a class="submit-btn contact-choice" href="https://mail.google.com/mail/?view=cm&fs=1&to={{ site.contactEmail | urlencode }}&su={{ mailSubject }}" target="_blank" rel="noopener">Open in Gmail</a>
-    <a class="submit-btn contact-choice" href="https://outlook.office.com/mail/deeplink/compose?to={{ site.contactEmail | urlencode }}&subject={{ mailSubject }}" target="_blank" rel="noopener">Open in Outlook</a>
-  </div>
+  <p class="contact-intro">This is our email. Contact us anytime.</p>
+  <p class="contact-address">{{ site.contactEmail }}</p>
 </dialog>
 
 <script src="/nav.js"></script>

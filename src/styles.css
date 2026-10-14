@@ -1096,28 +1096,28 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 .submit-thanks p{ color: var(--ink-soft); margin: 0; }
 
-/* ---------- contact pop-up (footer "Contact": opens Gmail or Outlook) ---------- */
+/* ---------- contact pop-up (footer "Contact": shows our email address) ---------- */
 .contact-dialog{
   overflow: visible;
   width: min(440px, calc(100vw - 32px));
   margin: auto;
-  padding: clamp(24px, 5vw, 36px);
+  padding: clamp(28px, 5vw, 40px);
+  text-align: center;
   color: var(--ink);
   background: var(--bg);
   border: 1px solid var(--rule);
   border-radius: 2px;
 }
 .contact-dialog::backdrop{ background: rgba(20, 20, 20, 0.45); }
-.contact-dialog h2{
+.contact-intro{ margin: 0 0 14px; font-size: 16px; line-height: 1.5; color: var(--ink-soft); }
+.contact-address{
+  margin: 0;
   font-family: var(--font-display);
-  font-weight: 500;
-  font-size: 24px;
-  margin: 0 0 10px;
+  font-size: clamp(15px, 4.4vw, 21px);
+  color: var(--ink);
+  white-space: nowrap;
+  user-select: all;
 }
-.contact-intro{ margin: 0 0 24px; font-size: 15px; line-height: 1.6; color: var(--ink-soft); overflow-wrap: anywhere; }
-.contact-intro strong{ color: var(--ink); font-weight: 600; }
-.contact-choices{ display: grid; gap: 12px; }
-.contact-choice{ display: block; justify-self: stretch; text-align: center; }
 .contact-close{
   position: absolute;
   top: 10px;
