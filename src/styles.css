@@ -557,29 +557,56 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   margin-top: 10px;
 }
 
-.article-body .inline-float{
+/* small photos placed inside text (Floating Image in the CMS): story bodies and the Submissions text.
+   Longhand margins on purpose: shorthand would zero the other sides. */
+.article-body .inline-float,
+.prose .inline-float{
+  --float-w: 38%;
+  width: var(--float-w);
   margin-top: 6px;
-  margin-bottom: 6px;
+  margin-bottom: 14px;
 }
+.article-body .inline-float-small,
+.prose .inline-float-small{ --float-w: 24%; }
+.article-body .inline-float-large,
+.prose .inline-float-large{ --float-w: 56%; }
+.article-body .inline-float-full,
+.prose .inline-float-full{ --float-w: 100%; }
 .inline-float img{ display: block; width: 100%; }
-.inline-float figcaption{ font-size: 12px; }
-.article-body .inline-float-left{
+.inline-float figcaption{ font-size: 12px; margin-top: 6px; color: var(--ink-faint); }
+.article-body .inline-float-left,
+.prose .inline-float-left{
   float: left;
-  width: 38%;
+  margin-left: 0;
   margin-right: 24px;
 }
-.article-body .inline-float-right{
+.article-body .inline-float-right,
+.prose .inline-float-right{
   float: right;
-  width: 38%;
+  margin-right: 0;
   margin-left: 24px;
 }
+.article-body .inline-float-center,
+.prose .inline-float-center{
+  float: none;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.prose::after{ content: ""; display: block; clear: both; }
 @media (max-width: 560px){
-  .article-body .inline-float-left,
-  .article-body .inline-float-right{
+  .article-body .inline-float,
+  .prose .inline-float{
     float: none;
     width: 60%;
-    margin: 0 auto 20px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
+  .article-body .inline-float-full,
+  .prose .inline-float-full{ width: 100%; }
 }
 
 .two-up{

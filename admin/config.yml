@@ -94,5 +94,5 @@ collections:
         name: "submissions"
         file: "src/_data/submissions.json"
         fields:
-          - { label: "Text above the form (what we're looking for + submission guidelines)", name: "guidelines", widget: "markdown", editor_components: [] }
+          - { label: "Text above the form (what we're looking for + submission guidelines)", name: "guidelines", widget: "markdown", editor_components: ["floating-image"] }
           - { label: "Ethics guidelines PDF (shown and linked under 'Ethics Guidelines', below the form)", name: "ethicsPdf", widget: "file", required: false }

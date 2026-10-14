@@ -24,7 +24,8 @@ module.exports = function (eleventyConfig) {
     return `${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}`;
   });
 
-  const md = require("markdown-it")({ html: false, linkify: true });
+  // html: true so the CMS "Floating Image" figures render (only editors can write this text)
+  const md = require("markdown-it")({ html: true, linkify: true });
   eleventyConfig.addFilter("markdown", (text) => (text ? md.render(text) : ""));
 
   eleventyConfig.addPassthroughCopy({ "src/favicon.jpg": "favicon.jpg" });
