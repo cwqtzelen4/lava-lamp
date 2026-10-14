@@ -8,8 +8,21 @@
   "email": "bbs240@aubg.edu",
   "footerMeta": "An independent student magazine - American University in Bulgaria",
   "nav": [
-    { "label": "Submissions", "url": "/submissions/" },
-    { "label": "Print", "url": "/print/" },
-    { "label": "About", "url": "/about/" }
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "About",
+      "url": "/about/"
+    },
+    {
+      "label": "Submissions",
+      "url": "/submissions/"
+    },
+    {
+      "label": "Print",
+      "url": "/print/"
+    }
   ]
 }
