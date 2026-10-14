@@ -33,9 +33,8 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/author.njk" }
-      - { label: "Permalink", name: "permalink", widget: "string", pattern: ['^/authors/.*/$', "Must look like /authors/your-slug/"] }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Role (shown as their title on the site)", name: "role", widget: "select", options: ["Author", "Illustrator", "Photographer"], default: "Author", required: false }
+      - { label: "Role (shown as their title; also sets the page address: /authors/, /illustrators/ or /photographers/)", name: "role", widget: "select", options: ["Author", "Illustrator", "Photographer"], default: "Author", required: false }
       - { label: "Photo", name: "photo", widget: "image", required: false }
       - { label: "Short Bio (a few lines - major, interests, etc.)", name: "bio", widget: "text" }
 

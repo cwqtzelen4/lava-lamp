@@ -1,6 +1,5 @@
 ---
 layout: layouts/author.njk
-permalink: /authors/maria-pencheva/
 name: Maria Pencheva
 role: Illustrator
 photo: /assets/uploads/1790269995754-1-.jpg
