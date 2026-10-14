@@ -1095,3 +1095,39 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   margin: 0 0 8px;
 }
 .submit-thanks p{ color: var(--ink-soft); margin: 0; }
+
+/* ---------- contact pop-up (footer "Contact") ---------- */
+.contact-dialog{
+  width: min(480px, calc(100vw - 32px));
+  max-height: calc(100vh - 32px);
+  overflow-y: auto;
+  margin: auto;
+  padding: clamp(24px, 5vw, 36px);
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+}
+.contact-dialog::backdrop{ background: rgba(20, 20, 20, 0.45); }
+.contact-dialog h2{
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+.contact-intro{ margin: 0 0 22px; font-size: 15px; line-height: 1.6; color: var(--ink-soft); }
+.contact-form{ display: grid; gap: 18px; }
+.contact-close{
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  padding: 4px 8px;
+  font-size: 26px;
+  line-height: 1;
+  color: var(--ink-soft);
+}
+.contact-close:hover{ color: var(--ink); }
+.contact-status{ margin: 0; font-size: 14px; line-height: 1.5; color: var(--ink-soft); }
+.contact-status.is-error{ color: #a1123f; }
+.contact-status a{ text-decoration: underline; }
+.submit-btn[disabled]{ opacity: 0.6; cursor: wait; }

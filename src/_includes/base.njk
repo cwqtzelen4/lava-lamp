@@ -40,11 +40,37 @@
     <span class="foot-meta">{{ site.footerMeta }}</span>
     <div class="foot-links">
       <a href="/about/">About</a>
-      <a href="mailto:{{ site.email }}">Contact</a>
+      <a href="mailto:{{ site.contactEmail }}" class="contact-open">Contact</a>
     </div>
   </div>
 </footer>
 
+<dialog id="contact-dialog" class="contact-dialog" aria-labelledby="contact-title">
+  <button type="button" class="contact-close" aria-label="Close">&times;</button>
+  <h2 id="contact-title">Contact us</h2>
+  <p class="contact-intro">Write to {{ site.nameLine1 }} {{ site.nameLine2 }} here and your message goes straight to our inbox.</p>
+  <form id="contact-form" class="contact-form" action="https://formsubmit.co/{{ site.contactEmail }}" method="POST">
+    <input type="hidden" name="_subject" value="New message from the {{ site.nameLine1 }} {{ site.nameLine2 }} website">
+    <input type="hidden" name="_template" value="table">
+    <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <div class="field">
+      <label for="contact-name">Your name</label>
+      <input type="text" id="contact-name" name="name" required autocomplete="name">
+    </div>
+    <div class="field">
+      <label for="contact-email">Your email</label>
+      <input type="email" id="contact-email" name="email" required autocomplete="email">
+    </div>
+    <div class="field">
+      <label for="contact-message">Message</label>
+      <textarea id="contact-message" name="message" required></textarea>
+    </div>
+    <p class="contact-status" role="status" aria-live="polite" hidden></p>
+    <button type="submit" class="submit-btn">Send message</button>
+  </form>
+</dialog>
+
 <script src="/nav.js"></script>
+<script src="/contact.js" defer></script>
 </body>
 </html>

@@ -70,6 +70,7 @@ collections:
           - { label: "Header Statement Line 1", name: "statementLine1", widget: "string" }
           - { label: "Header Statement Line 2 (optional)", name: "statementLine2", widget: "string", required: false }
           - { label: "Contact Email", name: "email", widget: "string" }
+          - { label: "Contact pop-up email (messages sent from the Contact button in the footer arrive here)", name: "contactEmail", widget: "string" }
           - { label: "Footer Meta", name: "footerMeta", widget: "string" }
           - label: "Nav Links"
             name: "nav"
