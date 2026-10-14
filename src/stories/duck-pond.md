@@ -5,7 +5,7 @@ title: Bittersalty Memory
 author: bilyana-spasova
 date: 2026-08-09
 imageAspect: landscape
-image: /assets/uploads/sss.png
+image: /assets/uploads/mariam-cover-for-web-bittersweet.jpg
 ---
 <p><em>Mid-July, 4:50 a.m.
 
