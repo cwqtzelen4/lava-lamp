@@ -515,6 +515,8 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .article-head .byline strong{ color: var(--ink); }
 
 .article-hero{
+  /* same width as the article text, so the photo lines up with it */
+  max-width: var(--measure);
   margin-bottom: clamp(36px, 6vw, 64px);
 }
 .article-hero .ph,
