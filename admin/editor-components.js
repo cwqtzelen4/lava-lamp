@@ -31,6 +31,7 @@ CMS.registerEditorComponent({
     },
     { name: "caption", label: "Caption (optional)", widget: "string", required: false, default: "" },
     { name: "alt", label: "Alt text (for screen readers)", widget: "string", required: false, default: "" },
+    { name: "remove", label: "Delete this image (tick this box, then save: the image is removed from the article)", widget: "boolean", default: false },
   ],
   // also matches the older figures that had no size or caption
   pattern: /^<figure class="inline-float inline-float-(left|right|center)(?: inline-float-(small|medium|large|full))?">\n<img src="([^"]*)" alt="([^"]*)">(?:\n<figcaption>([^<]*)<\/figcaption>)?\n<\/figure>$/,
@@ -41,9 +42,11 @@ CMS.registerEditorComponent({
       image: match[3],
       alt: match[4].replace(/&quot;/g, '"'),
       caption: (match[5] || "").replace(/&quot;/g, '"'),
+      remove: false,
     };
   },
   toBlock: function (obj) {
+    if (obj.remove) return ""; // ticked "Delete this image": write nothing, so the image leaves the article
     var clean = function (s) {
       return (s || "").replace(/"/g, "&quot;").replace(/</g, "").replace(/>/g, "").replace(/\n/g, " ");
     };
@@ -54,6 +57,7 @@ CMS.registerEditorComponent({
     return html + "\n</figure>";
   },
   toPreview: function (obj) {
+    if (obj.remove) return "This image will be removed when you save";
     return "Image (" + obj.align + ", " + (obj.size || "medium") + "): " + obj.image;
   },
 });
