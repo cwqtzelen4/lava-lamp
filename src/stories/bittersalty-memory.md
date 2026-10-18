@@ -16,7 +16,7 @@ I am 17 years old, sleep deprived, hungry, and in love.
 
 I open the squeaky door of my cheap motel room and take in the salty breeze. My stomach shrinks into a tight ball. Maybe it is excitement, or maybe it is the result of my midnight snack, but the latter is unlikely. After all, bread slices sprinkled with pure sugar are a delicacy according to camp standards. Our bodies have adjusted to it.
 
-<figure class="inline-float inline-float-left inline-float-medium">
+<figure class="inline-float inline-float-left inline-float-small">
 <img src="/assets/uploads/salty-soul-bikini.png" alt="">
 </figure>
 
