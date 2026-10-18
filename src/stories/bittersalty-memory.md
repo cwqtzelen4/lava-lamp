@@ -15,7 +15,7 @@ I am 17 years old, sleep deprived, hungry, and in love.
 I open the squeaky door of my cheap motel room and take in the salty breeze. My stomach shrinks into a tight ball. Maybe it is excitement, or maybe it is the result of my midnight snack, but the latter is unlikely. After all, bread slices sprinkled with pure sugar are a delicacy according to camp standards. Our bodies have adjusted to it.
 
 <figure class="inline-float inline-float-left inline-float-small">
-<img src="/assets/uploads/salty-soul-flip-flops.png" alt="">
+<img src="/assets/uploads/salty-soul-bikini.png" alt="">
 </figure>
 
 As I walk past the swimming pool, I see my friends’ devoid of color faces appearing from the balconies above me. They grab their wet swimsuits from the clothesline, take a sip of a suspicious green liquid (I am telling you, stomachs built from lead), and come down the stairs with a duck-like gait. We gather at the basketball court, waiting for the rest like huddling penguins.
@@ -32,8 +32,8 @@ The boys’ voices got deeper, the girls learned how to use tampons, the boys le
 
 “Ten minutes till sunrise, run!” someone yells.
 
-<figure class="inline-float inline-float-right inline-float-medium">
-<img src="/assets/uploads/salty-soul-bikini.png" alt="">
+<figure class="inline-float inline-float-right inline-float-small">
+<img src="/assets/uploads/salty-soul-flip-flops.png" alt="">
 </figure>
 
 We race down the empty street to the beach. A sudden wave of energy possesses our small group. I put all my trust into my flip-flops to keep me from tripping. When we get to the beach, the tip of the sun is already showing. Clothes off. Splash.
