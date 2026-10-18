@@ -3,6 +3,7 @@ layout: layouts/article.njk
 permalink: /stories/bittersalty-memory/
 title: Bittersalty Memory
 author: bilyana-spasova
+illustrator: map-layout-layouts-author-njk-role-illustrator-name-mariam-melikishvili-photo-assets-uploads-pic-png-bio-mariam-is-a-jmc-major
 date: 2026-10-18T23:17:00.000+03:00
 imageAspect: landscape
 image: /assets/uploads/3copy.jpeg
@@ -15,7 +16,7 @@ I am 17 years old, sleep deprived, hungry, and in love.
 
 I open the squeaky door of my cheap motel room and take in the salty breeze. My stomach shrinks into a tight ball. Maybe it is excitement, or maybe it is the result of my midnight snack, but the latter is unlikely. After all, bread slices sprinkled with pure sugar are a delicacy according to camp standards. Our bodies have adjusted to it.
 
-<figure class="inline-float inline-float-left inline-float-small">
+<figure class="inline-float inline-float-left inline-float-medium">
 <img src="/assets/uploads/salty-soul-bikini.png" alt="">
 </figure>
 
@@ -48,8 +49,6 @@ This morning, in the water, I smile so much that my face hurts. I am content wit
 <figure class="inline-float inline-float-left inline-float-medium">
 <img src="/assets/uploads/salty-soul-floating.png" alt="">
 </figure>
-
-
 
 I do not know about sound, but time definitely moves faster in water. Before realizing it, we are sitting at the beach, wrapped in towels like burritos. We listen to the waves hitting the sand in perfect symphony with our growling stomachs. Someone suggests we go for banitsa, the last part of the ritual. Two by two, people wipe off the wet sand from their legs and head towards the banicharnitsa.
 
