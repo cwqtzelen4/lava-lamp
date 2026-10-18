@@ -24,20 +24,32 @@ layout: base.njk
 {{ content | safe }}
 </article>
 
-{% if authorRec %}
+{#- credits under the text: writer first, then illustrator, then photographer -#}
+{%- set illustratorRec = illustrator | findAuthor(collections.authors) -%}
+{%- set photographerRec = photographer | findAuthor(collections.authors) -%}
+{%- set credits = [] -%}
+{%- if authorRec %}{% set _a = credits.push({ label: "Written by", rec: authorRec }) %}{% endif -%}
+{%- if illustratorRec %}{% set _i = credits.push({ label: "Illustrated by", rec: illustratorRec }) %}{% endif -%}
+{%- if photographerRec %}{% set _p = credits.push({ label: "Photographed by", rec: photographerRec }) %}{% endif -%}
+{% if credits.length %}
 <section class="author-card wrap">
-  <a href="{{ authorRec.url }}" class="author-card-photo">
-    {% if authorRec.data.photo %}
-    <div class="ph-image square"><img src="{{ authorRec.data.photo }}" alt=""></div>
-    {% else %}
-    <div class="ph square"><span>Author photo</span></div>
-    {% endif %}
-  </a>
-  <div>
-    {%- set roleLabels = { "Author": "Written by", "Illustrator": "Illustrated by", "Photographer": "Photographed by" } %}
-    <p class="eyebrow">{{ roleLabels[authorRec.data.role] or "Written by" }}</p>
-    <h3><a href="{{ authorRec.url }}">{{ authorRec.data.name }}</a></h3>
-    <p>{{ authorRec.data.bio }}</p>
+  <div class="author-card-inner">
+    {%- for credit in credits %}
+    <div class="author-card-row">
+      <a href="{{ credit.rec.url }}" class="author-card-photo">
+        {% if credit.rec.data.photo %}
+        <div class="ph-image square"><img src="{{ credit.rec.data.photo }}" alt=""></div>
+        {% else %}
+        <div class="ph square"><span>Photo</span></div>
+        {% endif %}
+      </a>
+      <div>
+        <p class="eyebrow">{{ credit.label }}</p>
+        <h3><a href="{{ credit.rec.url }}">{{ credit.rec.data.name }}</a></h3>
+        <p>{{ credit.rec.data.bio }}</p>
+      </div>
+    </div>
+    {%- endfor %}
   </div>
 </section>
 {% endif %}

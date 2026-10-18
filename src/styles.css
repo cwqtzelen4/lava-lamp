@@ -532,6 +532,7 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   max-width: var(--measure);
   margin: 0 auto;
   padding-bottom: clamp(64px, 8vw, 100px);
+  display: flow-root; /* contains floated photos so the credits below never wrap around them */
 }
 .article-body > .bleed{
   width: 100vw;
@@ -669,15 +670,22 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 
 /* ---------- author card, bottom of article ---------- */
 .author-card{
+  /* same column as the article text, so the credits line up with its left edge */
+  max-width: var(--measure);
+  padding-bottom: clamp(48px, 7vw, 80px);
+  margin-top: clamp(24px, 4vw, 40px);
+}
+.author-card-inner{
+  padding-top: clamp(32px, 5vw, 48px);
+  border-top: 1px solid var(--rule);
+}
+.author-card-row{
   display: grid;
   grid-template-columns: 96px 1fr;
   gap: 24px;
   align-items: center;
-  padding-top: clamp(32px, 5vw, 48px);
-  padding-bottom: clamp(48px, 7vw, 80px);
-  border-top: 1px solid var(--rule);
-  margin-top: clamp(24px, 4vw, 40px);
 }
+.author-card-row + .author-card-row{ margin-top: 28px; }
 .author-card .ph,
 .author-card .ph-image{ width: 96px; }
 .author-card .eyebrow{ margin-bottom: 2px; }
@@ -689,7 +697,7 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 .author-card p{ color: var(--ink-soft); font-size: 14px; margin: 0; max-width: 50ch; }
 @media (max-width: 480px){
-  .author-card{ grid-template-columns: 72px 1fr; gap: 16px; }
+  .author-card-row{ grid-template-columns: 72px 1fr; gap: 16px; }
   .author-card .ph, .author-card .ph-image{ width: 72px; }
 }
 

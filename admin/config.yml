@@ -20,6 +20,8 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Deck", name: "deck", widget: "text", required: false }
       - { label: "Author", name: "author", widget: "relation", collection: "authors", search_fields: ["name"], display_fields: ["name"], value_field: "{{slug}}" }
+      - { label: "Illustrator (optional)", name: "illustrator", widget: "relation", collection: "authors", search_fields: ["name"], display_fields: ["name"], value_field: "{{slug}}", required: false }
+      - { label: "Photographer (optional)", name: "photographer", widget: "relation", collection: "authors", search_fields: ["name"], display_fields: ["name"], value_field: "{{slug}}", required: false }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Image Aspect", name: "imageAspect", widget: "select", options: ["landscape", "portrait", "square", "wide"], default: "landscape" }
       - { label: "Hero Image", name: "image", widget: "image", required: false }
