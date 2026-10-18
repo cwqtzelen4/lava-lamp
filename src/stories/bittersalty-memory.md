@@ -20,13 +20,21 @@ I open the squeaky door of my cheap motel room and take in the salty breeze. My 
 
 As I walk past the swimming pool, I see my friends’ devoid of color faces appearing from the balconies above me. They grab their wet swimsuits from the clothesline, take a sip of a suspicious green liquid (I am telling you, stomachs built from lead), and come down the stairs with a duck-like gait. We gather at the basketball court, waiting for the rest like huddling penguins.
 
-![]()
+The first time we decided to watch the sunrise was six years ago. Most of us had not even seen a real sunrise at 
 
-The first time we decided to watch the sunrise was six years ago. Most of us had not even seen a real sunrise at that point. Since then, on every second morning of summer camp, the same people go to the same beach to yawn uncontrollably and enjoy a morning swim. The importance of this ritual grew each year. And so did we.
+<figure class="inline-float inline-float-right inline-float-small">
+<img src="/assets/uploads/salty-soul-conch-shell.png" alt="">
+</figure>
+
+that point. Since then, on every second morning of summer camp, the same people go to the same beach to yawn uncontrollably and enjoy a morning swim. The importance of this ritual grew each year. And so did we.
 
 The boys’ voices got deeper, the girls learned how to use tampons, the boys learned there are such things as tampons. We experienced the whole teenage package — fights with parents, first crushes, disappointments and heartbreaks, deadly alcohol combinations, and lots of dreaming. We grew up together; we belonged to each other. The ritual became a testimony of that.
 
 “Ten minutes till sunrise, run!” someone yells.
+
+<figure class="inline-float inline-float-right inline-float-medium">
+<img src="/assets/uploads/salty-soul-bikini.png" alt="">
+</figure>
 
 We race down the empty street to the beach. A sudden wave of energy possesses our small group. I put all my trust into my flip-flops to keep me from tripping. When we get to the beach, the tip of the sun is already showing. Clothes off. Splash.
 
