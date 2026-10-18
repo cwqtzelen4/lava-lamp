@@ -20,13 +20,7 @@ I open the squeaky door of my cheap motel room and take in the salty breeze. My 
 
 As I walk past the swimming pool, I see my friends’ devoid of color faces appearing from the balconies above me. They grab their wet swimsuits from the clothesline, take a sip of a suspicious green liquid (I am telling you, stomachs built from lead), and come down the stairs with a duck-like gait. We gather at the basketball court, waiting for the rest like huddling penguins.
 
-The first time we decided to watch the sunrise was six years ago. Most of us had not even seen a real sunrise at 
-
-<figure class="inline-float inline-float-right inline-float-small">
-<img src="/assets/uploads/salty-soul-conch-shell.png" alt="">
-</figure>
-
-that point. Since then, on every second morning of summer camp, the same people go to the same beach to yawn uncontrollably and enjoy a morning swim. The importance of this ritual grew each year. And so did we.
+The first time we decided to watch the sunrise was six years ago. Most of us had not even seen a real sunrise at that point. Since then, on every second morning of summer camp, the same people go to the same beach to yawn uncontrollably and enjoy a morning swim. The importance of this ritual grew each year. And so did we.
 
 The boys’ voices got deeper, the girls learned how to use tampons, the boys learned there are such things as tampons. We experienced the whole teenage package — fights with parents, first crushes, disappointments and heartbreaks, deadly alcohol combinations, and lots of dreaming. We grew up together; we belonged to each other. The ritual became a testimony of that.
 
@@ -46,6 +40,12 @@ In a month, he would leave for university. I would get all sad and doubtful, and
 
 This morning, in the water, I smile so much that my face hurts. I am content with everything I have, but still radiate with enthusiasm for everything that is yet to come. I am surrounded by my childhood friends, whom I love and care about, but I focus on one in particular. My heart is full of little wonderings and questions, but does not need immediate answers. My dreams are as big and wild as five-meter waves amidst a storm, but I? I am a skillful surfer enjoying the ride.
 
+<figure class="inline-float inline-float-center inline-float-medium">
+<img src="/assets/uploads/salty-soul-floating.png" alt="">
+</figure>
+
+
+
 I do not know about sound, but time definitely moves faster in water. Before realizing it, we are sitting at the beach, wrapped in towels like burritos. We listen to the waves hitting the sand in perfect symphony with our growling stomachs. Someone suggests we go for banitsa, the last part of the ritual. Two by two, people wipe off the wet sand from their legs and head towards the banicharnitsa.
 
 Suddenly, I get sad. If not slightly panicked. Are we going already? I close my eyes and try to memorize the smell of seaweed and the sound of seagulls. I want to store them somewhere safe in my mental hardware so I can re-live the moment. I focus intensely on one rock. It might be an important detail I would want to go back to.
@@ -61,3 +61,7 @@ I keep dreaming, albeit more modestly, I have people to depend on, even if they 
 By now, I have replayed that morning so many times in my head that it has become nothing more than a memory of some magical feeling.
 
 Will I ever feel the same way?
+
+<figure class="inline-float inline-float-left inline-float-medium">
+<img src="/assets/uploads/salty-soul-note.png" alt="">
+</figure>
