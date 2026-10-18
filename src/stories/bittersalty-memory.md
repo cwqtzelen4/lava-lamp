@@ -5,6 +5,7 @@ title: Bittersalty Memory
 author: bilyana-spasova
 date: 2026-10-18T23:17:00.000+03:00
 imageAspect: landscape
+image: /assets/uploads/3copy.jpeg
 ---
 Mid-July, 4:50 a.m.
 
@@ -36,11 +37,15 @@ I dive into the warm morning water; my heartbeat slows down. After a long year o
 
 I see my person, yes, my person, swimming towards me. He has always been a part of the group, and yet, to my heart, he is someone new and exciting. Three hours earlier, before coming to the beach, we were sitting next to each other on my rickety bed, talking with our backs to the wall. I don’t remember the conversation, just that I felt vulnerable and safe at the same time. As he was getting closer to me, I remember thinking, Is it normal to be this happy?
 
+<figure class="inline-float inline-float-right inline-float-small">
+<img src="/assets/uploads/salty-soul-conch-shell.png" alt="">
+</figure>
+
 In a month, he would leave for university. I would get all sad and doubtful, and be suspicious of our future together. Not now, though.
 
 This morning, in the water, I smile so much that my face hurts. I am content with everything I have, but still radiate with enthusiasm for everything that is yet to come. I am surrounded by my childhood friends, whom I love and care about, but I focus on one in particular. My heart is full of little wonderings and questions, but does not need immediate answers. My dreams are as big and wild as five-meter waves amidst a storm, but I? I am a skillful surfer enjoying the ride.
 
-<figure class="inline-float inline-float-center inline-float-medium">
+<figure class="inline-float inline-float-left inline-float-medium">
 <img src="/assets/uploads/salty-soul-floating.png" alt="">
 </figure>
 
