@@ -75,8 +75,7 @@ collections:
           - { label: "Logo", name: "logo", widget: "image" }
           - { label: "Header Statement Line 1", name: "statementLine1", widget: "string" }
           - { label: "Header Statement Line 2 (optional)", name: "statementLine2", widget: "string", required: false }
-          - { label: "Contact Email", name: "email", widget: "string" }
-          - { label: "Contact email (shown in the footer Contact pop-up)", name: "contactEmail", widget: "string" }
+          - { label: "Email address (submissions arrive here, and it is shown in the footer Contact pop-up)", name: "email", widget: "string" }
           - { label: "Footer Meta", name: "footerMeta", widget: "string" }
           - label: "Nav Links"
             name: "nav"

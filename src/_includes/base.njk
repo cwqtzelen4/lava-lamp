@@ -40,7 +40,7 @@
     <span class="foot-meta">{{ site.footerMeta }}</span>
     <div class="foot-links">
       <a href="/about/">About</a>
-      <a href="mailto:{{ site.contactEmail }}" class="contact-open">Contact</a>
+      <a href="mailto:{{ site.email }}" class="contact-open">Contact</a>
     </div>
   </div>
 </footer>
@@ -48,7 +48,7 @@
 <dialog id="contact-dialog" class="contact-dialog" aria-label="Contact us">
   <button type="button" class="contact-close" aria-label="Close">&times;</button>
   <p class="contact-intro">This is our email. Contact us anytime.</p>
-  <p class="contact-address">{{ site.contactEmail }}</p>
+  <p class="contact-address">{{ site.email }}</p>
 </dialog>
 
 <script src="/nav.js"></script>
