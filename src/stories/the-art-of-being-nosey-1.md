@@ -6,6 +6,7 @@ author: map-layout-layouts-author-njk-role-author-permalink-authors-martin-milev
 date: 2026-10-19T19:33:00.000+03:00
 imageAspect: landscape
 image: /assets/uploads/cover-1.png
+showTopImage: true
 ---
 <figure class="inline-float inline-float-center inline-float-full">
 <img src="/assets/uploads/1-freddie.png" alt="">
