@@ -1108,6 +1108,16 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .submit-btn:hover{ background: var(--ink-soft); }
 
 .hp{ position: absolute; left: -9999px; }
+.submit-error{
+  margin: 28px 0 0;
+  padding: 14px 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #8a1236;
+  background: #fbeef1;
+  border: 1px solid #e9c3cd;
+}
+.submit-error[hidden]{ display: none; }
 
 .submit-thanks h2{
   font-family: var(--font-display);

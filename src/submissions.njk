@@ -29,7 +29,9 @@ title: Submissions
     <p>Your submission is in. We read everything, and we'll be in touch.</p>
   </div>
 
-  <form class="submit-form" action="https://formsubmit.co/{{ site.email }}" method="POST" enctype="multipart/form-data">
+  <p id="submit-error" class="submit-error" role="alert" data-email="{{ site.email }}" hidden></p>
+
+  <form class="submit-form" action="{{ site.submitUrl or ('https://formsubmit.co/' + site.email) }}" method="POST" enctype="multipart/form-data">
     <h2>Submit your piece</h2>
 
     <input type="hidden" name="_subject" value="New {{ site.nameLine1 }} {{ site.nameLine2 }} submission">
@@ -59,7 +61,7 @@ title: Submissions
     <div class="field">
       <label for="sub-file">Your piece</label>
       <input type="file" id="sub-file" name="attachment" required accept=".doc,.docx,.pdf,.rtf,.txt,.odt">
-      <p class="hint">Word or PDF. Trouble uploading? Email it to {{ site.email }} instead.</p>
+      <p class="hint">Word, PDF, RTF, TXT or ODT, up to 15 MB. Trouble uploading? Email it to {{ site.email }} instead.</p>
     </div>
 
     <div class="field">

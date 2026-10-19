@@ -1,0 +1,10 @@
+name = "lava-lamp-submissions"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+# Lets this Worker email the magazine inbox. The destination address must be
+# verified in Cloudflare: dashboard > lavalampmagazine.com > Email > Email Routing.
+[[send_email]]
+name = "SUBMISSIONS_MAIL"
+destination_address = "lavalampmagazine@gmail.com"
