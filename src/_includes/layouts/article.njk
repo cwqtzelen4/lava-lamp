@@ -46,7 +46,7 @@ layout: base.njk
       <div>
         <p class="eyebrow">{{ credit.label }}</p>
         <h3><a href="{{ credit.rec.url }}">{{ credit.rec.data.name }}</a></h3>
-        <p>{{ credit.rec.data.bio }}</p>
+        <p>{{ credit.rec.data.bio | firstWords(7) }}</p>
       </div>
     </div>
     {%- endfor %}

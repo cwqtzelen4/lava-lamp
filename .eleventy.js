@@ -84,6 +84,13 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => a.data.name.localeCompare(b.data.name));
   });
 
+  // first few words of a longer text, then "..." (used for the short bio under articles)
+  eleventyConfig.addFilter("firstWords", (text, count = 7) => {
+    const words = String(text || "").trim().split(/\s+/).filter(Boolean);
+    if (words.length <= count) return words.join(" ");
+    return words.slice(0, count).join(" ").replace(/[,;:.\-–—]+$/, "") + "...";
+  });
+
   eleventyConfig.addFilter("findAuthor", (slug, authors) => {
     if (!slug || !authors) return null;
     return authors.find((a) => a.fileSlug === slug) || null;
