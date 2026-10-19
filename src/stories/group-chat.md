@@ -7,6 +7,7 @@ author: valentina-velikova
 date: 2026-08-14
 imageAspect: portrait
 image: /assets/uploads/screenshot-2026-09-03-172701.png
+showTopImage: true
 ---
 <p><em>My grandma puts her heart into growing her tomatoes.
 

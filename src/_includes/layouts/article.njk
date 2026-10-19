@@ -13,7 +13,7 @@ layout: base.njk
 
 {#- the picture above the text is separate from the cover image used in galleries: it can be switched off or replaced -#}
 {%- set topPicture = topImage or image -%}
-{% if showTopImage !== false and topPicture %}
+{% if showTopImage and topPicture %}
 <figure class="article-hero wrap">
   <div class="ph-image wide"><img src="{{ topPicture }}" alt=""></div>
   {% if imageCaption %}<figcaption>{{ imageCaption }}</figcaption>{% endif %}

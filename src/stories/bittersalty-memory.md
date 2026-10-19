@@ -7,6 +7,7 @@ illustrator: map-layout-layouts-author-njk-role-illustrator-name-mariam-melikish
 date: 2026-10-18T23:17:00.000+03:00
 imageAspect: landscape
 image: /assets/uploads/3copy.jpeg
+showTopImage: true
 ---
 Mid-July, 4:50 a.m.
 
