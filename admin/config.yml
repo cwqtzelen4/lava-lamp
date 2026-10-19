@@ -40,7 +40,8 @@ collections:
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Role (shown as their title; also sets the page address: /authors/, /illustrators/ or /photographers/)", name: "role", widget: "select", options: ["Author", "Illustrator", "Photographer"], default: "Author", required: false }
       - { label: "Photo", name: "photo", widget: "image", required: false }
-      - { label: "Short Bio (a few lines - major, interests, etc.)", name: "bio", widget: "text" }
+      - { label: "Short bio (one line, shown under the articles - e.g. JMC major who loves hiking)", name: "shortBio", widget: "string", required: false }
+      - { label: "Long bio (shown on the person's own profile page - major, interests, anything you like)", name: "bio", widget: "text" }
 
   - name: "issues"
     label: "Print Issues"
