@@ -10,7 +10,9 @@ imageAspect: landscape
 <img src="/assets/uploads/1-freddie.png" alt="">
 </figure>
 
-Federico's Story <https://on.soundcloud.com/5ZllIAuhjH2Wy55A04>
+Federico's Story 
+
+*<https://on.soundcloud.com/5ZllIAuhjH2Wy55A04>*
 
 
 
@@ -18,7 +20,9 @@ Federico's Story <https://on.soundcloud.com/5ZllIAuhjH2Wy55A04>
 <img src="/assets/uploads/3-tya.png" alt="">
 </figure>
 
-Tya's Story <https://on.soundcloud.com/cxd8jfud3zQC8pd5Df?utm_source=chatgpt.com>
+Tya's Story
+
+*<https://on.soundcloud.com/cxd8jfud3zQC8pd5Df?utm_source=chatgpt.com>*
 
 
 
@@ -26,7 +30,9 @@ Tya's Story <https://on.soundcloud.com/cxd8jfud3zQC8pd5Df?utm_source=chatgpt.com
 <img src="/assets/uploads/4-gulia.png" alt="">
 </figure>
 
-Gulia's Story <https://on.soundcloud.com/ErpZKgiUzfqNIYDgpL>
+Gulia's Story 
+
+*<https://on.soundcloud.com/ErpZKgiUzfqNIYDgpL>*
 
 
 
@@ -34,12 +40,16 @@ Gulia's Story <https://on.soundcloud.com/ErpZKgiUzfqNIYDgpL>
 <img src="/assets/uploads/2-ravi.png" alt="">
 </figure>
 
-Ravi's Story https://on.soundcloud.com/l285YEOHJMb9hj9bm1
+Ravi's Story 
+
+*https://on.soundcloud.com/l285YEOHJMb9hj9bm1*
 
 
 
-<figure class="inline-float inline-float-left inline-float-medium">
+<figure class="inline-float inline-float-center inline-float-full">
 <img src="/assets/uploads/5-rose.png" alt="">
 </figure>
 
-Roos's Story <https://on.soundcloud.com/qkT0vgRB6QLzw8lJ>
+Roos's Story
+
+*<https://on.soundcloud.com/qkT0vgRB6QLzw8lJ>*
