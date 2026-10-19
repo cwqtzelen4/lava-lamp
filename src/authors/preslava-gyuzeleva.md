@@ -2,7 +2,8 @@
 layout: layouts/author.njk
 name: Preslava Gyuzeleva
 role: Author
-photo: /assets/uploads/img-20250601-wa0018.jpg
+photo: /assets/uploads/presi.jpg
+shortBio: Preslava is an AUBG student.
 bio: >
   Preslava Gyuzeleva is a Literature and Journalism student, who loves poetry,
   music and the visual arts. She dreams of becoming a literary critic and is

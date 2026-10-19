@@ -35,6 +35,7 @@ collections:
     folder: "src/authors"
     create: true
     slug: "{{slug}}"
+    identifier_field: name
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/author.njk" }
       - { label: "Name", name: "name", widget: "string" }
