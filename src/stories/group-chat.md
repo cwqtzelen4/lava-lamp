@@ -11,43 +11,35 @@ showTopImage: true
 ---
 My grandma puts her heart into growing her tomatoes.
 
-When spring comes, she takes out last year’s seeds, sundriedon pieces of newspaper, and plants them in old yoghurt cups. Then, in April,she inserts them into the lines of the hard limestone soil. By the time I wouldgo to Kavarna at the start of my summer break, they would have grown as tall asmyself, heavy with little green fruits. I would watch these fruits grow,filling up with water, reddening, painted by the rays of the summer sun. Mydays would pass, waiting impatiently for the time when my grandma would give methe first tomato washed with ice-cold water, ripe as a childhood, sweet assummer freedom. I would dig my teeth into the flesh of the heart-shaped fruit,the juice running down my chin, onto the newly washed shirt.
+When spring comes, she takes out last year’s seeds, sundried on pieces of newspaper, and plants them in old yoghurt cups. Then, in April,she inserts them into the lines of the hard limestone soil. By the time I would go to Kavarna at the start of my summer break, they would have grown as tall as myself, heavy with little green fruits. I would watch these fruits grow, filling up with water, reddening, painted by the rays of the summer sun. My days would pass, waiting impatiently for the time when my grandma would give me the first tomato washed with ice-cold water, ripe as a childhood, sweet as summer freedom. I would dig my teeth into the flesh of the heart-shaped fruit,the juice running down my chin, onto the newly washed shirt.
 
-“This type is called buffalo heart,” my grandma would say,“the best type for a salad, the sweetest.”
+“This type is called buffalo heart,” my grandma would say, “the best type for a salad, the sweetest.”
 
-I’ve never seen her eating her tomatoes. She said they giveher a stomachache.
+I’ve never seen her eating her tomatoes. She said they give her a stomachache.
 
-My grandma is a tiny woman. Sometimes I would lose herfigure among the tomato plants, which would be as tall as the sky by August.There was always something to be done — watering soil, cracked and thirsty,putting up poles to support the plants, tying them with string. The more I grewup, the more I realized that behind her devotion to her tomatoes lay a deeplyrooted sense of reconciliation.
+My grandma is a tiny woman. Sometimes I would lose her figure among the tomato plants, which would be as tall as the sky by August. There was always something to be done — watering soil, cracked and thirsty, putting up poles to support the plants, tying them with string. The more I grew up, the more I realized that behind her devotion to her tomatoes lay a deeply rooted sense of reconciliation.
 
-She was born in Gotse Delchev, a city in the southwest ofBulgaria. The fifth of eight children, and among the few to have a highereducation. She was a high school teacher. Maybe that’s the reason we’d spendhours playing our favorite game, a student and a teacher. I would take her oldatlas, and teach her for hours, pretending I knew everything and she —pretending that she knew nothing. She had just finished her studies when shemet my granddad, who was part of the border military. She would move with himaround Bulgaria, when they finally settled in his hometown, Kavarna, a smallport city on the Northern Black Sea coast. My freedom island and my grandma’sport.
+She was born in Gotse Delchev, a city in the southwest of Bulgaria. The fifth of eight children, and among the few to have a higher education. She was a high school teacher. Maybe that’s the reason we’d spendhours playing our favorite game, a student and a teacher. I would take her old atlas, and teach her for hours, pretending I knew everything and she —pretending that she knew nothing. She had just finished her studies when she met my granddad, who was part of the border military. She would move with him around Bulgaria, when they finally settled in his hometown, Kavarna, a small port city on the Northern Black Sea coast. My freedom island and my grandma’s port.
 
-I wouldn’t pay much attention to her remarks when I went outto play with my friends.
+I wouldn’t pay much attention to her remarks when I went out to play with my friends.
 
 “Be careful. We’re foreigners here.”
 
-When I grew older, I’d start questioning those warnings. Iknew the whole town, and everybody knew me. I would spend days playing outside,growing up on the street, and at the sea. I knew every face, every hiddenplace, every passage. How come we are the foreigners here? The seed ofalienation and fear towards the world was planted in me, the seed ofgenerational uncertainty growing persistently in the souls of many women in myfamily. The world is dangerous. How much can you trust the world you think youknow? Where should you let your roots grow, if you should at all?
+When I grew older, I’d start questioning those warnings. I knew the whole town, and everybody knew me. I would spend days playing outside,growing up on the street, and at the sea. I knew every face, every hidden place, every passage. How come we are the foreigners here? The seed of alienation and fear towards the world was planted in me, the seed of generational uncertainty growing persistently in the souls of many women in my family. The world is dangerous. How much can you trust the world you think you know? Where should you let your roots grow, if you should at all?
 
-Her garden was her whole world, hundreds of buffalo tomatohearts beating under the sun.
+Her garden was her whole world, hundreds of buffalo tomato hearts beating under the sun.
 
-The hearts of the thousands of Bulgarian women from hergeneration. Hearts sweet and full of love, but deeply rooted in the soil ofsocial expectations. Expectations to marry, to nurture the soil of the family,to bear the seeds of the children, to never cross the fences of their knownworld. Buffalo women with buffalo hearts, pulling the plows of time.
+The hearts of the thousands of Bulgarian women from her generation. Hearts sweet and full of love, but deeply rooted in the soil of social expectations. Expectations to marry, to nurture the soil of the family, to bear the seeds of the children, to never cross the fences of their known world. Buffalo women with buffalo hearts, pulling the plows of time.
 
-I left Bulgaria when I was eighteen to finish high school inItaly.
+I left Bulgaria when I was eighteen to finish high school in Italy.
 
-“Alone!?,” I could hear the terror in her voice when I toldher the news.
+“Alone!?,” I could hear the terror in her voice when I told her the news.
 
-Get Valentina Velikova’s storiesin your inbox
+Without any roots holding me back, calming my poor buffalo heart full of fear and rage, I left. I didn’t want to live behind the fences of my own garden; I wanted to plant the seeds of my own understanding, to pick up the fruits of curiosity and discovery, no matter how bitter or sweet they were.
 
-Join Medium for free to get updatesfrom this writer.
+Time passed, I was growing up, she was growing old. We didn’t play teacher and student anymore. We would play hide-and-seek with time.
 
-Subscribe
-
-Remember me for faster sign in
-
-Without any roots holding me back, calming my poor buffaloheart full of fear and rage, I left. I didn’t want to live behind the fences ofmy own garden; I wanted to plant the seeds of my own understanding, to pick upthe fruits of curiosity and discovery, no matter how bitter or sweet they were.
-
-Time passed, I was growing up, she was growing old. Wedidn’t play teacher and student anymore. We would play hide-and-seek with time.
-
-“So when am I going to see your…boy?” She always struggledto find the correct word. There was no such thing as a boyfriend or agirlfriend in her world. Only a husband.
+“So when am I going to see your…boy?” She always struggled to find the correct word. There was no such thing as a boyfriend or a girlfriend in her world. Only a husband.
 
 “When I have a boy, I will bring him.”
 
@@ -59,21 +51,18 @@ Time passed, I was growing up, she was growing old. Wedidn’t play teacher and 
 
 I was twenty that summer. Just finished high school.
 
-After I graduated, I didn’t tell her about my decision tobecome a flight attendant and my plans to apply to pilot school. Only later didmy mother tell me what grandma told her.
+After I graduated, I didn’t tell her about my decision tobecome a flight attendant and my plans to apply to pilot school. Only later did my mother tell me what grandma told her.
 
 “Don’t let her do it! It’s dangerous; this is a man’s job.”
 
-It was the first summer when I didn’t go to Kavarna. Thefirst summer when I didn’t see my grandma, lost among the tomato plants, ashigh as the sky I was flying across. She sent me a package with tomatoes at theend of August, which I would eat at the back galley of the airplane, theirsweet juice mixed with the smell of foreign lands. It tasted weird.
+It was the first summer when I didn’t go to Kavarna. The first summer when I didn’t see my grandma, lost among the tomato plants, as high as the sky I was flying across. She sent me a package with tomatoes at the end of August, which I would eat at the back galley of the airplane, their sweet juice mixed with the smell of foreign lands. It tasted weird.
 
-I often think of her, of her garden and her tomatoes, withnostalgia and sadness. The place of my childhood freedom and of my adultstrain. I think about her fear of the world, a fear that made her settle forwhatever was safe, known, and expected. A fear that roots you in a place andtime you don’t want to be in.
+I often think of her, of her garden and her tomatoes, with nostalgia and sadness. The place of my childhood freedom and of my adult strain. I think about her fear of the world, a fear that made her settle for whatever was safe, known, and expected. A fear that roots you in a place and time you don’t want to be in.
 
-But isn’t it a strength, in the end, being able to withstandand create something beautiful, a garden with infinite fruits, despite thehard, dry soil, a piece of land surrounded by a fence? Or is it a strength tofind the courage to jump over? Sometimes I wonder if she was right, that I haveto stay, grow deep roots, be safe, and that’s how I’d flourish. Other times, Ifill up with rage that my heart is full of fear, preventing me from being opento the world, to be brave and restless.
+But isn’t it a strength, in the end, being able to withstandand create something beautiful, a garden with infinite fruits, despite thehard, dry soil, a piece of land surrounded by a fence? Or is it a strength to find the courage to jump over? Sometimes I wonder if she was right, that I have to stay, grow deep roots, be safe, and that’s how I’d flourish. Other times, I fill up with rage that my heart is full of fear, preventing me from being open to the world, to be brave and restless.
 
-Sometimes I wish I could make her see the wonders of theworld. Sometimes I wish I could show her that beyond our own fences, there is agarden, much bigger and wonderful, despite the fact that I find it hard tobelieve from time to time.
+Sometimes I wish I could make her see the wonders of the world. Sometimes I wish I could show her that beyond our own fences, there is a garden, much bigger and wonderful, despite the fact that I find it hard to believe from time to time.
 
-Sometimes, I imagine her lost between tomatoes and memoriesof summer days, and I whisper to myself, trembling, with courage:
+Sometimes, I imagine her lost between tomatoes and memories of summer days, and I whisper to myself, trembling, with courage:
 
 “Don’t be afraid, my sweet, stupid buffalo heart.”
-
- 
-
