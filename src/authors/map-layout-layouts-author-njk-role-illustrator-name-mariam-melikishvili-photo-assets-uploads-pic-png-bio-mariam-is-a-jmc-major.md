@@ -2,9 +2,10 @@
 layout: layouts/author.njk
 name: Mariam Melikishvili
 role: Illustrator
-photo: /assets/uploads/pic.png
-shortBio: ""
-bio: >+
+photo: /assets/uploads/mari-resized.jpg
+shortBio: "Mariam Melikishvili is a fourth-year student from Tbilisi, Georgia,
+  majoring in Psychology and Political Science at AUBG. "
+bio: >
   Mariam Melikishvili is a fourth-year student from Tbilisi, Georgia, majoring
   in Psychology and Political Science at AUBG. She is the founder of M&M-Art, a
   personal artistic initiative, and ARTistocracy, AUBG’s first fine arts club.
