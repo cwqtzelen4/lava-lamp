@@ -9,7 +9,7 @@ imageAspect: portrait
 image: /assets/uploads/tomato-cover.png
 showTopImage: true
 ---
-<p><em>My grandma puts her heart into growing her tomatoes.
+My grandma puts her heart into growing her tomatoes.
 
 When spring comes, she takes out last year’s seeds, sundriedon pieces of newspaper, and plants them in old yoghurt cups. Then, in April,she inserts them into the lines of the hard limestone soil. By the time I wouldgo to Kavarna at the start of my summer break, they would have grown as tall asmyself, heavy with little green fruits. I would watch these fruits grow,filling up with water, reddening, painted by the rays of the summer sun. Mydays would pass, waiting impatiently for the time when my grandma would give methe first tomato washed with ice-cold water, ripe as a childhood, sweet assummer freedom. I would dig my teeth into the flesh of the heart-shaped fruit,the juice running down my chin, onto the newly washed shirt.
 
@@ -77,4 +77,3 @@ Sometimes, I imagine her lost between tomatoes and memoriesof summer days, and I
 
  
 
-</em></p>
