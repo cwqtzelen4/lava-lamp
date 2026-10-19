@@ -11,14 +11,14 @@ layout: base.njk
   <p class="byline">By <strong>{% if authorRec %}<a href="{{ authorRec.url }}">{{ authorRec.data.name }}</a>{% else %}{{ author }}{% endif %}</strong></p>
 </section>
 
+{#- the picture above the text is separate from the cover image used in galleries: it can be switched off or replaced -#}
+{%- set topPicture = topImage or image -%}
+{% if showTopImage !== false and topPicture %}
 <figure class="article-hero wrap">
-  {% if image %}
-  <div class="ph-image wide"><img src="{{ image }}" alt=""></div>
-  {% else %}
-  <div class="ph wide"><span>Featured photograph - wide</span></div>
-  {% endif %}
+  <div class="ph-image wide"><img src="{{ topPicture }}" alt=""></div>
   {% if imageCaption %}<figcaption>{{ imageCaption }}</figcaption>{% endif %}
 </figure>
+{% endif %}
 
 <article class="article-body wrap">
 {{ content | safe }}

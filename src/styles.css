@@ -553,6 +553,17 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   margin: 48px 0 20px;
 }
 
+/* links inside stories: blue and underlined, set once for every article */
+.article-body a,
+.article-body a:visited{
+  color: #1a5fd8;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+}
+.article-body a:hover{ color: #0e3f9c; }
+
 .article-body figure{ margin: clamp(36px, 5vw, 56px) 0; }
 .article-body figcaption{
   font-size: 12.5px;

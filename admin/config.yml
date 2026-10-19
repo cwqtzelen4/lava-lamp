@@ -24,8 +24,10 @@ collections:
       - { label: "Photographer (optional)", name: "photographer", widget: "relation", collection: "authors", search_fields: ["name"], display_fields: ["name"], value_field: "{{slug}}", required: false }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Image Aspect", name: "imageAspect", widget: "select", options: ["landscape", "portrait", "square", "wide"], default: "landscape" }
-      - { label: "Hero Image", name: "image", widget: "image", required: false }
-      - { label: "Image Caption", name: "imageCaption", widget: "string", required: false }
+      - { label: "Cover Image (the thumbnail shown in galleries and story lists)", name: "image", widget: "image", required: false }
+      - { label: "Show an image at the top of the story, above the text? (turn off to start straight with the text)", name: "showTopImage", widget: "boolean", default: true, required: false }
+      - { label: "Different image for the top of the story (optional; leave empty to use the cover image)", name: "topImage", widget: "image", required: false }
+      - { label: "Caption for the top image (optional)", name: "imageCaption", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "authors"

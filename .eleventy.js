@@ -25,8 +25,31 @@ module.exports = function (eleventyConfig) {
   });
 
   // html: true so the CMS "Floating Image" figures render (only editors can write this text)
+  // Links to other websites open in a new browser tab (automatic, nobody has to set it per link).
+  const OWN_SITES = /^https?:\/\/([a-z0-9-]+\.)*(lavalampmagazine\.com|lava-lamp\.pages\.dev)(\/|$)/i;
+  function externalLinksInNewTab(mdLib) {
+    const original =
+      mdLib.renderer.rules.link_open ||
+      ((tokens, idx, options, env, self) => self.renderToken(tokens, idx, options));
+    mdLib.renderer.rules.link_open = (tokens, idx, options, env, self) => {
+      const href = tokens[idx].attrGet("href") || "";
+      if (/^https?:\/\//i.test(href) && !OWN_SITES.test(href)) {
+        tokens[idx].attrSet("target", "_blank");
+        tokens[idx].attrSet("rel", "noopener noreferrer");
+      }
+      return original(tokens, idx, options, env, self);
+    };
+  }
+
   const md = require("markdown-it")({ html: true, linkify: true });
+  externalLinksInNewTab(md);
   eleventyConfig.addFilter("markdown", (text) => (text ? md.render(text) : ""));
+
+  // story and page bodies (Eleventy's own markdown): also turn plain web addresses into links
+  eleventyConfig.amendLibrary("md", (mdLib) => {
+    mdLib.set({ linkify: true });
+    externalLinksInNewTab(mdLib);
+  });
 
   eleventyConfig.addPassthroughCopy({ "src/favicon.jpg": "favicon.jpg" });
   eleventyConfig.addPassthroughCopy({ "src/styles.css": "styles.css" });
