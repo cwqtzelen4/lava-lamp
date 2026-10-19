@@ -78,10 +78,17 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => Number(b.data.number) - Number(a.data.number));
   });
 
+  // Contributors order, for good: the two founders are always first, in this order,
+  // then everybody else A to Z by name (new authors slot in automatically).
+  const FIRST_AUTHORS = ["Bilyana Spasova", "Maria Pencheva"];
   eleventyConfig.addCollection("authors", (collectionApi) => {
+    const rank = (a) => {
+      const i = FIRST_AUTHORS.findIndex((n) => n.toLowerCase() === String(a.data.name || "").trim().toLowerCase());
+      return i === -1 ? FIRST_AUTHORS.length : i;
+    };
     return collectionApi
       .getFilteredByGlob("src/authors/*.md")
-      .sort((a, b) => a.data.name.localeCompare(b.data.name));
+      .sort((a, b) => rank(a) - rank(b) || String(a.data.name || "").localeCompare(String(b.data.name || "")));
   });
 
   // first few words of a longer text, then "..." (used for the short bio under articles)
