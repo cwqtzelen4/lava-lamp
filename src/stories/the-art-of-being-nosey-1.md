@@ -14,6 +14,22 @@ imageAspect: landscape
 
 
 
-<figure class="inline-float inline-float-left inline-float-medium">
+<figure class="inline-float inline-float-center inline-float-full">
 <img src="/assets/uploads/3-tya.png" alt="">
+</figure>
+
+
+
+
+
+<figure class="inline-float inline-float-center inline-float-large">
+<img src="/assets/uploads/4-gulia.png" alt="">
+</figure>
+
+
+
+
+
+<figure class="inline-float inline-float-center inline-float-full">
+<img src="/assets/uploads/2-ravi.png" alt="">
 </figure>
