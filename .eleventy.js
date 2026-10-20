@@ -52,6 +52,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy({ "src/favicon.jpg": "favicon.jpg" });
+  eleventyConfig.addPassthroughCopy({ "src/icons": "." }); // favicon.ico, favicon-48.png, favicon-192.png, apple-touch-icon.png
   eleventyConfig.addPassthroughCopy({ "src/styles.css": "styles.css" });
   eleventyConfig.addPassthroughCopy({ "src/nav.js": "nav.js" });
   eleventyConfig.addPassthroughCopy({ "src/search.js": "search.js" });
