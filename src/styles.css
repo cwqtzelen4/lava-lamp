@@ -565,6 +565,14 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 .article-body a:hover{ color: #0e3f9c; }
 
+/* the little spiral that closes every article */
+.end-mark{
+  text-align: center;
+  margin-top: clamp(36px, 5vw, 56px);
+  color: var(--ink);
+  line-height: 0;
+}
+
 .article-body figure{ margin: clamp(36px, 5vw, 56px) 0; }
 .article-body figcaption{
   font-size: 12.5px;
