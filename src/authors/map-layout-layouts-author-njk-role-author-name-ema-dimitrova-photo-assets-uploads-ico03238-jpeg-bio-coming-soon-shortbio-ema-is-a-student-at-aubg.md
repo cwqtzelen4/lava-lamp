@@ -1,7 +1,7 @@
 ---
 layout: layouts/author.njk
 name: Ema Dimitrova
-role: Author
+role: Writer
 photo: /assets/uploads/ico03238.jpeg
 shortBio: Ema is a student at AUBG.
 bio: Coming Soon

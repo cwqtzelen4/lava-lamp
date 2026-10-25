@@ -1,7 +1,7 @@
 ---
 layout: layouts/author.njk
 name: Ilen Belyanova
-role: Author
+role: Writer
 photo: /assets/uploads/image0-cropped.jpg
 shortBio: "Ilen is a s a third-year student at AUBG who wants to experience the
   world in all its glory. She loves to step outside her comfort zone and learn

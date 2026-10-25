@@ -37,10 +37,10 @@ title: About
       {% if author.data.photo %}
       <div class="ph-image square"><img src="{{ author.data.photo }}" alt=""></div>
       {% else %}
-      <div class="ph square"><span>Author photo</span></div>
+      <div class="ph square"><span>Photo</span></div>
       {% endif %}
       <h3>{{ author.data.name }}</h3>
-      <p class="role">{{ author.data.role or "Author" }}</p>
+      <p class="role">{{ author.data.role | roleName }}</p>
     </a>
     {%- endfor %}
   </div>

@@ -1,7 +1,7 @@
 ---
 layout: layouts/author.njk
 name: Teodora Lazarevska
-role: Author
+role: Writer
 photo: /assets/uploads/1000112822.jpg
 bio: >
   Teodora Lazarevska is a 2026 AUBG graduate from North Macedonia who majored in

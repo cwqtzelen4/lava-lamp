@@ -1,7 +1,7 @@
 ---
 layout: layouts/author.njk
 name: Martin Milevski
-role: Author
+role: Writer
 photo: /assets/uploads/me-linkedin-dadu-crop-5532.jpg
 shortBio: ""
 bio: >

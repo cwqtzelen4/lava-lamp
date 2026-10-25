@@ -6,10 +6,10 @@ layout: base.njk
   {% if photo %}
   <div class="ph-image square"><img src="{{ photo }}" alt=""></div>
   {% else %}
-  <div class="ph square"><span>Author photo</span></div>
+  <div class="ph square"><span>Photo</span></div>
   {% endif %}
   <div>
-    <p class="eyebrow">{{ role or "Author" }}</p>
+    <p class="eyebrow">{{ role | roleName }}</p>
     <h1>{{ name }}</h1>
     <p>{{ bio }}</p>
   </div>

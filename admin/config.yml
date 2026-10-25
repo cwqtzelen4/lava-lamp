@@ -19,7 +19,7 @@ collections:
       - { label: "Permalink", name: "permalink", widget: "string", pattern: ['^/stories/.*/$', "Must look like /stories/your-slug/"] }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Deck", name: "deck", widget: "text", required: false }
-      - { label: "Author", name: "author", widget: "relation", collection: "authors", search_fields: ["name"], display_fields: ["name"], value_field: "{{slug}}" }
+      - { label: "Writer", name: "author", widget: "relation", collection: "authors", search_fields: ["name"], display_fields: ["name"], value_field: "{{slug}}" }
       - { label: "Illustrator (optional)", name: "illustrator", widget: "relation", collection: "authors", search_fields: ["name"], display_fields: ["name"], value_field: "{{slug}}", required: false }
       - { label: "Photographer (optional)", name: "photographer", widget: "relation", collection: "authors", search_fields: ["name"], display_fields: ["name"], value_field: "{{slug}}", required: false }
       - { label: "Date", name: "date", widget: "datetime" }
@@ -31,7 +31,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "authors"
-    label: "Authors"
+    label: "Writers"
     folder: "src/authors"
     create: true
     slug: "{{slug}}"
@@ -39,7 +39,7 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/author.njk" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Role (shown as their title; also sets the page address: /authors/, /illustrators/ or /photographers/)", name: "role", widget: "select", options: ["Author", "Illustrator", "Photographer"], default: "Author", required: false }
+      - { label: "Role (shown as their title; also sets the page address: /writers/, /illustrators/ or /photographers/)", name: "role", widget: "select", options: ["Writer", "Illustrator", "Photographer"], default: "Writer", required: false }
       - { label: "Photo", name: "photo", widget: "image", required: false }
       - { label: "Short bio (one line, shown under the articles - e.g. JMC major who loves hiking)", name: "shortBio", widget: "string", required: false }
       - { label: "Long bio (shown on the person's own profile page - major, interests, anything you like)", name: "bio", widget: "text" }
@@ -94,7 +94,7 @@ collections:
               - { label: "Name", name: "name", widget: "string" }
               - { label: "Role", name: "role", widget: "string" }
               - { label: "Bio", name: "bio", widget: "text" }
-              - { label: "Linked Author Page (their photo comes from here)", name: "author", widget: "relation", collection: "authors", search_fields: ["name"], display_fields: ["name"], value_field: "{{slug}}", required: false }
+              - { label: "Linked Writer Page (their photo comes from here)", name: "author", widget: "relation", collection: "authors", search_fields: ["name"], display_fields: ["name"], value_field: "{{slug}}", required: false }
       - label: "Submissions Page"
         name: "submissions"
         file: "src/_data/submissions.json"

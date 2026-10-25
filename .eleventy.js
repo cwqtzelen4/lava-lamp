@@ -99,6 +99,9 @@ module.exports = function (eleventyConfig) {
     return words.slice(0, count).join(" ").replace(/[,;:.\-–—]+$/, "") + "...";
   });
 
+  // the word "Author" is not used on the site: older entries saying Author or nothing show as Writer
+  eleventyConfig.addFilter("roleName", (role) => (!role || role === "Author" ? "Writer" : role));
+
   eleventyConfig.addFilter("findAuthor", (slug, authors) => {
     if (!slug || !authors) return null;
     return authors.find((a) => a.fileSlug === slug) || null;

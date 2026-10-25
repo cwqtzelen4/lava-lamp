@@ -1,7 +1,7 @@
 ---
 layout: layouts/author.njk
 name: Preslava Gyuzeleva
-role: Author
+role: Writer
 photo: /assets/uploads/presi.jpg
 shortBio: Preslava is an AUBG student.
 bio: >
