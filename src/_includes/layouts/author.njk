@@ -9,7 +9,7 @@ layout: base.njk
   <div class="ph square"><span>Photo</span></div>
   {% endif %}
   <div>
-    <p class="eyebrow">{{ role | roleName }}</p>
+    <p class="eyebrow">{{ page.fileSlug | rolesFor(role, collections.stories) }}</p>
     <h1>{{ name }}</h1>
     <p>{{ bio }}</p>
   </div>

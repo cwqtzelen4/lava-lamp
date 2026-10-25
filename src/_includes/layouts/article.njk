@@ -4,6 +4,7 @@ layout: base.njk
 {%- set authorRec = author | findAuthor(collections.authors) -%}
 {%- set illustratorRec = illustrator | findAuthor(collections.authors) -%}
 {%- set photographerRec = photographer | findAuthor(collections.authors) -%}
+{%- set audioRec = audio | findAuthor(collections.authors) -%}
 <section class="article-head wrap">
   <div class="meta-row">
     <span>{{ date | readableDate }}</span>
@@ -16,6 +17,9 @@ layout: base.njk
   {%- endif %}
   {%- if photographerRec %}
   <p class="byline">Photography by <strong><a href="{{ photographerRec.url }}">{{ photographerRec.data.name }}</a></strong></p>
+  {%- endif %}
+  {%- if audioRec %}
+  <p class="byline">Audio by <strong><a href="{{ audioRec.url }}">{{ audioRec.data.name }}</a></strong></p>
   {%- endif %}
 </section>
 
@@ -39,6 +43,7 @@ layout: base.njk
 {%- if authorRec %}{% set _a = credits.push({ label: "Written by", rec: authorRec }) %}{% endif -%}
 {%- if illustratorRec %}{% set _i = credits.push({ label: "Illustrated by", rec: illustratorRec }) %}{% endif -%}
 {%- if photographerRec %}{% set _p = credits.push({ label: "Photographed by", rec: photographerRec }) %}{% endif -%}
+{%- if audioRec %}{% set _u = credits.push({ label: "Audio by", rec: audioRec }) %}{% endif -%}
 {% if credits.length %}
 <section class="author-card wrap">
   <div class="author-card-inner">

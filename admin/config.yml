@@ -22,6 +22,7 @@ collections:
       - { label: "Writer", name: "author", widget: "relation", collection: "authors", search_fields: ["name"], display_fields: ["name"], value_field: "{{slug}}" }
       - { label: "Illustrator (optional)", name: "illustrator", widget: "relation", collection: "authors", search_fields: ["name"], display_fields: ["name"], value_field: "{{slug}}", required: false }
       - { label: "Photographer (optional)", name: "photographer", widget: "relation", collection: "authors", search_fields: ["name"], display_fields: ["name"], value_field: "{{slug}}", required: false }
+      - { label: "Audio by (optional)", name: "audio", widget: "relation", collection: "authors", search_fields: ["name"], display_fields: ["name"], value_field: "{{slug}}", required: false }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Image Aspect", name: "imageAspect", widget: "select", options: ["landscape", "portrait", "square", "wide"], default: "landscape" }
       - { label: "Cover Image (the thumbnail shown in galleries and story lists)", name: "image", widget: "image", required: false }

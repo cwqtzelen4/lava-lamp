@@ -102,6 +102,20 @@ module.exports = function (eleventyConfig) {
   // the word "Author" is not used on the site: older entries saying Author or nothing show as Writer
   eleventyConfig.addFilter("roleName", (role) => (!role || role === "Author" ? "Writer" : role));
 
+  // All the roles a person has: their own Role plus every way they are credited on a story.
+  const ROLE_ORDER = ["Writer", "Illustrator", "Photographer", "Audio"];
+  eleventyConfig.addFilter("rolesFor", (slug, ownRole, stories) => {
+    const roles = new Set([!ownRole || ownRole === "Author" ? "Writer" : ownRole]);
+    (stories || []).forEach((s) => {
+      if (s.data.author === slug) roles.add("Writer");
+      if (s.data.illustrator === slug) roles.add("Illustrator");
+      if (s.data.photographer === slug) roles.add("Photographer");
+      if (s.data.audio === slug) roles.add("Audio");
+    });
+    const rank = (r) => (ROLE_ORDER.indexOf(r) === -1 ? ROLE_ORDER.length : ROLE_ORDER.indexOf(r));
+    return [...roles].sort((a, b) => rank(a) - rank(b)).join(" / ");
+  });
+
   eleventyConfig.addFilter("findAuthor", (slug, authors) => {
     if (!slug || !authors) return null;
     return authors.find((a) => a.fileSlug === slug) || null;
