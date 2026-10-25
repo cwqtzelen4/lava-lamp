@@ -16,8 +16,6 @@ Federico's Story
 
 *<https://on.soundcloud.com/5ZllIAuhjH2Wy55A04>*
 
-
-
 <figure class="inline-float inline-float-center inline-float-full">
 <img src="/assets/uploads/3-tya.png" alt="">
 </figure>
@@ -26,17 +24,13 @@ Tya's Story
 
 *<https://on.soundcloud.com/cxd8jfud3zQC8pd5Df?utm_source=chatgpt.com>*
 
-
-
 <figure class="inline-float inline-float-center inline-float-full">
 <img src="/assets/uploads/4-gulia.png" alt="">
 </figure>
 
-Gulia's Story 
+Giulia's Story 
 
 *<https://on.soundcloud.com/ErpZKgiUzfqNIYDgpL>*
-
-
 
 <figure class="inline-float inline-float-center inline-float-full">
 <img src="/assets/uploads/2-ravi.png" alt="">
@@ -45,8 +39,6 @@ Gulia's Story
 Ravi's Story 
 
 *https://on.soundcloud.com/l285YEOHJMb9hj9bm1*
-
-
 
 <figure class="inline-float inline-float-center inline-float-full">
 <img src="/assets/uploads/5-rose.png" alt="">
