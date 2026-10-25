@@ -293,6 +293,7 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   color: var(--ink-faint);
 }
 .byline strong{ color: var(--ink-soft); font-weight: 600; }
+.byline + .byline{ margin-top: 4px; }
 
 @media (max-width: 860px){
   .hero-grid{ grid-template-columns: 1fr; }

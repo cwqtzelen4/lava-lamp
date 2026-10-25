@@ -2,13 +2,21 @@
 layout: base.njk
 ---
 {%- set authorRec = author | findAuthor(collections.authors) -%}
+{%- set illustratorRec = illustrator | findAuthor(collections.authors) -%}
+{%- set photographerRec = photographer | findAuthor(collections.authors) -%}
 <section class="article-head wrap">
   <div class="meta-row">
     <span>{{ date | readableDate }}</span>
   </div>
   <h1>{{ title }}</h1>
   {% if deck %}<p class="deck">{{ deck }}</p>{% endif %}
-  <p class="byline">By <strong>{% if authorRec %}<a href="{{ authorRec.url }}">{{ authorRec.data.name }}</a>{% else %}{{ author }}{% endif %}</strong></p>
+  <p class="byline">Written by <strong>{% if authorRec %}<a href="{{ authorRec.url }}">{{ authorRec.data.name }}</a>{% else %}{{ author }}{% endif %}</strong></p>
+  {%- if illustratorRec %}
+  <p class="byline">Illustrations by <strong><a href="{{ illustratorRec.url }}">{{ illustratorRec.data.name }}</a></strong></p>
+  {%- endif %}
+  {%- if photographerRec %}
+  <p class="byline">Photography by <strong><a href="{{ photographerRec.url }}">{{ photographerRec.data.name }}</a></strong></p>
+  {%- endif %}
 </section>
 
 {#- the picture above the text is separate from the cover image used in galleries: it can be switched off or replaced -#}
@@ -25,8 +33,6 @@ layout: base.njk
 </article>
 
 {#- credits under the text: writer first, then illustrator, then photographer -#}
-{%- set illustratorRec = illustrator | findAuthor(collections.authors) -%}
-{%- set photographerRec = photographer | findAuthor(collections.authors) -%}
 {%- set credits = [] -%}
 {%- if authorRec %}{% set _a = credits.push({ label: "Written by", rec: authorRec }) %}{% endif -%}
 {%- if illustratorRec %}{% set _i = credits.push({ label: "Illustrated by", rec: illustratorRec }) %}{% endif -%}
