@@ -11,16 +11,18 @@ layout: base.njk
   </div>
   <h1>{{ title }}</h1>
   {% if deck %}<p class="deck">{{ deck }}</p>{% endif %}
-  <p class="byline">Written by <strong>{% if authorRec %}<a href="{{ authorRec.url }}">{{ authorRec.data.name }}</a>{% else %}{{ author }}{% endif %}</strong></p>
-  {%- if illustratorRec %}
-  <p class="byline">Illustrations by <strong><a href="{{ illustratorRec.url }}">{{ illustratorRec.data.name }}</a></strong></p>
-  {%- endif %}
-  {%- if photographerRec %}
-  <p class="byline">Photography by <strong><a href="{{ photographerRec.url }}">{{ photographerRec.data.name }}</a></strong></p>
-  {%- endif %}
-  {%- if audioRec %}
-  <p class="byline">Audio by <strong><a href="{{ audioRec.url }}">{{ audioRec.data.name }}</a></strong></p>
-  {%- endif %}
+  <div class="byline-row">
+    <p class="byline">Written by <strong>{% if authorRec %}<a href="{{ authorRec.url }}">{{ authorRec.data.name }}</a>{% else %}{{ author }}{% endif %}</strong></p>
+    {%- if illustratorRec %}
+    <p class="byline">Illustrations by <strong><a href="{{ illustratorRec.url }}">{{ illustratorRec.data.name }}</a></strong></p>
+    {%- endif %}
+    {%- if photographerRec %}
+    <p class="byline">Photography by <strong><a href="{{ photographerRec.url }}">{{ photographerRec.data.name }}</a></strong></p>
+    {%- endif %}
+    {%- if audioRec %}
+    <p class="byline">Audio by <strong><a href="{{ audioRec.url }}">{{ audioRec.data.name }}</a></strong></p>
+    {%- endif %}
+  </div>
 </section>
 
 {#- the picture above the text is separate from the cover image used in galleries: it can be switched off or replaced -#}

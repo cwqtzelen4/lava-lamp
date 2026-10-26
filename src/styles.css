@@ -293,7 +293,14 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   color: var(--ink-faint);
 }
 .byline strong{ color: var(--ink-soft); font-weight: 600; }
-.byline + .byline{ margin-top: 4px; }
+/* the credits under the title sit side by side, and wrap to the next line only when the screen is too narrow */
+.byline-row{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 28px;
+  row-gap: 6px;
+}
+.byline-row .byline{ margin: 0; }
 
 @media (max-width: 860px){
   .hero-grid{ grid-template-columns: 1fr; }
