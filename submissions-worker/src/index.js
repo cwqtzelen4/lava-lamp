@@ -19,8 +19,7 @@ const oneLine = (value, max = 200) => String(value || "").replace(/[\r\n]+/g, " 
 
 // base64 in lines of 76 characters, as email requires
 function wrap76(text) {
-  return text.replace(/.{76}/g, "function toBase64(buffer) {
-");
+  return text.replace(/.{76}/g, (line) => line + "\r\n");
 }
 
 function toBase64(buffer) {
