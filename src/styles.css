@@ -715,6 +715,28 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .author-card-row + .author-card-row{ margin-top: 28px; }
 .author-card .ph,
 .author-card .ph-image{ width: 96px; }
+/* the short text under a name links to the profile; the little arrow hints that there is more there */
+.author-card .bio-more{ color: inherit; }
+.author-card .bio-arrow{
+  display: inline-block;
+  margin-left: 0.35em;
+  font-size: 0.95em;
+  color: var(--ink);
+  transition: transform 0.15s ease;
+}
+.author-card .bio-more:hover .bio-arrow,
+.author-card .bio-more:focus-visible .bio-arrow{ transform: translateX(3px); }
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
 .author-card .author-card-title{ margin: 0 0 24px; font-size: 12px; }
 .author-card h3{
   font-family: var(--font-display);
