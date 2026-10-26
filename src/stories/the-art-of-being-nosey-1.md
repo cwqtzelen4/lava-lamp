@@ -10,6 +10,10 @@ imageAspect: landscape
 image: /assets/uploads/cover-1.png
 showTopImage: false
 ---
+The Art of Being Nosey is a collection of five close-up triptych portraits, each paired with an audio interview about the sitter’s nose. It first appeared at Breda University of Applied Sciences in December, 2025, as my debut photographic exhibition. 
+
+After years of photographing faces, I became fascinated by noses: a feature we see every day but rarely examine. Beauty standards push one ideal nose through contouring and surgery, yet texture, asymmetry, and imperfection make each of us unique. When Giulia hesitated to model, worried she didn’t have a good nose, the project found its voice. Federico, Tya, Giulia, Ravi and Roos share stories of heritage, insecurity and self-acceptance. Being "nosey" isn't intrusive; it's curiosity with empathy. 
+
 <figure class="inline-float inline-float-center inline-float-full">
 <img src="/assets/uploads/1-freddie.png" alt="">
 </figure>
