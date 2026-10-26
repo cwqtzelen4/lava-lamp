@@ -708,7 +708,7 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .author-card-row + .author-card-row{ margin-top: 28px; }
 .author-card .ph,
 .author-card .ph-image{ width: 96px; }
-.author-card .eyebrow{ margin-bottom: 2px; }
+.author-card .author-card-title{ margin: 0 0 24px; font-size: 12px; }
 .author-card h3{
   font-family: var(--font-display);
   font-weight: 500;

@@ -47,6 +47,7 @@ layout: base.njk
 {% if credits.length %}
 <section class="author-card wrap">
   <div class="author-card-inner">
+    <p class="eyebrow author-card-title">About the creator{% if credits.length > 1 %}s{% endif %}</p>
     {%- for credit in credits %}
     <div class="author-card-row">
       <a href="{{ credit.url }}" class="author-card-photo">
