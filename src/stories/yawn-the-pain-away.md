@@ -6,7 +6,7 @@ author: map-layout-layouts-author-njk-role-author-permalink-authors-teodora-laza
 illustrator: map-layout-layouts-author-njk-role-illustrator-bio-viktoria-urucheva-is-a-programmer-by-title-but-an-artist-by-heart-her-work-ranging-from-concept-art-for-games-illustrations-and-graphic-and-brand-des
 date: 2026-10-21T13:37:00.000+03:00
 imageAspect: landscape
-image: /assets/uploads/untitled-design.jpg
+image: /assets/uploads/866473008_2552969758516248_3437421730700165423_n.jpg
 showTopImage: false
 ---
 My head is under a hydraulic press. My shoulders hurt from carrying the weight of the world. My body feels borrowed and unfamiliar. I am never fully present at any moment, constantly distracted by this unbearable discomfort. 
