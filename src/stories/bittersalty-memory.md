@@ -69,5 +69,5 @@ By now, I have replayed that morning so many times in my head that it has become
 Will I ever feel the same way?
 
 <figure class="inline-float inline-float-left inline-float-medium">
-<img src="/assets/uploads/salty-soul-note.png" alt="">
+<img src="" alt="">
 </figure>
