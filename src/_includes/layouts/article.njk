@@ -58,7 +58,7 @@ layout: base.njk
       </a>
       <div>
         <h3><a href="{{ credit.url }}">{{ credit.data.name }}</a></h3>
-        <p><a href="{{ credit.url }}" class="bio-more">{{ credit.data.bio | firstWords(7) }}<span class="bio-arrow" aria-hidden="true">→</span></a></p>
+        <p><a href="{{ credit.url }}" class="bio-more">{{ credit.data.bio | firstWords(12) }}<span class="bio-arrow" aria-hidden="true">→</span></a></p>
       </div>
     </div>
     {%- endfor %}

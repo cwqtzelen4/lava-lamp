@@ -93,7 +93,7 @@ module.exports = function (eleventyConfig) {
   });
 
   // first few words of a longer text, then "..." (used for the short bio under articles)
-  eleventyConfig.addFilter("firstWords", (text, count = 7) => {
+  eleventyConfig.addFilter("firstWords", (text, count = 12) => {
     const words = String(text || "").trim().split(/\s+/).filter(Boolean);
     if (words.length <= count) return words.join(" ");
     return words.slice(0, count).join(" ").replace(/[,;:.\-–—]+$/, "") + "...";
