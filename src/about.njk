@@ -3,15 +3,15 @@ layout: base.njk
 title: About
 ---
 <section class="about-section wrap">
+  <div class="about-text">
   <h1>About</h1>
   <p>Lava Lamp Magazine is a collaboration of bright minds who love to tell stories. We try to capture human experiences in vivid language, unique angles, and rich colors. Sometimes all three at once.</p>
   <p>Our work is powered by the simple pleasure of getting the words right, talking with people, composing a picture, and creating something that lasts. Hopefully, by immersing yourself in Lava Lamp you will experience the same illuminating sensation all of our contributors share.</p>
   <p>Most of us are students at the American University in Bulgaria, where Lava Lamp began as an independent study, advised by Professor Laura Kelly, in Fall 2026. Nevertheless, we maintain full editorial independence and look forward to expanding beyond our university campus.</p>
   <p>If you want to spread the light, follow our website and look out for our pop-up print magazines.</p>
-</section>
+  </div>
 
-<section class="team-section wrap">
-  <div class="team-list">
+  <div class="about-team">
     {%- for member in team.members %}
     {%- set authorRec = member.author | findAuthor(collections.authors) -%}
     <div class="team-member">
@@ -20,9 +20,11 @@ title: About
       {% else %}
       <div class="ph square"><span>Photo</span></div>
       {% endif %}
-      <h3>{% if authorRec %}<a href="{{ authorRec.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h3>
-      <p class="role">{{ member.role }}</p>
-      <p>{{ member.bio }}</p>
+      <div class="team-member-text">
+        <h3>{% if authorRec %}<a href="{{ authorRec.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h3>
+        <p class="role">{{ member.role }}</p>
+        <p>{{ member.bio }}</p>
+      </div>
     </div>
     {%- endfor %}
   </div>
