@@ -116,6 +116,28 @@ module.exports = function (eleventyConfig) {
     return [...roles].sort((a, b) => rank(a) - rank(b)).join(" / ");
   });
 
+  // Credit lines under an article title. One role per person reads "Written by X", "Illustrations by Y";
+  // a person with several roles on the same story is named once: "Written, photographed, and audio by X".
+  const CREDIT_SINGLE = { writer: "Written by", illustrator: "Illustrations by", photographer: "Photography by", audio: "Audio by" };
+  const CREDIT_PART = { writer: "written", illustrator: "illustrated", photographer: "photographed", audio: "audio" };
+  eleventyConfig.addFilter("creditLines", (people) => {
+    const groups = [];
+    ["writer", "illustrator", "photographer", "audio"].forEach((role) => {
+      const rec = people && people[role];
+      if (!rec) return;
+      let group = groups.find((g) => g.rec.url === rec.url);
+      if (!group) groups.push((group = { rec, roles: [] }));
+      group.roles.push(role);
+    });
+    return groups.map((g) => {
+      if (g.roles.length === 1) return { rec: g.rec, label: CREDIT_SINGLE[g.roles[0]] };
+      const words = g.roles.map((r) => CREDIT_PART[r]);
+      const last = words.pop();
+      const joined = words.length > 1 ? words.join(", ") + ", and " + last : words[0] + " and " + last;
+      return { rec: g.rec, label: joined.charAt(0).toUpperCase() + joined.slice(1) + " by" };
+    });
+  });
+
   eleventyConfig.addFilter("findAuthor", (slug, authors) => {
     if (!slug || !authors) return null;
     return authors.find((a) => a.fileSlug === slug) || null;

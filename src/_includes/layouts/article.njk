@@ -11,17 +11,14 @@ layout: base.njk
   </div>
   <h1>{{ title }}</h1>
   {% if deck %}<p class="deck">{{ deck }}</p>{% endif %}
+  {%- set creditLines = { writer: authorRec, illustrator: illustratorRec, photographer: photographerRec, audio: audioRec } | creditLines %}
   <div class="byline-row">
-    <p class="byline">Written by <strong>{% if authorRec %}<a href="{{ authorRec.url }}">{{ authorRec.data.name }}</a>{% else %}{{ author }}{% endif %}</strong></p>
-    {%- if illustratorRec %}
-    <p class="byline">Illustrations by <strong><a href="{{ illustratorRec.url }}">{{ illustratorRec.data.name }}</a></strong></p>
+    {%- if not authorRec and author %}
+    <p class="byline">Written by <strong>{{ author }}</strong></p>
     {%- endif %}
-    {%- if photographerRec %}
-    <p class="byline">Photography by <strong><a href="{{ photographerRec.url }}">{{ photographerRec.data.name }}</a></strong></p>
-    {%- endif %}
-    {%- if audioRec %}
-    <p class="byline">Audio by <strong><a href="{{ audioRec.url }}">{{ audioRec.data.name }}</a></strong></p>
-    {%- endif %}
+    {%- for line in creditLines %}
+    <p class="byline">{{ line.label }} <strong><a href="{{ line.rec.url }}">{{ line.rec.data.name }}</a></strong></p>
+    {%- endfor %}
   </div>
 </section>
 
