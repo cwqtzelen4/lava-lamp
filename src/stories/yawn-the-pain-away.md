@@ -7,7 +7,7 @@ illustrator: map-layout-layouts-author-njk-role-illustrator-bio-viktoria-uruchev
 date: 2026-10-21T13:37:00.000+03:00
 imageAspect: landscape
 image: /assets/uploads/img_3754.png
-showTopImage: false
+showTopImage: true
 ---
 My head is under a hydraulic press. My shoulders hurt from carrying the weight of the world. My body feels borrowed and unfamiliar. I am never fully present at any moment, constantly distracted by this unbearable discomfort. 
 
