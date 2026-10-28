@@ -555,11 +555,16 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 
 /* drop cap: the first letter of the first paragraph of every article is larger, automatically */
-.article-body > p:first-of-type{ display: flow-root; } /* a one-line first paragraph keeps the letter to itself */
-.article-body > p:first-of-type::first-letter{
-  float: left;
+/* the class is added at build time (.eleventy.js): short openings get a larger letter in the line, long ones a drop cap */
+.article-body p.opening::first-letter{
   font-family: var(--font-display);
   font-weight: 500;
+  font-size: 1.7em;
+  line-height: 1;
+}
+.article-body p.drop-cap{ display: flow-root; }
+.article-body p.drop-cap::first-letter{
+  float: left;
   font-size: 3.5em;
   line-height: 0.85;
   padding: 0.04em 0.1em 0 0;

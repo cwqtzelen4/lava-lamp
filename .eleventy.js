@@ -51,6 +51,20 @@ module.exports = function (eleventyConfig) {
     externalLinksInNewTab(mdLib);
   });
 
+  // Opening letter of every article: a drop cap when the first paragraph is long enough to sit beside it,
+  // otherwise a slightly larger letter in the line. Decided here so it always looks right, whatever is written.
+  eleventyConfig.addTransform("openingLetter", function (content) {
+    if (!(this.page.outputPath || "").endsWith(".html")) return content;
+    const start = content.indexOf('<article class="article-body');
+    if (start === -1) return content;
+    const open = content.indexOf("<p>", start);
+    const close = content.indexOf("</p>", open);
+    if (open === -1 || close === -1) return content;
+    const text = content.slice(open + 3, close).replace(/<[^>]*>/g, "").trim();
+    const cls = text.length >= 220 ? "opening drop-cap" : "opening";
+    return content.slice(0, open) + `<p class="${cls}">` + content.slice(open + 3);
+  });
+
   eleventyConfig.addPassthroughCopy({ "src/favicon.jpg": "favicon.jpg" });
   eleventyConfig.addPassthroughCopy({ "src/icons": "." }); // favicon.ico, favicon-48.png, favicon-192.png, apple-touch-icon.png
   eleventyConfig.addPassthroughCopy({ "src/styles.css": "styles.css" });
