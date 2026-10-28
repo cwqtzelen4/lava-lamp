@@ -990,6 +990,7 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   margin: 0 0 20px;
   max-width: 62ch;
 }
+.about-text p:last-child{ margin-bottom: 0; } /* so the founders column ends exactly at the last line */
 
 /* the two founders sit to the right of the About text, one above the other:
    the first starts level with the first sentence, the second ends level with the last line, with room between */
