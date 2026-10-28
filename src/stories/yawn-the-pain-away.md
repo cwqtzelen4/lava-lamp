@@ -13,13 +13,11 @@ My head is under a hydraulic press. My shoulders hurt from carrying the weight o
 
 I am well aware that I’ve had enough sleep. I’ve eaten enough, and have had plenty of water. Still, I feel unwell. Something’s wrong with me. As a self-proclaimed non-whiner, I could either accept that this is how I’ll feel from now until eternity, or go see her. 
 
-She mixes coarse salt with cold water and gently spreads it on my forehead before she begins her ritual. As she mumbles something under her breath, she lets out a long and uncontrollable yawn – first of many. She continues to whisper in between the yawns. Her cheeks turn red 
+She mixes coarse salt with cold water and gently spreads it on my forehead before she begins her ritual. As she mumbles something under her breath, she lets out a long and uncontrollable yawn – first of many. She continues to whisper in between the yawns. Her cheeks turn red while her eyes fill up with tears. The yawns start getting longer and louder. After a while, she stops. 
 
 <figure class="inline-float inline-float-right inline-float-small">
 <img src="/assets/uploads/img_3737.png" alt="">
 </figure>
-
-while her eyes fill up with tears. The yawns start getting longer and louder. After a while, she stops. 
 
 She goes on and on about how my saints and guardians never protect me from evil. Her solution to this dilemma is that I should always wear my underwear inside-out.  I don’t ask questions. I just do as she says. I always end up feeling better afterwards. For the majority of my life, I thought it was a placebo. Now I’m not so sure.
 
@@ -27,13 +25,13 @@ She goes on and on about how my saints and guardians never protect me from evil.
 
 The rules of learning the rituals, according to my grandmother, vary from region to region. In the general Eastern region of North Macedonia, more particularly, in her village, Dzvegor, it is crucial that these rituals are taught by a relative before the young girls get their first period. Or it can be done after menopause. The most important step is that it is done in secret. Nobody should speak about the rituals or what is being whispered during them. Although I know that this secrecy was most likely for keeping the rituals special and sacred, another possible reason for this could be keeping me out of the loop. 
 
-Trying to explain something that is such a big part of my life and my culture to someone outside the Balkans is always interesting. I get a different reaction almost every time, but I always get asked if I am a witch. Deep down inside, I really wish I was. Not a witch per se, but a part of this community, its rituals, and history. I wish I knew their secret language, or what the 
+Trying to explain something that is such a big part of my life and my culture to someone outside the Balkans is always interesting. I get a different reaction almost every time, but I always get asked if I am a witch. Deep down inside, I really wish I was. Not a witch per se, but a part of this community, its rituals, and history.
 
 <figure class="inline-float inline-float-left inline-float-medium">
 <img src="/assets/uploads/img_3742.png" alt="">
 </figure>
 
-significance of salt is, or why they are always using water. I wish I knew why some of them use the moon cycle and how that is related to anything, really? I wish I knew if they take people's pains away and whether it aches their body instead. I wish I knew how to calm people down and take away their troubles, or at least make them believe that I can.
+I wish I knew their secret language, or what the significance of salt is, or why they are always using water. I wish I knew why some of them use the moon cycle and how that is related to anything, really? I wish I knew if they take people's pains away and whether it aches their body instead. I wish I knew how to calm people down and take away their troubles, or at least make them believe that I can.
 
 In my particular case, due to the failure of my saints, my baba says that I have a lot of *urotsi*, her specialty. The closest concept to this would be the evil eye, or the fear of envy. Except that instead of an eye-shaped talisman, or the so-called nazar, we have a spiritual protector, a saint. Many Balkans claim that people with blue eyes tend to spread *urotsi*, perhaps it is somehow connected with the evil eye? In fairness, anyone can spread them. In some cases, even calling a newborn cute holds the grave danger of giving them *urotsi*. In that situation, all you need to do is… spit on them three times. 
 
@@ -45,13 +43,13 @@ Most people’s first time visiting a pagan healer is during infancy. If a baby 
 <img src="/assets/uploads/img_3739.png" alt="">
 </figure>
 
-After an insightful conversation with a couple who was blessed enough to have a brand new 
+
 
 <figure class="inline-float inline-float-left inline-float-small">
 <img src="/assets/uploads/img_3740.png" alt="">
 </figure>
 
-screaming baby in their household, they assured me that this spell works incredibly well. Surely a baby doesn’t know about placebos? 
+After an insightful conversation with a couple who was blessed enough to have a brand new screaming baby in their household, they assured me that this spell works incredibly well. Surely a baby doesn’t know about placebos? 
 
 Growing up, I never truly believed in these rituals. I liked watching the Magic School Bus and finding out fun facts and logical processes, like how rain forms, or how plants create their own food. Later I read about things like placebo effects, confirmation biases, and other psychological explanations about things that seemed like magic. And yet, every time one of these rituals was performed on me, I felt relieved. I felt lighter. I felt like something in me shifted. Every time one of these healers stopped yawning, the pressure in my temples eased, and my shoulders relaxed. No matter how much I claim that it is all made up, I feel my cynicism fade away each time. 
 
@@ -65,13 +63,13 @@ My parents took me to her because her specialty was healing from *uplah*: she wa
 
 Mladena had a plastic chair right by her door, where she would sit, people-watch, and greet passersby. I remember being scared. Scared of her walls, which were peeling, and her heavy door that had mysterious scratches all over. The inside had only one room. The floor was wooden and rough. Sunlight struggled to get in, so it was pretty dark. Once inside, the first thing that greeted me was the smell of the basement interlocked with iron-heavy scents. I was practically shaking at this point. The thing I was scared of the most, however, was the fury of my strict Balkan mother, so I behaved. 
 
-She opened up her rusted wood-stove and put an old horseshoe into the flames with her long iron tongs, while whispering something under her breath. The burning wood inside kept crackling and popping as she put some salt on my forehead after filling up a large steel pot with water. She never stopped her secret whispers as she took out the bright red horseshoe 
+She opened up her rusted wood-stove and put an old horseshoe into the flames with her long iron tongs, while whispering something under her breath. The burning wood inside kept crackling and popping as she put some salt on my forehead after filling up a large steel pot with water. 
 
 <figure class="inline-float inline-float-right inline-float-medium">
 <img src="/assets/uploads/img_3745.png" alt="">
 </figure>
 
-and gently placed it inside the pot. I still remember the sound of the hot horseshoe screaming and hissing as it fell to the bottom of the pot. She gently pulled me in and asked me to inhale all of the fumes that came from the pot, and continued to whisper. The metal smell was so strong I could taste it. The fumes were practically forcing tears from my eyes, and baba Mladena couldn’t stop yawning. May she rest in peace. 
+She never stopped her secret whispers as she took out the bright red horseshoe and gently placed it inside the pot. I still remember the sound of the hot horseshoe screaming and hissing as it fell to the bottom of the pot. She gently pulled me in and asked me to inhale all of the fumes that came from the pot, and continued to whisper. The metal smell was so strong I could taste it. The fumes were practically forcing tears from my eyes, and baba Mladena couldn’t stop yawning. May she rest in peace. 
 
 There are plenty of these healers in our region and in our community. Each one of them is always ready to help as much as they can, especially during traumatic events. I have visited these healers – each one specializing in different rituals – every time something significant or bad has happened to me. After a minor car crash, after a small fall, even after a particularly horrible depressive episode. And every time I come out feeling at least a little bit better. 
 
@@ -87,13 +85,13 @@ The fact that these little spells have stood the test of time is fascinating. I 
 
 The curious thing is that the practices survived communism too, when Macedonia was part of Yugoslavia – in fact, they flourished during that period. Although Josip Broz Tito, Yugoslavia’s long-time communist leader, didn’t explicitly ban religion, he was firmly against it and constantly pushed for an atheist state. Regardless, people who went to church were constantly surveilled, and their actions were frowned upon. 
 
-This tension around religion led people who needed to believe in something to look for a new outlet. This was particularly resonant with uneducated people from rural areas, such as my grandmother, who never finished middle school. The absence of organized religion allowed old pagan practices to spread. When something unexplainable happened, and they couldn’t pray 
+This tension around religion led people who needed to believe in something to look for a new outlet. This was particularly resonant with uneducated people from rural areas, such as my grandmother, who never finished middle school. The absence of organized religion allowed old pagan practices to spread. 
 
 <figure class="inline-float inline-float-left inline-float-medium">
 <img src="/assets/uploads/img_3738.png" alt="">
 </figure>
 
-for everything to be okay, the next best thing was to go to a healer. Even if they might not possess any actual ‘healing powers,’ they still gave the general public at least some peace of mind.
+ When something unexplainable happened, and they couldn’t pray for everything to be okay, the next best thing was to go to a healer. Even if they might not possess any actual ‘healing powers,’ they still gave the general public at least some peace of mind.
 
 Strangely, Tito wasn’t completely against these healers like he was against the church, or so the story goes. A famous legend had spread throughout Yugoslavia that Tito himself used to visit these healers and ask for all the bad energy to be removed, though this information is purely speculative. 
 
