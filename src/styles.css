@@ -575,7 +575,7 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   position: relative;
   margin: 36px 0;
   padding: 6px 0 6px 56px;
-  border-left: 3px solid #da0070;
+  border-left: 3px solid var(--ink);
 }
 .article-body blockquote::before{
   content: "\201C";
@@ -585,7 +585,7 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   font-family: var(--font-display);
   font-size: 64px;
   line-height: 1;
-  color: #da0070;
+  color: var(--ink);
 }
 .article-body blockquote p{ margin: 0 0 14px; }
 .article-body blockquote p:last-child{ margin-bottom: 0; }
