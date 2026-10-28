@@ -977,7 +977,8 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   justify-content: start;
   align-items: start;
 }
-.about-text h1{
+.about-title{
+  grid-column: 1 / -1;
   font-family: var(--font-display);
   font-weight: 500;
   font-size: clamp(30px, 4vw, 42px);
@@ -990,11 +991,14 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   max-width: 62ch;
 }
 
-/* the two founders sit to the right of the About text, one above the other */
+/* the two founders sit to the right of the About text, one above the other:
+   the first starts level with the first sentence, the second ends level with the last line, with room between */
 .about-team{
-  display: grid;
-  gap: 28px;
-  padding-top: clamp(0px, 4vw, 12px);
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 56px;
 }
 .team-member{
   display: grid;
