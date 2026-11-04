@@ -1,7 +1,7 @@
 ---
 layout: layouts/author.njk
 name: Bilyana Spasova
-photo: /assets/uploads/img_9691.jpeg
+photo: /assets/uploads/img_9678.jpeg
 bio: >
   Bilyana Spasova is an aspiring journalist, but hates to read the news. Her
   interests include cultural psychology, documentary theater, and eavesdropping
