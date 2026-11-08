@@ -8,9 +8,13 @@ date: 2026-11-08T20:05:00.000+02:00
 imageAspect: landscape
 image: /assets/uploads/_dsf8181.jpg
 showTopImage: false
-topImage: /assets/uploads/_dsf8181.jpg
+topImage: ""
 ---
-![](/assets/uploads/_dsf8181.jpg)
+![]()
+
+<figure class="inline-float inline-float-left inline-float-full">
+<img src="/assets/uploads/_dsf8181.jpg" alt="">
+</figure>
 
 Hitchhiking isn't necessarily about danger or rebellion. It's about the strange mix of trust and uncertainty that comes with standing on the side of the road, waiting for a stranger to decide your next direction.
 
@@ -56,4 +60,6 @@ And when someone finally does, trust becomes a two-way decision. One person open
 
 The journey continues, but so does the uncertainty. Another stretch of road, another wait, another stranger, and the beautiful unknown.
 
-![](/assets/uploads/_dsf8219.jpg)
+<figure class="inline-float inline-float-center inline-float-full">
+<img src="/assets/uploads/_dsf8219.jpg" alt="">
+</figure>
