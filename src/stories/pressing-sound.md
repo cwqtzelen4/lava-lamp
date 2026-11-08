@@ -3,7 +3,7 @@ layout: layouts/article.njk
 permalink: /stories/pressing-sound/
 title: "Pressing Sound "
 author: ilija-osichenko
-date: 2026-11-08T10:29:00.000+02:00
+date: 2026-08-08T10:29:00.000+03:00
 imageAspect: landscape
 image: /assets/uploads/img_7643.jpeg
 showTopImage: false
