@@ -5,6 +5,7 @@ title: "Pressing Sound "
 author: ilija-osichenko
 date: 2026-11-08T10:29:00.000+02:00
 imageAspect: landscape
+image: /assets/uploads/img_7643.jpeg
 showTopImage: false
 ---
 Inside the vinyl pressing plant, the work settles into the body before it settles into thought. Heat gathers around the machines. Eyes get sore from sending emails. Hands move quickly. The same motions repeat - lift, place, adjust - though never quite identically. A record warps, keyboard clicks, something jams. The work demands attention in short, constant bursts.
@@ -18,6 +19,8 @@ This is where Iliya Grigorov, better known by his rap pseudonym - Grigovor, spen
 Music there is physical: pressed into shape, cooled, stacked, boxed. It has its own sharp edges, it holds its weight. A finished form you can hold. The magic of sound packed into a 150-gram plate.
 
 The music he makes outside the factory behaves differently, though. There, the process is less obedient. Sometimes it refuses to happen at all. That might sound like a problem. For him, it’s the condition of the work.
+
+![Vinyl plant Rakamakafon, photo by Ilija Osichenko.](/assets/uploads/img_7643.jpeg)
 
 [Grigovor](https://open.spotify.com/artist/0zPqnt6HE9KMcndhYl0U9R?si=1YlZrtRBQWK04beyN7rwVg) is a Sofia-based rapper and is one of the most prominent figures in the Bulgarian hip-hop scene. His process and writing resist the conventional trend. He tends to work inward, not outward. His lyrics move between the abstract and the concrete, often circling questions of control, identity, and attention. At the same time, he tries to not take things too seriously and can make a song about something as simple as his messy apartment or his trusty old iPhone. He avoids obvious influences, not out of principle but out of necessity - whatever he is trying to reach, he believes cannot be borrowed.
 
@@ -64,6 +67,8 @@ That effort shows up in the shift in his writing. His more mature work leans tow
 This subtle aspect alters the weight of the work. It anchors it in experiences you can recognize. This specificity forms a mountain of ideas, stories, and meaning behind the songs, making their influence on the listener stronger.
 
 He applies the same philosophy to his life. He treats it as an improvisation. The way an artist would start writing a song - playing a few notes, forming a melody, making a simple beat, jotting down some lyrics to use as a mental trampoline, and then refining them later. He starts any big project in the same way, most recently Rakamakafon.  Random unserious conversations with his mates are actually what led him to establish the whole business.
+
+![Iliya in his “office” in Rakamakafon, photo by Ilija Osichenko.](/assets/uploads/img_7654.jpeg)
 
 One of the clearest examples of his writing approach is the track “[Bez Dni](https://open.spotify.com/track/36IDGoiq7xGRugkb0HnqcV?si=c9745324696a4e3d).” The title itself shifts depending on how you read it. Separated - the words translate from Bulgarian to “without days.” Put together as one word, they become “bezdni”, meaning “abyss.” The ambiguity is not decorative - it defines the song itself.
 
