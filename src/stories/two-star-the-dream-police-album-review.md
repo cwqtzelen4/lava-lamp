@@ -7,7 +7,7 @@ illustrator: map-layout-layouts-author-njk-role-illustrator-photo-assets-uploads
 date: 2026-10-26T12:12:00.000+02:00
 imageAspect: landscape
 image: /assets/uploads/859272116_1020147144438233_4303047090330962549_n.png
-showTopImage: false
+showTopImage: true
 ---
 When was the last time you listened to an album from beginning to end? 
 
