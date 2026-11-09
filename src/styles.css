@@ -675,6 +675,21 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   .prose .inline-float-full{ width: 100%; }
 }
 
+/* groups of photos in a story, automatic:
+   - two photos in a row (left + right) sit side by side across the text width with a small gap
+   - after any group of two or more photos, the text starts below the last photo instead of wrapping beside it
+   A single photo still has text wrapping around it. */
+.article-body .inline-float-left:has(+ .inline-float-right),
+.article-body .inline-float-left + .inline-float-right{
+  float: left;
+  width: calc(50% - 6px);
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+.article-body .inline-float-left:has(+ .inline-float-right){ margin-left: 0; margin-right: 12px; }
+.article-body .inline-float-left + .inline-float-right{ margin-left: 0; margin-right: 0; }
+.article-body .inline-float + .inline-float + :not(.inline-float){ clear: both; }
+
 .two-up{
   display: grid;
   grid-template-columns: 1fr 1fr;
