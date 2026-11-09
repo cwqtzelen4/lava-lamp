@@ -15,8 +15,8 @@ I am well aware that I’ve had enough sleep. I’ve eaten enough, and have had 
 
 She mixes coarse salt with cold water and gently spreads it on my forehead before she begins her ritual. As she mumbles something under her breath, she lets out a long and uncontrollable yawn – first of many. She continues to whisper in between the yawns. Her cheeks turn red while her eyes fill up with tears. The yawns start getting longer and louder. After a while, she stops. 
 
-<figure class="inline-float inline-float-right inline-float-small">
-<img src="/assets/uploads/img_3737.png" alt="">
+<figure class="inline-float inline-float-right inline-float-medium">
+<img src="/assets/uploads/img_3788.png" alt="A hand pressing on a girl's forehead">
 </figure>
 
 She goes on and on about how my saints and guardians never protect me from evil. Her solution to this dilemma is that I should always wear my underwear inside-out.  I don’t ask questions. I just do as she says. I always end up feeling better afterwards. For the majority of my life, I thought it was a placebo. Now I’m not so sure.
@@ -27,26 +27,28 @@ The rules of learning the rituals, according to my grandmother, vary from region
 
 Trying to explain something that is such a big part of my life and my culture to someone outside the Balkans is always interesting. I get a different reaction almost every time, but I always get asked if I am a witch. Deep down inside, I really wish I was. Not a witch per se, but a part of this community, its rituals, and history.
 
-<figure class="inline-float inline-float-left inline-float-medium">
-<img src="/assets/uploads/img_3742.png" alt="">
+<figure class="inline-float inline-float-left inline-float-small">
+<img src="/assets/uploads/img_3792.png" alt="A salt shaker pouring salt">
 </figure>
 
 I wish I knew their secret language, or what the significance of salt is, or why they are always using water. I wish I knew why some of them use the moon cycle and how that is related to anything, really? I wish I knew if they take people's pains away and whether it aches their body instead. I wish I knew how to calm people down and take away their troubles, or at least make them believe that I can.
+
+<figure class="inline-float inline-float-right inline-float-small">
+<img src="/assets/uploads/img_3793.png" alt="The moon">
+</figure>
 
 In my particular case, due to the failure of my saints, my baba says that I have a lot of *urotsi*, her specialty. The closest concept to this would be the evil eye, or the fear of envy. Except that instead of an eye-shaped talisman, or the so-called nazar, we have a spiritual protector, a saint. Many Balkans claim that people with blue eyes tend to spread *urotsi*, perhaps it is somehow connected with the evil eye? In fairness, anyone can spread them. In some cases, even calling a newborn cute holds the grave danger of giving them *urotsi*. In that situation, all you need to do is… spit on them three times. 
 
 Helpful things superstitious people do to avoid *urotsi*, as suggested by my baba, are wearing their undergarments upside-down, making a small invisible hole in their clothes, and even wearing different socks. In other regions, these healers use lead or wax to get rid of evil energy. Unfortunately, we come from the poorer villages, where people add rice to moussaka when they do not have enough meat, so salt and water had to be good enough to ‘break the spell.’
 
-Most people’s first time visiting a pagan healer is during infancy. If a baby cries too much, parents are strongly advised to take their baby to a healer, where a ritual involving matches is performed. Healers light up three matches one by one and then douse them in a cup of water while saying their secretive whispers. Then they throw away the water far from their house. 
-
 <figure class="inline-float inline-float-right inline-float-small">
-<img src="/assets/uploads/img_3739.png" alt="">
+<img src="/assets/uploads/img_3790.png" alt="A matchbox and burning matches with smoke">
 </figure>
 
-
+Most people’s first time visiting a pagan healer is during infancy. If a baby cries too much, parents are strongly advised to take their baby to a healer, where a ritual involving matches is performed. Healers light up three matches one by one and then douse them in a cup of water while saying their secretive whispers. Then they throw away the water far from their house. 
 
 <figure class="inline-float inline-float-left inline-float-small">
-<img src="/assets/uploads/img_3740.png" alt="">
+<img src="/assets/uploads/img_3791.png" alt="A baby held in someone's arms">
 </figure>
 
 After an insightful conversation with a couple who was blessed enough to have a brand new screaming baby in their household, they assured me that this spell works incredibly well. Surely a baby doesn’t know about placebos? 
@@ -59,15 +61,15 @@ Growing up, I never truly believed in these rituals. I liked watching the Magic 
 
 I still remember her. I remember when I went to her house for the first time as a child. Her name was Mladena. She had a small cottage in the middle of Dzvegor, right by the road connecting North Macedonia and Bulgaria. She was an icon in the village. People from all around the country used to visit her, she was even on the news once! 
 
+<figure class="inline-float inline-float-left inline-float-medium">
+<img src="/assets/uploads/img_3787.png" alt="A child watching a huge wooden armoire fall toward them">
+</figure>
+
 My parents took me to her because her specialty was healing from *uplah*: she was able to heal the fear people experienced and calm them down. We paid her a visit one hot summer night after an incident involving a wooden armoire filled with heavy blankets and the mysterious way it happened to fall directly on top of me.
 
 Mladena had a plastic chair right by her door, where she would sit, people-watch, and greet passersby. I remember being scared. Scared of her walls, which were peeling, and her heavy door that had mysterious scratches all over. The inside had only one room. The floor was wooden and rough. Sunlight struggled to get in, so it was pretty dark. Once inside, the first thing that greeted me was the smell of the basement interlocked with iron-heavy scents. I was practically shaking at this point. The thing I was scared of the most, however, was the fury of my strict Balkan mother, so I behaved. 
 
 She opened up her rusted wood-stove and put an old horseshoe into the flames with her long iron tongs, while whispering something under her breath. The burning wood inside kept crackling and popping as she put some salt on my forehead after filling up a large steel pot with water. 
-
-<figure class="inline-float inline-float-right inline-float-medium">
-<img src="/assets/uploads/img_3745.png" alt="">
-</figure>
 
 She never stopped her secret whispers as she took out the bright red horseshoe and gently placed it inside the pot. I still remember the sound of the hot horseshoe screaming and hissing as it fell to the bottom of the pot. She gently pulled me in and asked me to inhale all of the fumes that came from the pot, and continued to whisper. The metal smell was so strong I could taste it. The fumes were practically forcing tears from my eyes, and baba Mladena couldn’t stop yawning. May she rest in peace. 
 
@@ -83,13 +85,13 @@ According to my grandma, the main reason there are so many of these healers prob
 
 The fact that these little spells have stood the test of time is fascinating. I wonder if they are the same now as they were back then? Are they always the same words each time, or are the healers allowed to freestyle? Does it have something to do with energy? The universe? What are they healing us from?
 
+<figure class="inline-float inline-float-right inline-float-medium">
+<img src="/assets/uploads/img_3789.png" alt="A kneeling woman praying and a bishop with a cross walking away">
+</figure>
+
 The curious thing is that the practices survived communism too, when Macedonia was part of Yugoslavia – in fact, they flourished during that period. Although Josip Broz Tito, Yugoslavia’s long-time communist leader, didn’t explicitly ban religion, he was firmly against it and constantly pushed for an atheist state. Regardless, people who went to church were constantly surveilled, and their actions were frowned upon. 
 
 This tension around religion led people who needed to believe in something to look for a new outlet. This was particularly resonant with uneducated people from rural areas, such as my grandmother, who never finished middle school. The absence of organized religion allowed old pagan practices to spread. 
-
-<figure class="inline-float inline-float-left inline-float-medium">
-<img src="/assets/uploads/img_3738.png" alt="">
-</figure>
 
  When something unexplainable happened, and they couldn’t pray for everything to be okay, the next best thing was to go to a healer. Even if they might not possess any actual ‘healing powers,’ they still gave the general public at least some peace of mind.
 
