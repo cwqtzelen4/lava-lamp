@@ -65,35 +65,6 @@ module.exports = function (eleventyConfig) {
     return content.slice(0, open) + `<p class="${cls}">` + content.slice(open + 3);
   });
 
-  // Pictures in src/assets/uploads stay as they are in the project. When the real site is built,
-  // the copies that go online are shrunk (longest side 1600 px) so pages load fast. Nobody has to resize anything.
-  eleventyConfig.on("eleventy.after", async ({ dir, runMode }) => {
-    if (runMode !== "build") return; // skipped while editing locally, to keep it quick
-    const sharp = require("sharp");
-    const fs = require("fs");
-    const path = require("path");
-    sharp.cache(false);
-    const folder = path.join(dir.output, "assets", "uploads");
-    if (!fs.existsSync(folder)) return;
-    for (const name of fs.readdirSync(folder)) {
-      const file = path.join(folder, name);
-      const type = path.extname(name).toLowerCase();
-      if (![".jpg", ".jpeg", ".png", ".webp"].includes(type)) continue;
-      const before = fs.statSync(file).size;
-      if (before < 300 * 1024) continue; // already small
-      try {
-        let img = sharp(file).rotate().resize({ width: 1600, height: 1600, fit: "inside", withoutEnlargement: true });
-        if (type === ".png") img = img.png({ compressionLevel: 9 });
-        else if (type === ".webp") img = img.webp({ quality: 80 });
-        else img = img.jpeg({ quality: 80, mozjpeg: true });
-        const smaller = await img.toBuffer();
-        if (smaller.length < before) fs.writeFileSync(file, smaller);
-      } catch (error) {
-        console.log("Could not shrink " + name + ": " + error.message); // the original stays online
-      }
-    }
-  });
-
   eleventyConfig.addPassthroughCopy({ "src/favicon.jpg": "favicon.jpg" });
   eleventyConfig.addPassthroughCopy({ "src/icons": "." }); // favicon.ico, favicon-48.png, favicon-192.png, apple-touch-icon.png
   eleventyConfig.addPassthroughCopy({ "src/styles.css": "styles.css" });
