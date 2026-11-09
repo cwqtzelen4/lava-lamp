@@ -11,11 +11,15 @@ showTopImage: true
 ---
 My grandma puts her heart into growing her tomatoes.
 
-When spring comes, she takes out last year’s seeds, sundried on pieces of newspaper, and plants them in old yoghurt cups. Then, in April,she inserts them into the lines of the hard limestone soil. By the time I would go to 
+When spring comes, she takes out last year’s seeds, sundried on pieces of newspaper, and plants them in old yoghurt cups. Then, in April,she inserts them into the lines of the hard limestone soil. 
 
 <figure class="inline-float inline-float-left inline-float-medium">
 <img src="/assets/uploads/kavarnaseacliffs-cropped.png" alt="">
 </figure>
+
+By the time I would go to 
+
+
 
 Kavarna at the start of my summer break, they would have grown as tall as myself, heavy with little green fruits. I would watch these fruits grow, filling up with water, reddening, painted by the rays of the summer sun. My days would pass, waiting impatiently for the time when my grandma would give me the first tomato washed with ice-cold water, ripe as a childhood, sweet as summer freedom. I would dig my teeth into the flesh of the heart-shaped fruit,the juice running down my chin, onto the newly washed shirt.
 
