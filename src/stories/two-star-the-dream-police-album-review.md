@@ -18,7 +18,7 @@ Yet, when cruising the soundwaves of music streaming platforms, the modern liste
 Such is the case with the 2024 album *Two Star and the Dream Police* by Michael Gordon, better known by his stage name Mk.gee. Gordon is no stranger to contradiction as a source of inspiration: just four years before his debut studio album *Two Star* he released his debut mixtape titled *A Museum of Contradiction. Two Star* expands upon 
 
 <figure class="inline-float inline-float-right inline-float-medium">
-<img src="/assets/uploads/two-star-ill1.png" alt="">
+<img src="/assets/uploads/guitar-nobackground.png" alt="">
 </figure>
 
 this concept, grabbing critics' attention: This [album review](https://www.rollingstone.com/music/music-album-reviews/mk-gee-two-star-and-the-dream-police-1234971328/) published in the Rolling Stone claims “the leap from [*A Museum of Contradiction*] to *Two Star* is massive”. *Two Star* ranks 14th out of the 100 best albums of 2024 in the [Rolling Stone](https://www.rollingstone.com/music/music-lists/best-albums-2024-1235031987/cindy-lee-diamond-jubilee-1235032228/) chart, solidifying Mk.gee’s position as an artist who is both critically acclaimed and loved by audiences. 
@@ -34,6 +34,10 @@ There is no doubt we are in for a tale of volatility and opposing concepts, a st
 > *If you got somethin’, go and hide it*
 
 is what the speaker believes is best for a person he desperately wishes would be closer to him. The topic of absence is also approached sonically. Loud and energetic beats follow lush meandering arrangements and echoing vocals, as if the person speaking is disappearing and re-appearing. 
+
+<figure class="inline-float inline-float-left inline-float-medium">
+<img src="/assets/uploads/alesis-nobackground.png" alt="">
+</figure>
 
 Following the track order of the album is crucial for a full-fledged listening experience. Aside from the lyrical speaker present in every song, there is another recurring figure: Rylee. She is first mentioned in “Are You Looking Up” and two songs later turns into the titular character of “Rylee and I”. It is easy to relate to the way the narrator feels about Rylee, because the songs dedicated to her exude the excitement and nervousness any newfound crush brings about. In “Are You Looking Up”, the narrator wonders why she is so closed off and ensures her that 
 
@@ -52,5 +56,9 @@ Just as “New Low’’ is a direct introduction to Mk.gee’s contradictory wo
 > *She lit the world on fire*
 >
 > *The dream police is alive*
+
+<figure class="inline-float inline-float-right inline-float-small">
+<img src="/assets/uploads/horse-nobackground.png" alt="">
+</figure>
 
 Everything the listener knows is destroyed, it is time for a new world order to take place. At the very beginning, you are hitting a new low by modifying and hiding yourself in hopes of being accepted, but at the end, the universe resting on lies will inevitably burn. This is not to say, however, that the ending of this story is tragic. The last lines of the album are a repetition of the phrase “All my love’’ and resemble the way one would sign off a letter. What is coming now is unknown to both the narrator and the listeners and there is no resolution to the dilemma, but whatever the future holds, will be faced with love.
