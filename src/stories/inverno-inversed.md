@@ -3,6 +3,7 @@ layout: layouts/article.njk
 permalink: /stories/inverno-inversed/
 title: "Inverno Inversed "
 author: zlatara-chakarova
+illustrator: simeona-kroteva
 date: 2026-11-08T20:18:00.000+02:00
 imageAspect: landscape
 showTopImage: false
