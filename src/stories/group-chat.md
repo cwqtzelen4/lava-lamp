@@ -6,7 +6,7 @@ deck: Who knows what grows into someone’s heart?
 author: valentina-velikova
 date: 2026-08-14
 imageAspect: portrait
-image: /assets/uploads/buffalohearttomatos2.png
+image: /assets/uploads/buffalohearttomatos2-resized.jpg
 showTopImage: true
 ---
 My grandma puts her heart into growing her tomatoes.
