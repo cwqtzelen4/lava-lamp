@@ -67,6 +67,8 @@ Time passed, I was growing up, she was growing old. We didn’t play teacher and
 
 I was twenty that summer. Just finished high school. After I graduated, I didn’t tell her about my decision tobecome a flight attendant and my plans to apply to pilot school. Only later did my mother tell me what grandma told her.
 
+
+
 “Don’t let her do it! It’s dangerous; this is a man’s job.”
 
 It was the first summer when I didn’t go to Kavarna. The first summer when I didn’t see my grandma, lost among the tomato plants, as high as the sky I was flying across. She sent me a package with tomatoes at the end of August, which I would eat at the back galley of the airplane, their sweet juice mixed with the smell of foreign lands. It tasted weird.
