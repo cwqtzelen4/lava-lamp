@@ -4,6 +4,7 @@ permalink: /stories/group-chat/
 title: Buffalo Heart
 deck: Who knows what grows into someone’s heart?
 author: valentina-velikova
+illustrator: boryana-tsanova
 date: 2026-08-14
 imageAspect: portrait
 image: /assets/uploads/buffalohearttomatos2-resized.jpg
