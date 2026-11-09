@@ -6,12 +6,16 @@ deck: Who knows what grows into someone’s heart?
 author: valentina-velikova
 date: 2026-08-14
 imageAspect: portrait
-image: /assets/uploads/tomato-cover.png
+image: /assets/uploads/buffalohearttomatos2.png
 showTopImage: true
 ---
 My grandma puts her heart into growing her tomatoes.
 
 When spring comes, she takes out last year’s seeds, sundried on pieces of newspaper, and plants them in old yoghurt cups. Then, in April,she inserts them into the lines of the hard limestone soil. By the time I would go to Kavarna at the start of my summer break, they would have grown as tall as myself, heavy with little green fruits. I would watch these fruits grow, filling up with water, reddening, painted by the rays of the summer sun. My days would pass, waiting impatiently for the time when my grandma would give me the first tomato washed with ice-cold water, ripe as a childhood, sweet as summer freedom. I would dig my teeth into the flesh of the heart-shaped fruit,the juice running down my chin, onto the newly washed shirt.
+
+<figure class="inline-float inline-float-right inline-float-medium">
+<img src="/assets/uploads/kavarnaseacliffs.png" alt="">
+</figure>
 
 “This type is called buffalo heart,” my grandma would say, “the best type for a salad, the sweetest.”
 
@@ -19,7 +23,13 @@ I’ve never seen her eating her tomatoes. She said they give her a stomachache.
 
 My grandma is a tiny woman. Sometimes I would lose her figure among the tomato plants, which would be as tall as the sky by August. There was always something to be done — watering soil, cracked and thirsty, putting up poles to support the plants, tying them with string. The more I grew up, the more I realized that behind her devotion to her tomatoes lay a deeply rooted sense of reconciliation.
 
-She was born in Gotse Delchev, a city in the southwest of Bulgaria. The fifth of eight children, and among the few to have a higher education. She was a high school teacher. Maybe that’s the reason we’d spendhours playing our favorite game, a student and a teacher. I would take her old atlas, and teach her for hours, pretending I knew everything and she —pretending that she knew nothing. She had just finished her studies when she met my granddad, who was part of the border military. She would move with him around Bulgaria, when they finally settled in his hometown, Kavarna, a small port city on the Northern Black Sea coast. My freedom island and my grandma’s port.
+She was born in Gotse Delchev, a city in the southwest of Bulgaria. The fifth of eight children, and among the few to have a higher education. She was a high school teacher. Maybe that’s the reason we’d spendhours playing our 
+
+<figure class="inline-float inline-float-left inline-float-medium">
+<img src="/assets/uploads/atlasgotsedelchevandkavarna.png" alt="">
+</figure>
+
+favorite game, a student and a teacher. I would take her old atlas, and teach her for hours, pretending I knew everything and she —pretending that she knew nothing. She had just finished her studies when she met my granddad, who was part of the border military. She would move with him around Bulgaria, when they finally settled in his hometown, Kavarna, a small port city on the Northern Black Sea coast. My freedom island and my grandma’s port.
 
 I wouldn’t pay much attention to her remarks when I went out to play with my friends.
 
@@ -56,6 +66,10 @@ After I graduated, I didn’t tell her about my decision tobecome a flight atten
 “Don’t let her do it! It’s dangerous; this is a man’s job.”
 
 It was the first summer when I didn’t go to Kavarna. The first summer when I didn’t see my grandma, lost among the tomato plants, as high as the sky I was flying across. She sent me a package with tomatoes at the end of August, which I would eat at the back galley of the airplane, their sweet juice mixed with the smell of foreign lands. It tasted weird.
+
+<figure class="inline-float inline-float-right inline-float-medium">
+<img src="/assets/uploads/boeing.png" alt="">
+</figure>
 
 I often think of her, of her garden and her tomatoes, with nostalgia and sadness. The place of my childhood freedom and of my adult strain. I think about her fear of the world, a fear that made her settle for whatever was safe, known, and expected. A fear that roots you in a place and time you don’t want to be in.
 
