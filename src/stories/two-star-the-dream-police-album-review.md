@@ -55,7 +55,7 @@ Just as “New Low’’ is a direct introduction to Mk.gee’s contradictory wo
 >
 > *The dream police is alive*
 
-<figure class="inline-float inline-float-right inline-float-small">
+<figure class="inline-float inline-float-left inline-float-small">
 <img src="/assets/uploads/horse-nobackground.png" alt="">
 </figure>
 
