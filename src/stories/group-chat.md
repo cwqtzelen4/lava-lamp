@@ -69,11 +69,13 @@ Time passed, I was growing up, she was growing old. We didn’t play teacher and
 
 “Eh, when I was your age, your aunt was already born.”
 
-I was twenty that summer. Just finished high school.
-
 <figure class="inline-float inline-float-left inline-float-medium">
 <img src="/assets/uploads/boeing-cropped.png" alt="">
 </figure>
+
+I was twenty that summer. Just finished high school.
+
+
 
 After I graduated, I didn’t tell her about my decision tobecome a flight attendant and my plans to apply to pilot school. Only later did my mother tell me what grandma told her.
 
