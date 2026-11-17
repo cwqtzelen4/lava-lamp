@@ -710,12 +710,12 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 .video-framed{
   position: relative;
-  aspect-ratio: 1380 / 1027; /* the shape of the frame picture */
+  aspect-ratio: 1380 / 960; /* the shape of the frame picture */
 }
 .video-framed .video-screen{
   position: absolute;
   left: 8.62%;
-  top: 31%;
+  top: 33.16%;
   width: 82.6%;
 }
 .video-framed > img{
