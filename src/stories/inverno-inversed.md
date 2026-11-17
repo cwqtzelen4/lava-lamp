@@ -73,15 +73,27 @@ Revelations come through growth. When snowflakes fall, the world gets slowly cov
 
 I feel that in Vivaldi’s mind the poem appeared first, and the music followed. The poem and the actual piece are all the same thing, are they not? One explains the other and vice versa. But they are not interchangeable. The words add to the music, the music plays the words.
 
+<figure class="inline-float inline-float-left inline-float-medium">
+<img src="/assets/uploads/inverno-dancer-1.png" alt="A dancer bending low with arms stretched out">
+</figure>
+
 Snow falls, Vivaldi writes a poem. Snow falls, a musical piece appears. Snow keeps falling for almost three centuries and the music finds a new voice, ply over ply. A woman joins the orchestration by adding to it the movement of the human body. It is all so white, so clear. And each layer is in itself, and all layers are the same thing.
 
 Whenever I watch the last part of Crystal Pite’s *Seasons’ Canon,* I am swept away by its grandeur. We are used to saying nature does this or that, oceans move, birds fly, flowers bloom… We talk of mountains and trees when looking at them each as a whole – this is where the wildness and the beauty of it come together. The wholeness of things stands before us. We say this leaf here – this is nature. This wind is nature, this wave is nature. But we rarely say this person is nature. The way he moves is nature. The way she turns is nature. We tend to look at people as individuals. Even if we are looking at a crowd, slowly and gradually we reconstruct a somebody. So the wave gets divided into droplets. And though the wave is in a way a combination of droplets, when you are in it, it is difficult to see yourself as part of it.
+
+<figure class="inline-float inline-float-right inline-float-medium">
+<img src="/assets/uploads/inverno-dancer-2.png" alt="A dancer standing with arms open">
+</figure>
 
 The choreography of Pite deliberately aims to let go of the individual and look at things as a whole. Each dancer is like a tiny fractal, a part of the human wave and a smaller wave inside of it. Everyone moves led by the same voice, the difference is only a delay in time. But is it not precisely through the delay of time that we can perceive movement?
 
 Vivaldi’s poem and Pite’s choreography say the same words, but speak through different voices. In the poem one thinks of the movement of a human being within winter. In the dance one sees the movement of winter within a human body. The differences are obvious – one speaks through words, the other through human motion. One gives the impression of a slow, heavy journey, the other is the storm that opens the way. It is all beautiful. You feel like you are freezing when you are in it, but when you are being the storm it is only matter changing its form.
 
 And, of course, there is the music. I feel the recomposed version better than I feel the original. The newer version takes its time within the storm. It does not let it fade away as quickly and as easily as one would prefer. Because this is a fundamental part of the experience of winter: it comes all of a sudden and it feels so long. It is both familiar and unpredictable, like the gentle and habitual touch of a loved one who all of a sudden betrays one and leaves.
+
+<figure class="inline-float inline-float-left inline-float-large">
+<img src="/assets/uploads/inverno-antlers.png" alt="Antlers with icicles hanging from them">
+</figure>
 
 The paradox of winter is that on the outside it may look frozen, but inside, life keeps thriving. On the outside the winds are howling, snow covers everything under its veil, all seems to die. Yet all keeps moving inside and metamorphosing into new forms. That is the nature of nature: constant change. It is scary when you realize change has come – beyond extends the unknown. It is also scary when you pray for change and nothing seems to be moving: the whiteness is perfectly still.
 
