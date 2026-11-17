@@ -61,3 +61,31 @@ CMS.registerEditorComponent({
     return "Image (" + obj.align + ", " + (obj.size || "medium") + "): " + obj.image;
   },
 });
+
+// Adds a "YouTube Video" button: paste a YouTube link and the video plays inside the story.
+// Tick the box to show it inside the icicle frame.
+var FRAME_IMAGE = "/assets/uploads/video-frame-icicles.png";
+CMS.registerEditorComponent({
+  id: "youtube-video",
+  label: "YouTube Video",
+  fields: [
+    { name: "url", label: "YouTube link (for example https://www.youtube.com/watch?v=...)", widget: "string" },
+    { name: "frame", label: "Show the video inside the icicle frame", widget: "boolean", default: true },
+  ],
+  pattern: /^<div class="video-embed( video-framed)?">\n<div class="video-screen"><iframe src="https:\/\/www\.youtube-nocookie\.com\/embed\/([\w-]+)"[^>]*><\/iframe><\/div>(?:\n<img src="[^"]*" alt="">)?\n<\/div>$/,
+  fromBlock: function (match) {
+    return { url: "https://www.youtube.com/watch?v=" + match[2], frame: !!match[1] };
+  },
+  toBlock: function (obj) {
+    var found = (obj.url || "").match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([\w-]{11})/);
+    if (!found) return "";
+    var html =
+      '<div class="video-embed' + (obj.frame ? " video-framed" : "") + '">\n' +
+      '<div class="video-screen"><iframe src="https://www.youtube-nocookie.com/embed/' + found[1] + '" title="YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>';
+    if (obj.frame) html += '\n<img src="' + FRAME_IMAGE + '" alt="">';
+    return html + "\n</div>";
+  },
+  toPreview: function (obj) {
+    return "YouTube video: " + (obj.url || "") + (obj.frame ? " (in the icicle frame)" : "");
+  },
+});

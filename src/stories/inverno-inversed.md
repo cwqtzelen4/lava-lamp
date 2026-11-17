@@ -50,6 +50,11 @@ This is winter, but it brings joy.
 
  ** *                                                   – Antonio Vivaldi***
 
+<div class="video-embed video-framed">
+<div class="video-screen"><iframe src="https://www.youtube-nocookie.com/embed/Nefs9MoeYOs" title="YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<img src="/assets/uploads/video-frame-icicles.png" alt="">
+</div>
+
 \* \* *
 
 I discovered Vivaldi’s “Winter” in reverse. I first discovered Crystal Pite’s *Seasons’ Canon,* which she choreographed for Max Richter’s recomposition of Vivaldi’s *Four Seasons*. From Pite I went to Richter and from Richter to Vivaldi. Then I found that Vivaldi wrote little poems for each of his four movements. When I first read his winter poem, years ago, I wrote it on a piece of paper and put it on my wall. It has been there ever since. I would often read it, but I never went beyond thinking of it as a beautiful piece of writing. Now that I have grown a bit and have been through some winters myself, I can sense the words rooted so deeply in me that I realize I have something to hold on to when it gets very, very cold.

@@ -690,6 +690,42 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .article-body .inline-float-left + .inline-float-right{ margin-left: 0; margin-right: 0; }
 .article-body .inline-float + .inline-float + :not(.inline-float){ clear: both; }
 
+/* a YouTube video inside a story (CMS: "YouTube Video"). With .video-framed it plays inside the icicle frame:
+   the frame picture lies on top, the video sits in its opening, and clicks go through to the video. */
+.video-embed{
+  clear: both;
+  margin: clamp(36px, 5vw, 56px) 0;
+}
+.video-embed .video-screen{
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+.video-embed iframe{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.video-framed{
+  position: relative;
+  aspect-ratio: 1380 / 1027; /* the shape of the frame picture */
+}
+.video-framed .video-screen{
+  position: absolute;
+  left: 8.62%;
+  top: 31%;
+  width: 82.6%;
+}
+.video-framed > img{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
 .two-up{
   display: grid;
   grid-template-columns: 1fr 1fr;
