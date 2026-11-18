@@ -14,10 +14,7 @@ Time compresses. You look up, it’s three in the afternoon - the day has alread
 
 This is where Iliya Grigorov, better known by his rap pseudonym - Grigovor, spends much of his time nowadays. It’s the only vinyl factory in the Balkans, founded in 2025 in Bulgaria, and it’s called [Rakamakafon](https://rakamakafon.eu/). It has the capacity to press 20,000 records a month, making it the first of its kind in the country since the 1990s. The name was supposed to be different at first, but copyright issues led them to this one.
 
-<figure class="inline-float inline-float-right inline-float-medium">
-<img src="/assets/uploads/ihh_9476.jpg" alt="">
-<figcaption>Iliya Grigorov, holding a record. Personal archive.</figcaption>
-</figure>
+![Personal archive.](/assets/uploads/ihh_8937.jpg)
 
 “We wanted to call it ‘Sofia Press,’ but we couldn’t. So, we chose something funny - to remind ourselves not to take it too seriously.”
 
@@ -25,9 +22,12 @@ Music there is physical: pressed into shape, cooled, stacked, boxed. It has its 
 
 The music he makes outside the factory behaves differently, though. There, the process is less obedient. Sometimes it refuses to happen at all. That might sound like a problem. For him, it’s the condition of the work.
 
-![Vinyl plant Rakamakafon. Personal archive of Iliya Grigorov.](/assets/uploads/ihh_8937.jpg)
-
 [Grigovor](https://open.spotify.com/artist/0zPqnt6HE9KMcndhYl0U9R?si=1YlZrtRBQWK04beyN7rwVg) is a Sofia-based rapper and is one of the most prominent figures in the Bulgarian hip-hop scene. His process and writing resist the conventional trend. He tends to work inward, not outward. His lyrics move between the abstract and the concrete, often circling questions of control, identity, and attention. At the same time, he tries to not take things too seriously and can make a song about something as simple as his messy apartment or his trusty old iPhone. He avoids obvious influences, not out of principle but out of necessity - whatever he is trying to reach, he believes cannot be borrowed.
+
+<figure class="inline-float inline-float-right inline-float-medium">
+<img src="/assets/uploads/ihh_9476.jpg" alt="">
+<figcaption>Iliya Grigorov, holding a record. Personal archive.</figcaption>
+</figure>
 
 He is also active in the rap collective [So Called Crew](https://socalledcrew.com/pages/about-us) together with his rap peer [Jluch](https://open.spotify.com/artist/1u5aZFA7fAmHyKsn5EkyW3?si=b3ziN0vmQvuYUJneqSmtTg) (Mathew Stoyanov) and their producer [Gena](https://open.spotify.com/artist/3MqzFFAm4gc6nzAcWE2gjT?si=cjMdMU4GQrmtMb8_A_JKVg) (Evgenii Genchev).
 
@@ -115,7 +115,7 @@ It also shapes how he listens.
 
 For Grigovor, the distinction between digital and analog music is not just technical. It’s behavioral and almost ritual. After decades of digital convenience, the format has returned with unexpected force. He sees it less as nostalgia and more as a correction - restoring a need for a different kind of attention. Streaming allows for constant interruption - skipping, switching, fragmenting that attention.
 
-<figure class="inline-float inline-float-left inline-float-small">
+<figure class="inline-float inline-float-left inline-float-medium">
 <img src="/assets/uploads/ihh_9031.jpg" alt="">
 <figcaption>Personal archive of Iliya Grigorov.</figcaption>
 </figure>
