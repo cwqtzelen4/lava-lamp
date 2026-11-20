@@ -1309,12 +1309,13 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   overflow: hidden;
   width: min(460px, calc(100vw - 32px));
   margin: auto;
-  padding: clamp(32px, 5vw, 44px) clamp(24px, 5vw, 40px) 128px;
+  padding: clamp(32px, 5vw, 44px) clamp(24px, 5vw, 40px) 150px;
   text-align: center;
   color: var(--ink);
   background: var(--bg);
-  border: 1px solid var(--rule);
+  border: 0; /* no light border, so the bubbles reach the very edge of the box */
   border-radius: 2px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.28);
 }
 .newsletter-dialog::backdrop{ background: rgba(20, 20, 20, 0.45); }
 .newsletter-view{ position: relative; z-index: 1; }
@@ -1365,19 +1366,24 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 .newsletter-close:hover{ color: var(--ink); }
 
-/* still lava lamp bubbles along the bottom of the box */
+/* still lava lamp bubbles along the bottom of the box: big and chunky, melted together by the goo filter */
 .newsletter-bubbles{
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
-  height: 112px;
+  height: 132px;
   pointer-events: none;
 }
+/* each colour melts together on its own layer, so the dark bubbles stay crisp on top of the pink */
+.newsletter-bubbles > div{ position: absolute; inset: 0; filter: url(#newsletter-goo); }
 .newsletter-bubbles span{ position: absolute; border-radius: 50%; }
-.newsletter-bubbles span:nth-child(1){ width: 130px; height: 130px; left: -34px;  bottom: -62px; background: #65002e; }
-.newsletter-bubbles span:nth-child(2){ width: 84px;  height: 84px;  left: 78px;   bottom: -24px; background: #da0070; }
-.newsletter-bubbles span:nth-child(3){ width: 38px;  height: 38px;  left: 132px;  bottom: 48px;  background: #da0070; }
-.newsletter-bubbles span:nth-child(4){ width: 156px; height: 156px; right: -46px; bottom: -84px; background: #da0070; }
-.newsletter-bubbles span:nth-child(5){ width: 62px;  height: 62px;  right: 96px;  bottom: -6px;  background: #65002e; }
-.newsletter-bubbles span:nth-child(6){ width: 26px;  height: 26px;  right: 52px;  bottom: 66px;  background: #65002e; }
+.bubbles-pink span{ background: #da0070; }
+.bubbles-dark span{ background: #65002e; }
+.bubbles-pink span:nth-child(1){ width: 150px; height: 150px; left: 92px;   bottom: -96px; }
+.bubbles-pink span:nth-child(2){ width: 84px;  height: 84px;  left: 40px;   bottom: 18px; }
+.bubbles-pink span:nth-child(3){ width: 220px; height: 220px; right: -76px; bottom: -128px; }
+.bubbles-dark span:nth-child(1){ width: 200px; height: 200px; left: -64px;  bottom: -118px; }
+.bubbles-dark span:nth-child(2){ width: 140px; height: 140px; right: 120px; bottom: -92px; }
+.bubbles-dark span:nth-child(3){ width: 70px;  height: 70px;  right: 44px;  bottom: 42px; }
+.bubbles-dark span:nth-child(4){ width: 40px;  height: 40px;  left: 170px;  bottom: 62px; }
