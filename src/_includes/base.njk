@@ -44,7 +44,7 @@
     <div class="foot-links">
       <a href="/about/">About</a>
       {%- if site.submitUrl %}
-      <a href="mailto:{{ site.email }}?subject=Newsletter" class="newsletter-open">Newsletter</a>
+      <a href="mailto:{{ site.email }}?subject=Dispatch" class="dispatch-open">Dispatch</a>
       {%- endif %}
       <a href="mailto:{{ site.email }}" class="contact-open">Contact</a>
     </div>
@@ -58,38 +58,38 @@
 </dialog>
 
 {%- if site.submitUrl %}
-<dialog id="newsletter-dialog" class="newsletter-dialog" aria-label="Join our newsletter">
-  <button type="button" class="newsletter-close" aria-label="Close">&times;</button>
+<dialog id="dispatch-dialog" class="dispatch-dialog" aria-label="Join our dispatch">
+  <button type="button" class="dispatch-close" aria-label="Close">&times;</button>
 
-  <div class="newsletter-view" data-view="form">
-    <h2 class="newsletter-title">Join our newsletter</h2>
-    <p class="newsletter-text">Give us your email and Lava Lamp will light up your inbox every time a new story is published.</p>
-    <form class="newsletter-form" data-url="{{ site.submitUrl }}/subscribe">
-      <input type="text" name="website" class="newsletter-trap" tabindex="-1" autocomplete="off" aria-hidden="true">
-      <label class="visually-hidden" for="newsletter-email">Your email</label>
-      <input type="email" id="newsletter-email" name="email" placeholder="Your email" autocomplete="email" required>
+  <div class="dispatch-view" data-view="form">
+    <h2 class="dispatch-title">Join our dispatch</h2>
+    <p class="dispatch-text">Give us your email and Lava Lamp will light up your inbox every time a new story is published.</p>
+    <form class="dispatch-form" data-url="{{ site.submitUrl }}/subscribe">
+      <input type="text" name="website" class="dispatch-trap" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <label class="visually-hidden" for="dispatch-email">Your email</label>
+      <input type="email" id="dispatch-email" name="email" placeholder="Your email" autocomplete="email" required>
       <button type="submit">Subscribe</button>
     </form>
-    <p class="newsletter-note">We only use your email to tell you about new stories.</p>
+    <p class="dispatch-note">We only use your email to tell you about new stories.</p>
   </div>
 
-  <div class="newsletter-view" data-view="thanks" hidden>
-    <h2 class="newsletter-title">Thank you!</h2>
-    <p class="newsletter-text">You are on the list. Watch your inbox.</p>
+  <div class="dispatch-view" data-view="thanks" hidden>
+    <h2 class="dispatch-title">Thank you!</h2>
+    <p class="dispatch-text">You are on the list. Watch your inbox.</p>
   </div>
 
-  <div class="newsletter-view" data-view="error" hidden>
-    <h2 class="newsletter-title">Maybe next time</h2>
-    <p class="newsletter-text">Something went wrong and we could not add you. <button type="button" class="newsletter-retry">Try again</button></p>
+  <div class="dispatch-view" data-view="error" hidden>
+    <h2 class="dispatch-title">Maybe next time</h2>
+    <p class="dispatch-text">Something went wrong and we could not add you. <button type="button" class="dispatch-retry">Try again</button></p>
   </div>
 
   <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
-    <filter id="newsletter-goo" x="-10%" y="-30%" width="120%" height="160%">
+    <filter id="dispatch-goo" x="-10%" y="-30%" width="120%" height="160%">
       <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur"></feGaussianBlur>
       <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -9"></feColorMatrix>
     </filter>
   </svg>
-  <div class="newsletter-bubbles" aria-hidden="true">
+  <div class="dispatch-bubbles" aria-hidden="true">
     <div class="bubbles-pink"><span></span><span></span><span></span></div>
     <div class="bubbles-dark"><span></span><span></span><span></span><span></span></div>
   </div>
@@ -98,6 +98,6 @@
 
 <script src="/nav.js?v={{ build.time }}"></script>
 <script src="/contact.js?v={{ build.time }}" defer></script>
-<script src="/newsletter.js?v={{ build.time }}" defer></script>
+<script src="/dispatch.js?v={{ build.time }}" defer></script>
 </body>
 </html>

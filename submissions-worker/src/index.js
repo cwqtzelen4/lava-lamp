@@ -31,7 +31,7 @@ function toBase64(buffer) {
   return btoa(binary);
 }
 
-// Newsletter sign-up box: emails the new address to the magazine inbox.
+// Dispatch sign-up box: emails the new address to the magazine inbox.
 // The page calls this from the browser, so the answer must allow our own website (CORS).
 async function subscribe(request, env) {
   const from = request.headers.get("Origin") || "";
@@ -53,16 +53,16 @@ async function subscribe(request, env) {
     const email = oneLine(form.get("email"), 200);
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return reply({ ok: false, error: "email" }, 400);
 
-    const body = `New newsletter sign-up: ${email}\n\nAdd this address to the Lava Lamp newsletter list.`;
+    const body = `New dispatch sign-up: ${email}\n\nAdd this address to the Lava Lamp dispatch list.`;
     const msg = createMimeMessage();
     msg.setSender({ name: "Lava Lamp website", addr: FROM });
     msg.setRecipient(TO);
-    msg.setSubject(`Newsletter sign-up: ${email}`);
+    msg.setSubject(`Dispatch sign-up: ${email}`);
     msg.addMessage({ contentType: "text/plain", encoding: "base64", data: wrap76(toBase64(new TextEncoder().encode(body))) });
     await env.SUBMISSIONS_MAIL.send(new EmailMessage(FROM, TO, msg.asRaw()));
     return reply({ ok: true });
   } catch (error) {
-    console.error("newsletter sign-up failed", error && error.message);
+    console.error("dispatch sign-up failed", error && error.message);
     return reply({ ok: false }, 500);
   }
 }
