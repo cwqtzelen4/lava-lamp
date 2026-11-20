@@ -1302,3 +1302,82 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   color: var(--ink-soft);
 }
 .contact-close:hover{ color: var(--ink); }
+
+/* ---------- newsletter pop-up (opens on the first visit, and from the footer "Newsletter") ---------- */
+.newsletter-dialog{
+  position: relative;
+  overflow: hidden;
+  width: min(460px, calc(100vw - 32px));
+  margin: auto;
+  padding: clamp(32px, 5vw, 44px) clamp(24px, 5vw, 40px) 128px;
+  text-align: center;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+}
+.newsletter-dialog::backdrop{ background: rgba(20, 20, 20, 0.45); }
+.newsletter-view{ position: relative; z-index: 1; }
+.newsletter-title{
+  margin: 0 0 12px;
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(25px, 6vw, 31px);
+  line-height: 1.15;
+}
+.newsletter-text{ margin: 0 0 22px; font-size: 16px; line-height: 1.55; color: var(--ink-soft); }
+.newsletter-form{ display: grid; gap: 10px; }
+.newsletter-form input[type="email"]{
+  display: block;
+  width: 100%;
+  padding: 12px 14px;
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--ink-faint);
+  border-radius: 2px;
+}
+.newsletter-form input[type="email"]:focus-visible{ outline: 2px solid var(--ink); outline-offset: 2px; }
+.newsletter-form button{
+  padding: 13px 28px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--bg);
+  background: var(--ink);
+}
+.newsletter-form button:hover{ background: var(--ink-soft); }
+.newsletter-form button:disabled{ opacity: 0.6; cursor: wait; }
+.newsletter-trap{ position: absolute; left: -9999px; }
+.newsletter-note{ margin: 14px 0 0; font-size: 12px; color: var(--ink-faint); }
+.newsletter-retry{ color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+.newsletter-close{
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  z-index: 2;
+  padding: 4px 8px;
+  font-size: 26px;
+  line-height: 1;
+  color: var(--ink-soft);
+}
+.newsletter-close:hover{ color: var(--ink); }
+
+/* still lava lamp bubbles along the bottom of the box */
+.newsletter-bubbles{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 112px;
+  pointer-events: none;
+}
+.newsletter-bubbles span{ position: absolute; border-radius: 50%; }
+.newsletter-bubbles span:nth-child(1){ width: 130px; height: 130px; left: -34px;  bottom: -62px; background: #65002e; }
+.newsletter-bubbles span:nth-child(2){ width: 84px;  height: 84px;  left: 78px;   bottom: -24px; background: #da0070; }
+.newsletter-bubbles span:nth-child(3){ width: 38px;  height: 38px;  left: 132px;  bottom: 48px;  background: #da0070; }
+.newsletter-bubbles span:nth-child(4){ width: 156px; height: 156px; right: -46px; bottom: -84px; background: #da0070; }
+.newsletter-bubbles span:nth-child(5){ width: 62px;  height: 62px;  right: 96px;  bottom: -6px;  background: #65002e; }
+.newsletter-bubbles span:nth-child(6){ width: 26px;  height: 26px;  right: 52px;  bottom: 66px;  background: #65002e; }

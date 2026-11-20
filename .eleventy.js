@@ -73,6 +73,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/submit.js": "submit.js" });
   eleventyConfig.addPassthroughCopy({ "src/lava.js": "lava.js" });
   eleventyConfig.addPassthroughCopy({ "src/contact.js": "contact.js" });
+  eleventyConfig.addPassthroughCopy({ "src/newsletter.js": "newsletter.js" });
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "admin": "admin" });
 

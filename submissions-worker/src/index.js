@@ -31,8 +31,46 @@ function toBase64(buffer) {
   return btoa(binary);
 }
 
+// Newsletter sign-up box: emails the new address to the magazine inbox.
+// The page calls this from the browser, so the answer must allow our own website (CORS).
+async function subscribe(request, env) {
+  const from = request.headers.get("Origin") || "";
+  const allowed = ALLOWED_ORIGINS.find((o) => o === from);
+  const cors = allowed
+    ? { "Access-Control-Allow-Origin": allowed, "Access-Control-Allow-Methods": "POST, OPTIONS", Vary: "Origin" }
+    : {};
+  const reply = (data, status = 200) =>
+    new Response(JSON.stringify(data), { status, headers: { "Content-Type": "application/json", ...cors } });
+
+  if (from && !allowed) return reply({ ok: false }, 403); // a page on some other website: refuse
+  if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: cors });
+  if (request.method !== "POST") return reply({ ok: false }, 405);
+
+  try {
+    const form = await request.formData();
+    if (form.get("website")) return reply({ ok: true }); // hidden spam trap: bots get a fake "subscribed"
+
+    const email = oneLine(form.get("email"), 200);
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return reply({ ok: false, error: "email" }, 400);
+
+    const body = `New newsletter sign-up: ${email}\n\nAdd this address to the Lava Lamp newsletter list.`;
+    const msg = createMimeMessage();
+    msg.setSender({ name: "Lava Lamp website", addr: FROM });
+    msg.setRecipient(TO);
+    msg.setSubject(`Newsletter sign-up: ${email}`);
+    msg.addMessage({ contentType: "text/plain", encoding: "base64", data: wrap76(toBase64(new TextEncoder().encode(body))) });
+    await env.SUBMISSIONS_MAIL.send(new EmailMessage(FROM, TO, msg.asRaw()));
+    return reply({ ok: true });
+  } catch (error) {
+    console.error("newsletter sign-up failed", error && error.message);
+    return reply({ ok: false }, 500);
+  }
+}
+
 export default {
   async fetch(request, env) {
+    if (new URL(request.url).pathname === "/subscribe") return subscribe(request, env);
+
     if (request.method !== "POST") {
       return new Response("Lava Lamp submissions", { status: 405, headers: { Allow: "POST" } });
     }
