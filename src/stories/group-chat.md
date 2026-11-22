@@ -68,15 +68,13 @@ Time passed, I was growing up, she was growing old. We didn’t play teacher and
 
 I was twenty that summer. Just finished high school. After I graduated, I didn’t tell her about my decision tobecome a flight attendant and my plans to apply to pilot school. Only later did my mother tell me what grandma told her.
 
-
-
 “Don’t let her do it! It’s dangerous; this is a man’s job.”
 
 It was the first summer when I didn’t go to Kavarna. The first summer when I didn’t see my grandma, lost among the tomato plants, as high as the sky I was flying across. She sent me a package with tomatoes at the end of August, which I would eat at the back galley of the airplane, their sweet juice mixed with the smell of foreign lands. It tasted weird.
 
 I often think of her, of her garden and her tomatoes, with nostalgia and sadness. The place of my childhood freedom and of my adult strain. I think about her fear of the world, a fear that made her settle for whatever was safe, known, and expected. A fear that roots you in a place and time you don’t want to be in.
 
-But isn’t it a strength, in the end, being able to withstandand create something beautiful, a garden with infinite fruits, despite thehard, dry soil, a piece of land surrounded by a fence? Or is it a strength to find the courage to jump over? Sometimes I wonder if she was right, that I have to stay, grow deep roots, be safe, and that’s how I’d flourish. Other times, I fill up with rage that my heart is full of fear, preventing me from being open to the world, to be brave and restless.
+But isn’t it a strength, in the end, being able to withstand and create something beautiful, a garden with infinite fruits, despite the hard, dry soil, a piece of land surrounded by a fence? Or is it a strength to find the courage to jump over? Sometimes I wonder if she was right, that I have to stay, grow deep roots, be safe, and that’s how I’d flourish. Other times, I fill up with rage that my heart is full of fear, preventing me from being open to the world, to be brave and restless.
 
 Sometimes I wish I could make her see the wonders of the world. Sometimes I wish I could show her that beyond our own fences, there is a garden, much bigger and wonderful, despite the fact that I find it hard to believe from time to time.
 
