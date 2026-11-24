@@ -47,6 +47,11 @@
       <a href="mailto:{{ site.email }}?subject=Dispatch" class="dispatch-open">Dispatch</a>
       {%- endif %}
       <a href="mailto:{{ site.email }}" class="contact-open">Contact</a>
+      {%- if site.instagram %}
+      <a href="{{ site.instagram }}" class="foot-social" target="_blank" rel="noopener noreferrer" aria-label="Lava Lamp on Instagram" title="Instagram">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.3" cy="6.7" r="0.6" fill="currentColor"></circle></svg>
+      </a>
+      {%- endif %}
     </div>
   </div>
 </footer>

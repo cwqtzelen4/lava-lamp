@@ -198,10 +198,19 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 .site-footer .foot-links{
   display: flex;
+  align-items: center;
   gap: 20px;
   font-size: 13px;
   color: var(--ink-soft);
 }
+.site-footer .foot-social{
+  display: inline-flex;
+  padding: 4px; /* a bigger area to tap on a phone */
+  margin: -4px;
+  color: var(--ink-soft);
+}
+.site-footer .foot-social:hover{ color: var(--ink); }
+.site-footer .foot-social:focus-visible{ outline: 2px solid var(--ink); outline-offset: 2px; }
 
 /* ---------- placeholder image blocks ----------
    Swap these for real <img> tags — kept as labeled
