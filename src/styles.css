@@ -699,6 +699,10 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .article-body .inline-float-left + .inline-float-right{ margin-left: 0; margin-right: 0; }
 .article-body .inline-float + .inline-float + :not(.inline-float){ clear: both; }
 
+/* Buffalo Heart, the cloud-and-plane picture: its paragraph stays in the column beside the picture
+   all the way to its last line, instead of the last line dropping back under the picture at the far left. */
+.article-body figure:has(img[src*="boeing-cropped"]) + p{ display: flow-root; }
+
 /* a YouTube video inside a story (CMS: "YouTube Video"). With .video-framed it plays inside the antler frame:
    the frame picture lies on top, the video sits in its opening, and clicks go through to the video. */
 .video-embed{
