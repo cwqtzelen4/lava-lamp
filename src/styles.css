@@ -717,24 +717,24 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   height: 100%;
   border: 0;
 }
+/* the framed video is exactly as wide as the text. The antlers are as wide as the video and lie on top of it:
+   their tips reach over its top edge and the icicles hang down over its two sides. */
 .video-framed{
   position: relative;
-  aspect-ratio: 1479 / 1040; /* the shape of the frame picture */
-  /* a little wider than the text so the video is a good size, but never wider than the screen */
-  width: min(125%, calc(100vw - 40px));
-  margin-left: calc(50% - min(62.5%, calc(50vw - 20px)));
+  aspect-ratio: 100 / 86; /* antlers above the video, then the video itself */
 }
 .video-framed .video-screen{
   position: absolute;
-  left: 20.28%;
-  top: 42.31%;
-  width: 66.26%;
+  left: 0;
+  top: 34.59%;
+  width: 100%;
 }
 .video-framed > img{
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
   pointer-events: none;
 }
 
