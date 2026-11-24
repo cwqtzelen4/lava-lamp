@@ -26,19 +26,17 @@ I’ve never seen her eating her tomatoes. She said they give her a stomachache.
 
 My grandma is a tiny woman. Sometimes I would lose her figure among the tomato plants, which would be as tall as the sky by August. There was always something to be done — watering soil, cracked and thirsty, putting up poles to support the plants, tying them with string. The more I grew up, the more I realized that behind her devotion to her tomatoes lay a deeply rooted sense of reconciliation.
 
-<figure class="inline-float inline-float-right inline-float-medium">
+<figure class="inline-float inline-float-center inline-float-medium">
 <img src="/assets/uploads/atlasgotsedelchevandkavarna-cropped.png" alt="">
 </figure>
 
-She was born in Gotse Delchev, a city in the southwest of Bulgaria. The fifth of eight children, and among the few to have a higher education. She was a high school teacher. Maybe that’s the reason we’d spendhours playing our 
-
-favorite game, a student and a teacher. I would take her old atlas, and teach her for hours, pretending I knew everything and she —pretending that she knew nothing. She had just finished her studies when she met my granddad, who was part of the border military. She would move with him around Bulgaria, when they finally settled in his hometown, Kavarna, a small port city on the Northern Black Sea coast. My freedom island and my grandma’s port.
+She was born in Gotse Delchev, a city in the southwest of Bulgaria. The fifth of eight children, and among the few to have a higher education. She was a high school teacher. Maybe that’s the reason we’d spend hours playing our favorite game, a student and a teacher. I would take her old atlas, and teach her for hours, pretending I knew everything and she —pretending that she knew nothing. She had just finished her studies when she met my granddad, who was part of the border military. She would move with him around Bulgaria, when they finally settled in his hometown, Kavarna, a small port city on the Northern Black Sea coast. My freedom island and my grandma’s port.
 
 I wouldn’t pay much attention to her remarks when I went out to play with my friends.
 
 “Be careful. We’re foreigners here.”
 
-When I grew older, I’d start questioning those warnings. I knew the whole town, and everybody knew me. I would spend days playing outside,growing up on the street, and at the sea. I knew every face, every hidden place, every passage. How come we are the foreigners here? The seed of alienation and fear towards the world was planted in me, the seed of generational uncertainty growing persistently in the souls of many women in my family. The world is dangerous. How much can you trust the world you think you know? Where should you let your roots grow, if you should at all?
+When I grew older, I’d start questioning those warnings. I knew the whole town, and everybody knew me. I would spend days playing outside, growing up on the street, and at the sea. I knew every face, every hidden place, every passage. How come we are the foreigners here? The seed of alienation and fear towards the world was planted in me, the seed of generational uncertainty growing persistently in the souls of many women in my family. The world is dangerous. How much can you trust the world you think you know? Where should you let your roots grow, if you should at all?
 
 Her garden was her whole world, hundreds of buffalo tomato hearts beating under the sun.
 
@@ -62,11 +60,11 @@ Time passed, I was growing up, she was growing old. We didn’t play teacher and
 
 “Eh, when I was your age, your aunt was already born.”
 
-<figure class="inline-float inline-float-left inline-float-medium">
+<figure class="inline-float inline-float-center inline-float-medium">
 <img src="/assets/uploads/boeing-cropped.png" alt="">
 </figure>
 
-I was twenty that summer. Just finished high school. After I graduated, I didn’t tell her about my decision tobecome a flight attendant and my plans to apply to pilot school. Only later did my mother tell me what grandma told her.
+I was twenty that summer. Just finished high school. After I graduated, I didn’t tell her about my decision to become a flight attendant and my plans to apply to pilot school. Only later did my mother tell me what grandma told her.
 
 “Don’t let her do it! It’s dangerous; this is a man’s job.”
 
