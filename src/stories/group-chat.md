@@ -26,7 +26,7 @@ I’ve never seen her eating her tomatoes. She said they give her a stomachache.
 
 My grandma is a tiny woman. Sometimes I would lose her figure among the tomato plants, which would be as tall as the sky by August. There was always something to be done — watering soil, cracked and thirsty, putting up poles to support the plants, tying them with string. The more I grew up, the more I realized that behind her devotion to her tomatoes lay a deeply rooted sense of reconciliation.
 
-<figure class="inline-float inline-float-center inline-float-medium">
+<figure class="inline-float inline-float-right inline-float-medium">
 <img src="/assets/uploads/atlasgotsedelchevandkavarna-cropped.png" alt="">
 </figure>
 
@@ -60,13 +60,13 @@ Time passed, I was growing up, she was growing old. We didn’t play teacher and
 
 “Eh, when I was your age, your aunt was already born.”
 
-<figure class="inline-float inline-float-center inline-float-medium">
-<img src="/assets/uploads/boeing-cropped.png" alt="">
-</figure>
-
 I was twenty that summer. Just finished high school. After I graduated, I didn’t tell her about my decision to become a flight attendant and my plans to apply to pilot school. Only later did my mother tell me what grandma told her.
 
 “Don’t let her do it! It’s dangerous; this is a man’s job.”
+
+<figure class="inline-float inline-float-left inline-float-medium">
+<img src="/assets/uploads/boeing-cropped.png" alt="">
+</figure>
 
 It was the first summer when I didn’t go to Kavarna. The first summer when I didn’t see my grandma, lost among the tomato plants, as high as the sky I was flying across. She sent me a package with tomatoes at the end of August, which I would eat at the back galley of the airplane, their sweet juice mixed with the smell of foreign lands. It tasted weird.
 
