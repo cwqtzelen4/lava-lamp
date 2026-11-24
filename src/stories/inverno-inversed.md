@@ -53,7 +53,7 @@ This is winter, but it brings joy.
 
 <div class="video-embed video-framed">
 <div class="video-screen"><iframe src="https://www.youtube-nocookie.com/embed/Nefs9MoeYOs" title="YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-<img src="/assets/uploads/video-frame-icicles.png" alt="">
+<img src="/assets/uploads/video-frame-antlers.png" alt="">
 </div>
 
 \* \* *

@@ -63,14 +63,14 @@ CMS.registerEditorComponent({
 });
 
 // Adds a "YouTube Video" button: paste a YouTube link and the video plays inside the story.
-// Tick the box to show it inside the icicle frame.
-var FRAME_IMAGE = "/assets/uploads/video-frame-icicles.png";
+// Tick the box to show it inside the antler frame.
+var FRAME_IMAGE = "/assets/uploads/video-frame-antlers.png";
 CMS.registerEditorComponent({
   id: "youtube-video",
   label: "YouTube Video",
   fields: [
     { name: "url", label: "YouTube link (for example https://www.youtube.com/watch?v=...)", widget: "string" },
-    { name: "frame", label: "Show the video inside the icicle frame", widget: "boolean", default: true },
+    { name: "frame", label: "Show the video inside the antler frame", widget: "boolean", default: true },
   ],
   pattern: /^<div class="video-embed( video-framed)?">\n<div class="video-screen"><iframe src="https:\/\/www\.youtube-nocookie\.com\/embed\/([\w-]+)"[^>]*><\/iframe><\/div>(?:\n<img src="[^"]*" alt="">)?\n<\/div>$/,
   fromBlock: function (match) {
@@ -86,6 +86,6 @@ CMS.registerEditorComponent({
     return html + "\n</div>";
   },
   toPreview: function (obj) {
-    return "YouTube video: " + (obj.url || "") + (obj.frame ? " (in the icicle frame)" : "");
+    return "YouTube video: " + (obj.url || "") + (obj.frame ? " (in the antler frame)" : "");
   },
 });

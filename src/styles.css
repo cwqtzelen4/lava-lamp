@@ -699,7 +699,7 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 .article-body .inline-float-left + .inline-float-right{ margin-left: 0; margin-right: 0; }
 .article-body .inline-float + .inline-float + :not(.inline-float){ clear: both; }
 
-/* a YouTube video inside a story (CMS: "YouTube Video"). With .video-framed it plays inside the icicle frame:
+/* a YouTube video inside a story (CMS: "YouTube Video"). With .video-framed it plays inside the antler frame:
    the frame picture lies on top, the video sits in its opening, and clicks go through to the video. */
 .video-embed{
   clear: both;
@@ -719,13 +719,16 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
 }
 .video-framed{
   position: relative;
-  aspect-ratio: 1380 / 981; /* the shape of the frame picture */
+  aspect-ratio: 1479 / 1040; /* the shape of the frame picture */
+  /* a little wider than the text so the video is a good size, but never wider than the screen */
+  width: min(125%, calc(100vw - 40px));
+  margin-left: calc(50% - min(62.5%, calc(50vw - 20px)));
 }
 .video-framed .video-screen{
   position: absolute;
-  left: 8.62%;
-  top: 32.46%;
-  width: 82.6%;
+  left: 20.28%;
+  top: 42.31%;
+  width: 66.26%;
 }
 .video-framed > img{
   position: absolute;
