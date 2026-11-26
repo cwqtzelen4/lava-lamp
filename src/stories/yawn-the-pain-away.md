@@ -33,10 +33,6 @@ Trying to explain something that is such a big part of my life and my culture to
 
 I wish I knew their secret language, or what the significance of salt is, or why they are always using water. I wish I knew why some of them use the moon cycle and how that is related to anything, really? I wish I knew if they take people's pains away and whether it aches their body instead. I wish I knew how to calm people down and take away their troubles, or at least make them believe that I can.
 
-<figure class="inline-float inline-float-right inline-float-small">
-<img src="/assets/uploads/img_3793.png" alt="The moon">
-</figure>
-
 In my particular case, due to the failure of my saints, my baba says that I have a lot of *urotsi*, her specialty. The closest concept to this would be the evil eye, or the fear of envy. Except that instead of an eye-shaped talisman, or the so-called nazar, we have a spiritual protector, a saint. Many Balkans claim that people with blue eyes tend to spread *urotsi*, perhaps it is somehow connected with the evil eye? In fairness, anyone can spread them. In some cases, even calling a newborn cute holds the grave danger of giving them *urotsi*. In that situation, all you need to do is… spit on them three times. 
 
 Helpful things superstitious people do to avoid *urotsi*, as suggested by my baba, are wearing their undergarments upside-down, making a small invisible hole in their clothes, and even wearing different socks. In other regions, these healers use lead or wax to get rid of evil energy. Unfortunately, we come from the poorer villages, where people add rice to moussaka when they do not have enough meat, so salt and water had to be good enough to ‘break the spell.’
