@@ -6,7 +6,7 @@ author: lyubomir-yanchev
 illustrator: map-layout-layouts-author-njk-role-illustrator-bio-viktoria-urucheva-is-a-programmer-by-title-but-an-artist-by-heart-her-work-ranging-from-concept-art-for-games-illustrations-and-graphic-and-brand-des
 date: 2026-09-10T13:59:00.000+03:00
 imageAspect: landscape
-image: /assets/uploads/dance-of-math-cover.jpg
+image: /assets/uploads/cover-for-math.png
 showTopImage: false
 ---
 To those who have grown to harbor disdain towards mathematics for any reason whatsoever, I am sorry. This writing is for you.
