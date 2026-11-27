@@ -40,7 +40,7 @@
 <footer class="site-footer">
   <div class="wrap">
     <img src="{{ site.logo }}" alt="{{ site.nameLine1 }} {{ site.nameLine2 }}" class="foot-mark">
-    <span class="foot-meta">{{ site.footerMeta }}</span>
+    <span class="foot-meta">{{ site.footerMeta }}<span class="foot-copy">&copy; {{ build.year }} Lava Lamp. All rights reserved.</span></span>
     <div class="foot-links">
       {%- if site.submitUrl %}
       <a href="mailto:{{ site.email }}?subject=Dispatch" class="dispatch-open">Dispatch</a>

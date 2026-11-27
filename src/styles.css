@@ -196,6 +196,9 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   font-size: 13px;
   color: var(--ink-faint);
 }
+.site-footer .foot-copy{ display: block; margin-top: 4px; }
+/* on a wide screen the two lines sit centred between the logo and the links; on a phone they stay left, in line with them */
+@media (min-width: 760px){ .site-footer .foot-meta{ text-align: center; } }
 .site-footer .foot-links{
   display: flex;
   align-items: center;
