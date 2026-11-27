@@ -158,9 +158,12 @@ module.exports = function (eleventyConfig) {
     return authors.find((a) => a.fileSlug === slug) || null;
   });
 
+  // every story a person is credited on: as writer, illustrator, photographer or audio
   eleventyConfig.addFilter("byAuthor", (stories, slug) => {
     if (!stories || !slug) return [];
-    return stories.filter((s) => s.data.author === slug);
+    return stories.filter((s) =>
+      s.data.author === slug || s.data.illustrator === slug || s.data.photographer === slug || s.data.audio === slug
+    );
   });
 
   return {
