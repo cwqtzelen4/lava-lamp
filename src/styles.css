@@ -434,9 +434,9 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   margin: 0;
 }
 
-/* "Coming soon" on the Print page: under the title, bigger than it, black, same font as "Join our dispatch" */
-.page-header .print-soon{
-  margin: 8px 0 0;
+/* "Coming soon" on the Print page: below the title and its line, bigger than it, black, same font as "Join our dispatch" */
+.print-soon{
+  margin: clamp(32px, 5vw, 48px) 0 0;
   font-family: var(--font-display);
   font-weight: 500;
   font-size: clamp(44px, 7vw, 76px);

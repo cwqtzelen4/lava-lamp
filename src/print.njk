@@ -5,11 +5,14 @@ title: Print
 <section class="page-header">
   <div class="wrap">
     <h1>Print</h1>
-    {%- if not collections.issues.length %}
-    <p class="print-soon">Coming soon</p>
-    {%- endif %}
   </div>
 </section>
+
+{%- if not collections.issues.length %}
+<div class="wrap">
+  <p class="print-soon">Coming soon</p>
+</div>
+{%- endif %}
 
 <section class="issues-list wrap">
   <div class="issue-grid">
