@@ -16,13 +16,11 @@ Let us begin.
 
 Mathematics feels like the most misunderstood, misinterpreted and aridly explained subject in all of human history. For the purpose of this writing, I will ask you to abandon the notion that math is solely a science of manipulating numbers and performing operations with them. Math is first and foremost a philosophy – a way of seeing the world. It is fundamentally about imagination, creativity, flexibility, and vision.
 
-Suppose the following, you are at a ballet and the dancer moves her body in an elegant motion, which immerses you into a captivating performance. You watch as that body twists and molds into different shapes and curves. 
+Suppose the following, you are at a ballet and the dancer moves her body in an elegant motion, which immerses you into a captivating performance. You watch as that body twists and molds into different shapes and curves. They are continuous, they bend and cross as the dancer swings her arms front and back, and front, and back. Now take each of these imaginary curves and plot them on a Cartesian coordinate system in your mind. They are beautiful, changing, and tangible. Now watch how we can give each one meaning – a symbolic representation that we can then replicate and study over and over.
 
 <figure class="inline-float inline-float-right inline-float-medium">
 <img src="/assets/uploads/img_3833.png" alt="">
 </figure>
-
-They are continuous, they bend and cross as the dancer swings her arms front and back, and front, and back. Now take each of these imaginary curves and plot them on a Cartesian coordinate system in your mind. They are beautiful, changing, and tangible. Now watch how we can give each one meaning – a symbolic representation that we can then replicate and study over and over.
 
 And repeat this dance forever.
 
