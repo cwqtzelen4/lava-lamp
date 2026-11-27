@@ -94,10 +94,10 @@ And, of course, there is the music. I feel the recomposed version better than I 
 
 The paradox of winter is that on the outside it may look frozen, but inside, life keeps thriving. On the outside the winds are howling, snow covers everything under its veil, all seems to die. Yet all keeps moving inside and metamorphosing into new forms. That is the nature of nature: constant change. It is scary when you realize change has come – beyond extends the unknown. It is also scary when you pray for change and nothing seems to be moving: the whiteness is perfectly still.
 
-Does winter really “bring joy”? Look carefully enough, and you can see life melting away the ice. Life is expressed through movement – of words, notes, legs, arms and whole bodies. All is always moving, all is always shifting. No such thing as stillness exists, its appearance is movement delayed in time. What seems terrifying, only seems to be unmoving. The cage of one’s winter imprisonment in that sense is like a frozen sculpture. It looks rigid and cold, but inside of it so much is happening. The ice melts. It will become a lake in the forest. And just like a young deer, I will step forward, drink from it and breathe out. Oh, how refreshing!
-
 <figure class="inline-float inline-float-center inline-float-medium">
 <img src="/assets/uploads/inverno-antlers-only.png" alt="A pair of deer antlers">
 </figure>
+
+Does winter really “bring joy”? Look carefully enough, and you can see life melting away the ice. Life is expressed through movement – of words, notes, legs, arms and whole bodies. All is always moving, all is always shifting. No such thing as stillness exists, its appearance is movement delayed in time. What seems terrifying, only seems to be unmoving. The cage of one’s winter imprisonment in that sense is like a frozen sculpture. It looks rigid and cold, but inside of it so much is happening. The ice melts. It will become a lake in the forest. And just like a young deer, I will step forward, drink from it and breathe out. Oh, how refreshing!
 
 *This essay originally appeared in AUBG Today.*
