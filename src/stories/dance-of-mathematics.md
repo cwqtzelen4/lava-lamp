@@ -62,4 +62,6 @@ This is procrastination in a nutshell. We have an innate tendency to avoid confr
 
 Every single encounter with math can feel like an adventure of its own. Like any good adventure, there is something between the place we are in and the place we want to reach – the start of the problem and the desired solution. And only a challenging journey can take us there. That process of discovery, of facing the obstacles, of imagining solutions, of bending and adapting the established to craft the undiscovered. The invigorating wrestling match with life – that’s what mathematics is all about.
 
+
+
 Math is perhaps the most honest of arts, the most humane of the humanities, and the most artful of the sciences. It is a gentle and honest study that comes from and points to the heart. In the end, learning and applying equations is not the reason why we end up loving math. We end up loving math because it helps us grow. And that should be reason enough for us to care. If you are not convinced, find a good math problem and pick up a pen and paper. You just might find more than what you came looking for. I myself am off to think about some rectangles.
