@@ -431,6 +431,21 @@ button{ font: inherit; background: none; border: none; cursor: pointer; color: i
   margin: 0;
 }
 
+/* "Coming soon" on the Print page, big and in the middle of the empty space */
+.print-soon{
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.print-soon p{
+  font-family: var(--font-display);
+  font-size: clamp(36px, 6vw, 64px);
+  color: var(--ink-soft);
+  margin: 0;
+}
+
 .search-wrap{
   position: relative;
   width: 100%;
