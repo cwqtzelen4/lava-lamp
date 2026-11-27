@@ -7,4 +7,8 @@ eleventyExcludeFromCollections: true
 {%- if a.url != oldUrl %}
 {{ oldUrl }} {{ a.url }} 301
 {%- endif %}
+{%- set writerUrl = "/writers/" + a.data.authorSlug + "/" %}
+{%- if a.url != writerUrl %}
+{{ writerUrl }} {{ a.url }} 301
+{%- endif %}
 {%- endfor %}

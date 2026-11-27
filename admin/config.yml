@@ -40,7 +40,7 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/author.njk" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Role (shown as their title; also sets the page address: /writers/, /illustrators/ or /photographers/)", name: "role", widget: "select", options: ["Writer", "Illustrator", "Photographer"], default: "Writer", required: false }
+      - { label: "Role (shown as their title; also sets the page address: /writers/, /illustrators/, /photographers/ or /copy-editors/)", name: "role", widget: "select", options: ["Writer", "Illustrator", "Photographer", "Copy Editor"], default: "Writer", required: false }
       - { label: "Photo", name: "photo", widget: "image", required: false }
       - { label: "Bio (shown on the profile page; the first few words also appear under the articles, so start with your best sentence)", name: "bio", widget: "text" }
 
