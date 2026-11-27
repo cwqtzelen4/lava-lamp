@@ -1,7 +1,7 @@
 ---
 layout: layouts/author.njk
 name: Ema Dimitrova
-role: Copyeditor
+role: Copy Editor
 photo: /assets/uploads/ico03238.jpeg
 bio: Ema Dimitrova is interested in management, psychology, and foreign
   languages. In her free time, she enjoys cozying up with a book and listening

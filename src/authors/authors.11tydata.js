@@ -1,13 +1,13 @@
 // Every author page address is worked out from the person's Role and Name,
 // so nobody has to type a permalink in the CMS:
 //   Writer -> /writers/name/   Illustrator -> /illustrators/name/   Photographer -> /photographers/name/
-//   Copyeditor -> /copyeditors/name/
+//   Copy Editor -> /copy-editors/name/
 const FOLDERS = {
   Writer: "writers",
   Author: "writers", // old name for Writer
   Illustrator: "illustrators",
   Photographer: "photographers",
-  "Copyeditor": "copyeditors",
+  "Copy Editor": "copy-editors",
 };
 
 function slugify(text) {
